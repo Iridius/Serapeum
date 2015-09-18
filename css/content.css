@@ -1,0 +1,23 @@
+body {
+    background: url("../img/temple.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 75vh;
+}
+
+.column {
+    /*-webkit-column-width: 200px;*/
+    /*-moz-column-width: 200px;*/
+    /*column-width: 200px;*/
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    /*-webkit-column-rule: 1px solid #ccc;*/
+    /*-moz-column-rule: 1px solid #ccc;*/
+    /*column-rule: 1px solid #ccc;*/
+}
