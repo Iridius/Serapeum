@@ -40,7 +40,7 @@ function _drawAlphaList(data){
             var content = _getChildMembers(data,_PARENT,titles[i]);
             for(var j=0; j<content.length; j++){
                 result += '\<dd\>';
-                if (content[j].src.length != 0) {
+                if (content[j].hasOwnProperty("src") && content[j].src.length != 0) {
                     result += '\<a href="' + content[j].src + '" \>';
                     result += content[j].title;
                     result += '\</a\>';
