@@ -49,8 +49,6 @@ function _drawAlphaList(data){
                 }
                 result += '\</dd\>';
             }
-
-
         }
 
         result += '\</dl\>';
