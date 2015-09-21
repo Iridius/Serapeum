@@ -52,19 +52,19 @@ function _drawGlossary(data, fieldList){
         return result;
 }
 
-function _format(field, value) {
+function _format(config, field, value) {
     //var config = _getConfig();
-    //var formatting = _getChildMembers(config, "property", field);
-    //
-    //if(formatting.length === 0){
-    //    return value;
-    //}
-    //if(formatting.hasOwnProperty("tag")){
-    //    value = "\<" + formatting["tag"] + "\>" + value + "\</" + formatting["tag"] + "\>";
-    //}
-    //if(formatting.hasOwnProperty("format")){
-    //    value = formatting["format"].replace("{" + field + "}", value);
-    //}
+    var formatting = _getChildMembers(config, "property", field)[0];
+
+    if(formatting.length === 0 || field.length === 0){
+        return value;
+    }
+    if(formatting.hasOwnProperty("tag")){
+        value = "\<" + formatting["tag"] + "\>" + value + "\</" + formatting["tag"] + "\>";
+    }
+    if(formatting.hasOwnProperty("format")){
+        value = formatting["format"].replace("{" + field + "}", value);
+    }
 
     return value;
 }
@@ -72,6 +72,7 @@ function _format(field, value) {
 function _getContent(content, fieldList) {
     var fields = fieldList.split(_SEPARATOR);
     var result = "";
+    var config = _getConfig();
 
     for(var i=0; i < fields.length; i++){
         var field = fields[i];
@@ -93,7 +94,7 @@ function _getContent(content, fieldList) {
             }
         }
 
-        result += _format(field, value);
+        result += _format(config, field, value);
     }
 
     return result;
