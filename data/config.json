@@ -1,7 +1,7 @@
 [
-    {"property": "author", "tag": "strong"},
-    {"property": "title"},
+    {"property": "author", "tag": "strong", "format": "{author}, "},
+    {"property": "title", "tag": "em", "format": "{title}, "},
     {"property": "editing", "tag": "em", "format": "({editing})"},
-    {"property": "publishing"},
-    {"property": "year"}
+    {"property": "publishing", "format": "{publishing}, "},
+    {"property": "year", "format": "{year}."}
 ]
