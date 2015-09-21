@@ -97,6 +97,11 @@ function _getContent(content, fieldList) {
         result += _format(config, field, value);
     }
 
+    result = result.trim();
+    if(result.lastIndexOf(',') === result.length - 1){
+        result = result.substring(0, result.length - 1);
+    }
+
     return result;
 }
 
