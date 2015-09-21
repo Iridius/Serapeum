@@ -56,7 +56,7 @@ function _format(config, field, value) {
     //var config = _getConfig();
     var formatting = _getChildMembers(config, "property", field)[0];
 
-    if(formatting.length === 0 || field.length === 0){
+    if(formatting.length === 0 || value.length === 0){
         return value;
     }
     if(formatting.hasOwnProperty("tag")){
