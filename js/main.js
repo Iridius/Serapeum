@@ -1,11 +1,14 @@
-function drawData(id, data_url, control_type) {
+const _SEPARATOR = '|';
+const _PARENT = 'group';
+
+function drawData(id, data_url, control_type, fieldList) {
     _getData(data_url, function(data) {
         data = JSON.parse(data);
 
         var result = '';
         switch(control_type){
             case 'alpha_list':
-                result = _drawAlphaList(data);
+                result = _drawAlphaList(data, fieldList);
                 break;
             default: '';
         }
@@ -26,8 +29,7 @@ function _getData( url, ready ) {
     xhr.send();
 }
 
-function _drawAlphaList(data){
-    const _PARENT = 'group';
+function _drawAlphaList(data, fieldList){
     var titles = _getUniqueMembers(data, _PARENT);
         if(titles.length === 0){
             return;
@@ -39,20 +41,41 @@ function _drawAlphaList(data){
 
             var content = _getChildMembers(data,_PARENT,titles[i]);
             for(var j=0; j<content.length; j++){
-                result += '\<dd\>';
-                if (content[j].hasOwnProperty("src") && content[j].src.length != 0) {
-                    result += '\<a href="' + content[j].src + '" \>';
-                    result += content[j].title;
-                    result += '\</a\>';
-                } else {
-                    result += content[j].title + ' ';
-                }
-                result += '\</dd\>';
+                result += '\<dd\>' + _getContent(content[j], fieldList) + '\</dd\>';
             }
         }
 
         result += '\</dl\>';
         return result;
+}
+
+function _getContent(content, fieldList) {
+    var fields = fieldList.split(_SEPARATOR);
+    var result = "";
+
+    for(var i=0; i < fields.length; i++){
+        var item = fields[i];
+
+        if(item === 'src'){
+            continue;
+        }
+        if(item === 'title'){
+            var title = '';
+            if(content.hasOwnProperty('title')){
+                title = content.title;
+            }
+            if(content.hasOwnProperty('src') && fieldList.indexOf('src') != -1){
+                title = '\<a href="' + content.src + '" \>' + title + '\</a\>';
+            }
+            result += title;
+        } else{
+            if(content.hasOwnProperty(item)){
+                result += content[item];
+            }
+        }
+    }
+
+    return result;
 }
 
 function _getUniqueMembers(data, column) {
@@ -70,7 +93,7 @@ function _getUniqueMembers(data, column) {
     for (var i = 0; i < nonunique.length; i++) {
         if (result.indexOf(nonunique[i]) == -1) result.push(nonunique[i]);
     }
-    return result;
+    return result.sort();
 }
 
 function _getChildMembers(data, column, value){
