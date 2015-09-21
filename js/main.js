@@ -5,7 +5,6 @@ function drawData(id, data_url, control_type, fieldList) {
     var data = _getData(data_url);
 
     var result = '';
-    //var formatting = _getFormatting(control_type);
     switch(control_type){
         case 'glossary':
             result = _drawGlossary(data, fieldList);
@@ -17,16 +16,9 @@ function drawData(id, data_url, control_type, fieldList) {
     element.innerHTML = result;
 }
 
-//function _getFormatting(control_type) {
-//    var config = _getData('data/_config.json');
-//    for(var i=0; i<config.length; i++){
-//        if(config[i].type === control_type){
-//            return config[i].config;
-//        }
-//    }
-//
-//    return "";
-//}
+function _getConfig() {
+    return _getData("data/config.json");
+}
 
 function _getData(url) {
     var request = new XMLHttpRequest();
@@ -40,39 +32,11 @@ function _getData(url) {
     return null;
 }
 
-//function drawData(id, data_url, control_type, fieldList) {
-//    _getData(data_url, function(data) {
-//        data = JSON.parse(data);
-//
-//        var result = '';
-//        switch(control_type){
-//            case 'glossary':
-//                result = _drawGlossary(data, fieldList);
-//                break;
-//            default: '';
-//        }
-//
-//        var element = document.getElementById(id);
-//        element.innerHTML = result;
-//    });
-//}
-//
-//function _getData( url, ready ) {
-//    var xhr = new XMLHttpRequest();
-//    xhr.open( 'GET', url, true );
-//    xhr.onreadystatechange = function() {
-//        if( this.readyState === 4 && this.status !== 404 ) {
-//            ready( this.responseText );
-//        }
-//    }
-//    xhr.send();
-//}
-
 function _drawGlossary(data, fieldList){
     var titles = _getUniqueMembers(data, _PARENT);
-        if(titles.length === 0){
-            return;
-        }
+    if(titles.length === 0){
+        return;
+    }
 
     var result = '\<dl\>\n';
     for(var i=0; i<titles.length; i++){
@@ -88,30 +52,48 @@ function _drawGlossary(data, fieldList){
         return result;
 }
 
+function _format(field, value) {
+    //var config = _getConfig();
+    //var formatting = _getChildMembers(config, "property", field);
+    //
+    //if(formatting.length === 0){
+    //    return value;
+    //}
+    //if(formatting.hasOwnProperty("tag")){
+    //    value = "\<" + formatting["tag"] + "\>" + value + "\</" + formatting["tag"] + "\>";
+    //}
+    //if(formatting.hasOwnProperty("format")){
+    //    value = formatting["format"].replace("{" + field + "}", value);
+    //}
+
+    return value;
+}
+
 function _getContent(content, fieldList) {
     var fields = fieldList.split(_SEPARATOR);
     var result = "";
 
     for(var i=0; i < fields.length; i++){
-        var item = fields[i];
+        var field = fields[i];
+        var value = "";
 
-        if(item === 'src'){
+        if(field === 'src'){
             continue;
         }
-        if(item === 'title'){
-            var title = '';
+        if(field === 'title'){
             if(content.hasOwnProperty('title')){
-                title = content.title;
+                value = content.title;
             }
-            if(content.hasOwnProperty('src') && fieldList.indexOf('src') != -1){
-                title = '\<a href="' + content.src + '" \>' + title + '\</a\>';
+            if(content.hasOwnProperty('src')){
+                value = '\<a href="' + content.src + '" \>' + value + '\</a\>';
             }
-            result += title;
         } else{
-            if(content.hasOwnProperty(item)){
-                result += content[item];
+            if(content.hasOwnProperty(field)){
+                value = content[field];
             }
         }
+
+        result += _format(field, value);
     }
 
     return result;
