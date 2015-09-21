@@ -1,0 +1,20 @@
+[
+    {
+        "type": "glossary",
+//        "fieldList": "title|src",
+        "config": [
+            {"property": "title", "tag": "em"}
+        ]
+    },
+    {
+        "type": "book",
+//        "fieldList": "author|title|src|editing|publishing|year",
+        "config": [
+            {"property": "author", "tag": "strong"},
+            {"property": "title"},
+            {"property": "editing", "tag": "em", "format": "({editing})"},
+            {"property": "publishing"},
+            {"property": "year"}
+        ]
+    }
+]

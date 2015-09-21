@@ -2,34 +2,73 @@ const _SEPARATOR = '|';
 const _PARENT = 'group';
 
 function drawData(id, data_url, control_type, fieldList) {
-    _getData(data_url, function(data) {
-        data = JSON.parse(data);
+    var data = _getData(data_url);
 
-        var result = '';
-        switch(control_type){
-            case 'alpha_list':
-                result = _drawAlphaList(data, fieldList);
-                break;
-            default: '';
-        }
-
-        var element = document.getElementById(id);
-        element.innerHTML = result;
-    });
-}
-
-function _getData( url, ready ) {
-    var xhr = new XMLHttpRequest();
-    xhr.open( 'GET', url, true );
-    xhr.onreadystatechange = function() {
-        if( this.readyState === 4 && this.status !== 404 ) {
-            ready( this.responseText );
-        }
+    var result = '';
+    //var formatting = _getFormatting(control_type);
+    switch(control_type){
+        case 'glossary':
+            result = _drawGlossary(data, fieldList);
+            break;
+        default: '';
     }
-    xhr.send();
+
+    var element = document.getElementById(id);
+    element.innerHTML = result;
 }
 
-function _drawAlphaList(data, fieldList){
+//function _getFormatting(control_type) {
+//    var config = _getData('data/_config.json');
+//    for(var i=0; i<config.length; i++){
+//        if(config[i].type === control_type){
+//            return config[i].config;
+//        }
+//    }
+//
+//    return "";
+//}
+
+function _getData(url) {
+    var request = new XMLHttpRequest();
+    request.open('GET', url, false);
+    request.send(null);
+
+    if(request.readyState == 4 && request.status == 200) {
+        return JSON.parse(request.responseText);
+    }
+
+    return null;
+}
+
+//function drawData(id, data_url, control_type, fieldList) {
+//    _getData(data_url, function(data) {
+//        data = JSON.parse(data);
+//
+//        var result = '';
+//        switch(control_type){
+//            case 'glossary':
+//                result = _drawGlossary(data, fieldList);
+//                break;
+//            default: '';
+//        }
+//
+//        var element = document.getElementById(id);
+//        element.innerHTML = result;
+//    });
+//}
+//
+//function _getData( url, ready ) {
+//    var xhr = new XMLHttpRequest();
+//    xhr.open( 'GET', url, true );
+//    xhr.onreadystatechange = function() {
+//        if( this.readyState === 4 && this.status !== 404 ) {
+//            ready( this.responseText );
+//        }
+//    }
+//    xhr.send();
+//}
+
+function _drawGlossary(data, fieldList){
     var titles = _getUniqueMembers(data, _PARENT);
         if(titles.length === 0){
             return;
