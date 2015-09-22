@@ -2,6 +2,7 @@
     {"property": "author", "tag": "strong", "format": "{author}, "},
     {"property": "blockquote", "tag": "blockquote"},
     {"property": "editing", "tag": "em", "format": "({editing})"},
+    {"property": "epigraph", "tag": "blockquote", "class": "epigraph"},
     {"property": "header", "tag": "h4"},
     {"property": "group", "tag": "h3"},
     {"property": "publishing", "format": "{publishing}, "},

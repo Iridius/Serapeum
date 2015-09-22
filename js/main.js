@@ -14,7 +14,8 @@ function drawData(id, data_url, control_type, fieldList) {
         case 'list':
             result = _formatAsList(data);
             break;
-        default: '';
+        default: // attempt to read control type from config
+            '';
     }
 
     var element = document.getElementById(id);
