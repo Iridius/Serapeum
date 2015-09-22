@@ -1,10 +1,11 @@
 [
     {"property": "author", "tag": "strong", "format": "{author}, "},
-    {"property": "title", "tag": "em", "format": "{title}, "},
-    {"property": "editing", "tag": "em", "format": "({editing})"},
-    {"property": "publishing", "format": "{publishing}, "},
-    {"property": "year", "format": "{year}."},
-    {"property": "header", "tag": "h4"},
     {"property": "blockquote", "tag": "blockquote"},
-    {"property": "source", "format": "<footer><cite>{source}</cite></footer>"}
+    {"property": "editing", "tag": "em", "format": "({editing})"},
+    {"property": "header", "tag": "h4"},
+    {"property": "group", "tag": "h3"},
+    {"property": "publishing", "format": "{publishing}, "},
+    {"property": "source", "format": "<footer><cite>{source}</cite></footer>"},
+    {"property": "title", "tag": "em", "format": "{title}, "},
+    {"property": "year", "format": "{year}."}
 ]

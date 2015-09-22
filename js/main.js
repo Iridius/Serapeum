@@ -10,6 +10,10 @@ function drawData(id, data_url, control_type, fieldList) {
             break;
         case 'quotes':
             result = _formatAsQuotes(data);
+            break;
+        case 'list':
+            result = _formatAsList(data);
+            break;
         default: '';
     }
 
@@ -35,13 +39,15 @@ function _getData(url) {
 
 function _formatAsGlossary(data, fieldList){
     var titles = _getUniqueMembers(data, 'group');
+    var config = _getConfig();
+
     if(titles.length === 0){
         return;
     }
 
     var result = '\<dl\>\n';
     for(var i=0; i<titles.length; i++){
-            result += '\<dt\>'+ titles[i] +'\</dt\>\n';
+            result += '\<dt\>'+ _format(config, 'group', titles[i]) +'\</dt\>\n';
 
             var content = _getChildMembers(data,'group',titles[i]);
             for(var j=0; j<content.length; j++){
@@ -74,6 +80,34 @@ function _formatAsQuotes(data) {
             result += content;
         }
     });
+
+    return result;
+}
+
+function _formatAsList(data) {
+    const template = '<\ol\>{list}\</ol\>';
+
+    var titles = _getUniqueMembers(data, 'group');
+    var config = _getConfig();
+    var result = '';
+
+    if(titles.length === 0){
+        titles.push(null);
+    }
+
+    for(var i=0; i<titles.length; i++){
+        if(titles[i] != null) {
+            result += _format(config, 'group', titles[i]);
+        }
+
+        var content = _getChildMembers(data,'group',titles[i]);
+        var list  = '';
+        for(var j=0; j<content.length; j++){
+            list += '\<li\>' + _getContent(content[j], fieldList) + '\</li\>';
+        }
+
+        result += template.replace('{list}', list);
+    }
 
     return result;
 }
