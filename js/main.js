@@ -1,5 +1,4 @@
 const _SEPARATOR = '|';
-const _PARENT = 'group';
 
 function drawData(id, data_url, control_type, fieldList) {
     var data = _getData(data_url);
@@ -7,8 +6,10 @@ function drawData(id, data_url, control_type, fieldList) {
     var result = '';
     switch(control_type){
         case 'glossary':
-            result = _drawGlossary(data, fieldList);
+            result = _formatAsGlossary(data, fieldList);
             break;
+        case 'quotes':
+            result = _formatAsQuotes(data);
         default: '';
     }
 
@@ -32,8 +33,8 @@ function _getData(url) {
     return null;
 }
 
-function _drawGlossary(data, fieldList){
-    var titles = _getUniqueMembers(data, _PARENT);
+function _formatAsGlossary(data, fieldList){
+    var titles = _getUniqueMembers(data, 'group');
     if(titles.length === 0){
         return;
     }
@@ -42,7 +43,7 @@ function _drawGlossary(data, fieldList){
     for(var i=0; i<titles.length; i++){
             result += '\<dt\>'+ titles[i] +'\</dt\>\n';
 
-            var content = _getChildMembers(data,_PARENT,titles[i]);
+            var content = _getChildMembers(data,'group',titles[i]);
             for(var j=0; j<content.length; j++){
                 result += '\<dd\>' + _getContent(content[j], fieldList) + '\</dd\>';
             }
@@ -52,8 +53,32 @@ function _drawGlossary(data, fieldList){
         return result;
 }
 
+function _formatAsQuotes(data) {
+    var config = _getConfig();
+    var result = '';
+
+    data.forEach(function(quote){
+        var header = '';
+        if(quote.hasOwnProperty('header')){
+            header = _format(config, "header", quote.header);
+        }
+
+        var cite = '';
+        if(quote.hasOwnProperty('source')){
+            cite = _format(config, "source", quote.source);
+        }
+
+        var content = '';
+        if(quote.hasOwnProperty('blockquote')){
+            content = _format(config, 'blockquote', header + quote.blockquote + cite);
+            result += content;
+        }
+    });
+
+    return result;
+}
+
 function _format(config, field, value) {
-    //var config = _getConfig();
     var formatting = _getChildMembers(config, "property", field)[0];
 
     if(formatting.length === 0 || value.length === 0){
