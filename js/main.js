@@ -1,29 +1,12 @@
 const _SEPARATOR = '|';
+//const _DISPLAYS = _getUniqueMembers(_getConfig(), 'property');
 
-function drawData(id, data_url, control_type, fieldList) {
+function drawData(id, data_url, display, fieldList) {
     var data = _getData(data_url);
-
-    var result = '';
-    switch(control_type){
-        case 'glossary':
-            result = _formatAsGlossary(data, fieldList);
-            break;
-        case 'quotes':
-            result = _formatAsQuotes(data);
-            break;
-        case 'list':
-            result = _formatAsList(data);
-            break;
-        default: // attempt to read control type from config
-            '';
-    }
+    var result = _formatData(data, display, fieldList);
 
     var element = document.getElementById(id);
     element.innerHTML = result;
-}
-
-function _getConfig() {
-    return _getData("data/config.json");
 }
 
 function _getData(url) {
@@ -36,6 +19,44 @@ function _getData(url) {
     }
 
     return null;
+}
+
+function _getConfig() {
+    //return _getData("/data/config.json");
+    return _getData('http://localhost:63342/Serapeum/data/config.json');
+}
+
+function _formatData(data, display, fieldList) {
+    var result = '';
+    switch (display) {
+        case 'article':
+            console.log(display);
+            break;
+        case 'header':
+            console.log(display);
+            break;
+        case 'glossary':
+            result = _formatAsGlossary(data, fieldList);
+            break;
+        case 'list':
+            result = _formatAsList(data);
+            break;
+        case 'quotes':
+            result = _formatAsQuotes(data);
+            break;
+        default: // attempt to read control type from config
+            const _displays = _getUniqueMembers(_getConfig(), 'property');
+            data.forEach(function(item){
+                var key = Object.keys(item)[0];
+                var display_key = _displays.indexOf(key);
+
+                if(display != -1) {
+                    //console.log('key «' + key + '» contains in _DISPLAYS');
+                    result += _formatData(item[key], _displays[display_key]);
+                }
+            });
+    }
+    return result;
 }
 
 function _formatAsGlossary(data, fieldList){
