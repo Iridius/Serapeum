@@ -32,14 +32,20 @@ function _formatData(data, display, fieldList) {
         case 'article':
             console.log(display);
             break;
-        case 'header':
+        case 'blockqoute':
             console.log(display);
             break;
+        case 'epigraph':
+            console.log(display);
+            break;
+        //case 'header':
+        //    result = _getContent(data);
+        //    break;
         case 'glossary':
             result = _formatAsGlossary(data, fieldList);
             break;
         case 'list':
-            result = _formatAsList(data);
+            result = _formatAsList(data, fieldList);
             break;
         case 'quotes':
             result = _formatAsQuotes(data);
@@ -106,7 +112,7 @@ function _formatAsQuotes(data) {
     return result;
 }
 
-function _formatAsList(data) {
+function _formatAsList(data, fieldList) {
     const template = '<\ol\>{list}\</ol\>';
 
     var titles = _getUniqueMembers(data, 'group');
@@ -151,7 +157,8 @@ function _format(config, field, value) {
 }
 
 function _getContent(content, fieldList) {
-    var fields = fieldList.split(_SEPARATOR);
+    var fields = fieldList != undefined? fieldList.split(_SEPARATOR): Object.keys(content);
+
     var result = "";
     var config = _getConfig();
 
@@ -159,7 +166,7 @@ function _getContent(content, fieldList) {
         var field = fields[i];
         var value = "";
 
-        if(field === 'src'){
+        if(field === 'src' || field === 'group'){
             continue;
         }
         if(field === 'title'){
