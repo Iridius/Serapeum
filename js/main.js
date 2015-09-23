@@ -30,7 +30,8 @@ function _formatData(data, display, fieldList) {
     var result = '';
     switch (display) {
         case 'article':
-            console.log(display);
+            //console.log(display);
+            result = _getContent(data)
             break;
         case 'blockqoute':
             console.log(display);
@@ -113,29 +114,31 @@ function _formatAsQuotes(data) {
 }
 
 function _formatAsList(data, fieldList) {
+    var result = '';
     const template = '<\ol\>{list}\</ol\>';
 
-    var titles = _getUniqueMembers(data, 'group');
-    var config = _getConfig();
-    var result = '';
-
-    if(titles.length === 0){
-        titles.push(null);
-    }
-
-    for(var i=0; i<titles.length; i++){
-        if(titles[i] != null) {
-            result += _format(config, 'group', titles[i]);
-        }
-
-        var content = _getChildMembers(data,'group',titles[i]);
-        var list  = '';
-        for(var j=0; j<content.length; j++){
-            list += '\<li\>' + _getContent(content[j], fieldList) + '\</li\>';
-        }
-
-        result += template.replace('{list}', list);
-    }
+    ifArray.isArray(data)
+    //var titles = _getUniqueMembers(data, 'group');
+    //var config = _getConfig();
+    //
+    //
+    //if(titles.length === 0){
+    //    titles.push(null);
+    //}
+    //
+    //for(var i=0; i<titles.length; i++){
+    //    if(titles[i] != null) {
+    //        result += _format(config, 'group', titles[i]);
+    //    }
+    //
+    //    var content = _getChildMembers(data,'group',titles[i]);
+    //    var list  = '';
+    //    for(var j=0; j<content.length; j++){
+    //        list += '\<li\>' + _getContent(content[j], fieldList) + '\</li\>';
+    //    }
+    //
+    //    result += template.replace('{list}', list);
+    //}
 
     return result;
 }
