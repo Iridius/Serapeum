@@ -1,7 +1,7 @@
 const _SEPARATOR = '|';
 const config = _getData('http://localhost:63342/Serapeum/data/config.json');
 
-function drawData(id, data_url, display, fieldList) {
+function displayData(id, data_url, display, fieldList) {
     var data = _getData(data_url);
     var result = _formatData(data, display, fieldList);
 
@@ -28,15 +28,18 @@ function _formatData(data, display, fieldList) {
             break;
         case 'epigraph':
         case 'quote':
-            return _formatAsQuote(data);
+            return _getQuote(data);
             break;
         case 'glossary':
-            return _formatAsGlossary(data, fieldList);
+            return _getGlossary(data, fieldList);
             break;
         case 'list':
-            return _formatAsList(data, fieldList);
+            return _getEntitledList(data, fieldList);
             break;
-        default: // attempt to read control type from config
+        case 'table':
+            return _getTable(data, fieldList);
+            break;
+        default: // read control type from config
             if(!Array.isArray(data)){
                 return '';
             }
@@ -55,17 +58,18 @@ function _formatData(data, display, fieldList) {
     return '';
 }
 
-function _formatAsGlossary(data, fieldList){
-    var result = '';
-
-    if(data.hasOwnProperty('header')){
-        result += _format('header', data.header);
+function _getHeader(data){
+    if(data.hasOwnProperty("header")){
+        return _format('header', data.header);
     }
 
-    if(data.hasOwnProperty('content') && Array.isArray(data.content)){
-        const _LIST = "<\dl\>{list}\</dl\>";
-        const _ITEM = "\<dd\>{item}\</dd\>";
+    return '';
+}
 
+function _getList(data, _LIST, _ITEM, fieldList){
+    var result = '';
+
+    if(data.hasOwnProperty('content') && Array.isArray(data.content)){
         var list = '';
         data.content.forEach(function(item){
             list += _ITEM.replace('{item}', _getContent(item, fieldList));
@@ -77,12 +81,19 @@ function _formatAsGlossary(data, fieldList){
     return result;
 }
 
-function _formatAsQuote(data) {
+function _getGlossary(data, fieldList){
     var result = '';
 
-    if(data.hasOwnProperty('header')){
-        result += _format('header', data.header);
-    }
+    result += _getHeader(data);
+    result += _getList(data, "<\dl\>{list}\</dl\>", "\<dd\>{item}\</dd\>", fieldList);
+
+    return result;
+}
+
+function _getQuote(data) {
+    var result = '';
+
+    result += _getHeader(data);
 
     if(data.hasOwnProperty('content')){
         var content = data.content;
@@ -112,25 +123,39 @@ function _getQuoteContent(content){
     return '';
 }
 
-//TODO: sorting headers +sorting content
-function _formatAsList(data, fieldList) {
+function _getTable(data) {
     var result = '';
 
-    if(data.hasOwnProperty("header")){
-        result += _format('header', data.header);
-    }
+    result += _getHeader(data);
 
-    if(data.hasOwnProperty("content") && Array.isArray(data.content)){
-        const _LIST = '<\ol\>{list}\</ol\>';
-        const _ITEM = "\<li\>{item}\</li\>";
+    const _TABLE = '\<table\>{table}\</table\>';
+    const _ROW = '\<tr\>{row}\</tr\>';
+    const _CELL = '\<td\>{cell}\</td\>';
+    if(data.hasOwnProperty('content')){
 
-        var list = '';
-        data.content.forEach(function(item){
-            list += _ITEM.replace('{item}', _getContent(item, fieldList));
+        var row_value = '';
+        data.content.forEach(function(row){
+
+            var cell_value = '';
+            Object.keys(row).forEach(function(cell){
+                cell_value += _CELL.replace('{cell}', row[cell]);
+            });
+
+            row_value += _ROW.replace('{row}', cell_value);
         });
 
-        result += _LIST.replace('{list}', list);
+        result += _TABLE.replace('{table}', row_value);
     }
+
+    return result;
+}
+
+//TODO: sorting headers +sorting content
+function _getEntitledList(data, fieldList) {
+    var result = '';
+
+    result += _getHeader(data);
+    result += _getList(data, '<\ol\>{list}\</ol\>', "\<li\>{item}\</li\>", fieldList);
 
     return result;
 }
