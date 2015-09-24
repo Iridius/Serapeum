@@ -1,5 +1,5 @@
 const _SEPARATOR = '|';
-//const _DISPLAYS = _getUniqueMembers(_getConfig(), 'property');
+const config = _getConfig();
 
 function drawData(id, data_url, display, fieldList) {
     var data = _getData(data_url);
@@ -30,7 +30,6 @@ function _formatData(data, display, fieldList) {
     var result = '';
     switch (display) {
         case 'article':
-            //console.log(display);
             result = _getContent(data)
             break;
         case 'blockqoute':
@@ -59,13 +58,11 @@ function _formatData(data, display, fieldList) {
     return result;
 }
 
-//TODO: global config for single request
 function _formatAsGlossary(data, fieldList){
     var result = '';
-    const config = _getConfig();
 
     if(data.hasOwnProperty('header')){
-        result += _format(config, 'header', data.header);
+        result += _format('header', data.header);
     }
 
     if(data.hasOwnProperty('content') && Array.isArray(data.content)){
@@ -85,10 +82,9 @@ function _formatAsGlossary(data, fieldList){
 
 function _formatAsQuotes(data) {
     var result = '';
-    var config = _getConfig();
 
     if(data.hasOwnProperty('header')){
-        result += _format(config, 'header', data.header);
+        result += _format('header', data.header);
     }
 
     if(data.hasOwnProperty('content')){
@@ -96,24 +92,24 @@ function _formatAsQuotes(data) {
 
         if(Array.isArray(content)){
             content.forEach(function(quote){
-                result += _getQuoteContent(config, quote);
+                result += _getQuoteContent(quote);
             });
         } else {
-            result += _getQuoteContent(config, content);
+            result += _getQuoteContent(content);
         }
     }
 
     return result;
 }
 
-function _getQuoteContent(config, content){
+function _getQuoteContent(content){
     var source = '';
     if(content.hasOwnProperty('source')){
-        source = _format(config, "source", content.source);
+        source = _format("source", content.source);
     }
 
     if(content.hasOwnProperty('blockquote')){
-        return _format(config, 'blockquote', content.blockquote + source);
+        return _format('blockquote', content.blockquote + source);
     }
 
     return '';
@@ -122,10 +118,9 @@ function _getQuoteContent(config, content){
 //TODO: sorting headers +sorting content
 function _formatAsList(data, fieldList) {
     var result = '';
-    var config = _getConfig();
 
     if(data.hasOwnProperty("header")){
-        result += _format(config, 'header', data.header);
+        result += _format('header', data.header);
     }
 
     if(data.hasOwnProperty("content") && Array.isArray(data.content)){
@@ -143,7 +138,7 @@ function _formatAsList(data, fieldList) {
     return result;
 }
 
-function _format(config, field, value) {
+function _format(field, value) {
     var formatting = _getChildMembers(config, "property", field)[0];
 
     if(formatting.length === 0 || value.length === 0){
@@ -163,7 +158,6 @@ function _getContent(content, fieldList) {
     var fields = fieldList != undefined? fieldList.split(_SEPARATOR): Object.keys(content);
 
     var result = "";
-    var config = _getConfig();
 
     for(var i=0; i < fields.length; i++){
         var field = fields[i];
@@ -185,7 +179,7 @@ function _getContent(content, fieldList) {
             }
         }
 
-        result += _format(config, field, value);
+        result += _format(field, value);
     }
 
     result = result.trim();
