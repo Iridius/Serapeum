@@ -39,9 +39,6 @@ function _formatData(data, display, fieldList) {
         case 'epigraph':
             console.log(display);
             break;
-        //case 'header':
-        //    result = _getContent(data);
-        //    break;
         case 'glossary':
             result = _formatAsGlossary(data, fieldList);
             break;
@@ -52,93 +49,96 @@ function _formatData(data, display, fieldList) {
             result = _formatAsQuotes(data);
             break;
         default: // attempt to read control type from config
-            const _displays = _getUniqueMembers(_getConfig(), 'property');
             data.forEach(function(item){
-                var key = Object.keys(item)[0];
-                var display_key = _displays.indexOf(key);
-
-                if(display != -1) {
-                    //console.log('key «' + key + '» contains in _DISPLAYS');
-                    result += _formatData(item[key], _displays[display_key]);
+                if(item.hasOwnProperty("type")){
+                    var type = item.type;
+                    result += _formatData(item, type);
                 }
             });
     }
     return result;
 }
 
+//TODO: global config for single request
 function _formatAsGlossary(data, fieldList){
-    var titles = _getUniqueMembers(data, 'group');
-    var config = _getConfig();
+    var result = '';
+    const config = _getConfig();
 
-    if(titles.length === 0){
-        return;
+    if(data.hasOwnProperty('header')){
+        result += _format(config, 'header', data.header);
     }
 
-    var result = '\<dl\>\n';
-    for(var i=0; i<titles.length; i++){
-            result += '\<dt\>'+ _format(config, 'group', titles[i]) +'\</dt\>\n';
+    if(data.hasOwnProperty('content') && Array.isArray(data.content)){
+        const _LIST = "<\dl\>{list}\</dl\>";
+        const _ITEM = "\<dd\>{item}\</dd\>";
 
-            var content = _getChildMembers(data,'group',titles[i]);
-            for(var j=0; j<content.length; j++){
-                result += '\<dd\>' + _getContent(content[j], fieldList) + '\</dd\>';
-            }
-        }
+        var list = '';
+        data.content.forEach(function(item){
+            list += _ITEM.replace('{item}', _getContent(item, fieldList));
+        });
 
-        result += '\</dl\>';
-        return result;
-}
-
-function _formatAsQuotes(data) {
-    var config = _getConfig();
-    var result = '';
-
-    data.forEach(function(quote){
-        var header = '';
-        if(quote.hasOwnProperty('header')){
-            header = _format(config, "header", quote.header);
-        }
-
-        var cite = '';
-        if(quote.hasOwnProperty('source')){
-            cite = _format(config, "source", quote.source);
-        }
-
-        var content = '';
-        if(quote.hasOwnProperty('blockquote')){
-            content = _format(config, 'blockquote', header + quote.blockquote + cite);
-            result += content;
-        }
-    });
+        result += _LIST.replace('{list}', list);
+    }
 
     return result;
 }
 
+function _formatAsQuotes(data) {
+    var result = '';
+    var config = _getConfig();
+
+    if(data.hasOwnProperty('header')){
+        result += _format(config, 'header', data.header);
+    }
+
+    if(data.hasOwnProperty('content')){
+        var content = data.content;
+
+        if(Array.isArray(content)){
+            content.forEach(function(quote){
+                result += _getQuoteContent(config, quote);
+            });
+        } else {
+            result += _getQuoteContent(config, content);
+        }
+    }
+
+    return result;
+}
+
+function _getQuoteContent(config, content){
+    var source = '';
+    if(content.hasOwnProperty('source')){
+        source = _format(config, "source", content.source);
+    }
+
+    if(content.hasOwnProperty('blockquote')){
+        return _format(config, 'blockquote', content.blockquote + source);
+    }
+
+    return '';
+}
+
+//TODO: sorting headers +sorting content
 function _formatAsList(data, fieldList) {
     var result = '';
-    const template = '<\ol\>{list}\</ol\>';
+    var config = _getConfig();
 
-    ifArray.isArray(data)
-    //var titles = _getUniqueMembers(data, 'group');
-    //var config = _getConfig();
-    //
-    //
-    //if(titles.length === 0){
-    //    titles.push(null);
-    //}
-    //
-    //for(var i=0; i<titles.length; i++){
-    //    if(titles[i] != null) {
-    //        result += _format(config, 'group', titles[i]);
-    //    }
-    //
-    //    var content = _getChildMembers(data,'group',titles[i]);
-    //    var list  = '';
-    //    for(var j=0; j<content.length; j++){
-    //        list += '\<li\>' + _getContent(content[j], fieldList) + '\</li\>';
-    //    }
-    //
-    //    result += template.replace('{list}', list);
-    //}
+    if(data.hasOwnProperty("header")){
+        result += _format(config, 'header', data.header);
+    }
+
+    if(data.hasOwnProperty("content") && Array.isArray(data.content)){
+        const _LIST = '<\ol\>{list}\</ol\>';
+        const _ITEM = "\<li\>{item}\</li\>";
+
+        var list = '';
+        data.content.forEach(function(item){
+            list += _ITEM.replace('{item}', _getContent(item, fieldList));
+        });
+
+        result += _LIST.replace('{list}', list);
+    }
 
     return result;
 }
@@ -194,24 +194,6 @@ function _getContent(content, fieldList) {
     }
 
     return result;
-}
-
-function _getUniqueMembers(data, column) {
-    var nonunique = [];
-    for(var i=0; i<data.length; i++){
-        if(data[i].hasOwnProperty(column)){
-            nonunique.push(data[i][column]);
-        }
-    }
-    if(nonunique.length === 0){
-        return nonunique;
-    }
-
-    var result = [];
-    for (var i = 0; i < nonunique.length; i++) {
-        if (result.indexOf(nonunique[i]) == -1) result.push(nonunique[i]);
-    }
-    return result.sort();
 }
 
 function _getChildMembers(data, column, value){

@@ -1,216 +1,412 @@
 [
-    {"group" : "А", "title" : "Авиен, Руций Фест"},
-    {"group" : "А", "title" : "Акадзомэ Эмон", "src" : "person/Akadzome/Akadzome.html"},
-    {"group" : "А", "title" : "Александр Тралльский"},
-    {"group" : "А", "title" : "Алёна, монахиня", "src" : "person/Alena/Alena.html"},
-    {"group" : "А", "title" : "Амаласунта", "src" : "person/Amalasunta/Amalasunta.html"},
-    {"group" : "А", "title" : "Аммиан Марцеллин"},
-    {"group" : "А", "title" : "Ангишола, Софонисба", "src" : "person/Anguissola/Anguissola.html"},
-    {"group" : "А", "title" : "Анита", "src" : "person/Anita/Anita.html"},
-    {"group" : "А", "title" : "Анна Ярославна", "src" : "person/Anna/Anna.html"},
-    {"group" : "А", "title" : "Арсиноя II Филадельфия"},
-    {"group" : "А", "title" : "Артемизия", "src" : "person/Artemisia/Artemisia.html"},
-    {"group" : "А", "title" : "Аспазия", "src" : "person/Aspasia/Aspasia.html"},
-    {"group" : "А", "title" : "Аристоник", "src" : "person/Aristonik/Aristonik.html"},
-    {"group" : "А", "title" : "Аэций Флавий", "src" : "person/Aeciy/Aeciy.html"},
-    {"group" : "Б", "title" : "Беда Достопочтенный", "src" : "person/Beda_D/Beda_D.html"},
-    {"group" : "Б", "title" : "Береника II"},
-    {"group" : "Б", "title" : "Бойе, Карин", "src" : "person/Boje/Boje.html"},
-    {"group" : "Б", "title" : "Болл, Джон", "src" : "person/Ball/Ball.html"},
-    {"group" : "Б", "title" : "Болотников И."},
-    {"group" : "Б", "title" : "Больцман, Людвиг", "src" : "person/Boltzmann/Boltzmann.html"},
-    {"group" : "Б", "title" : "Бонни, Энн", "src" : "person/Bonni/Bonni.html"},
-    {"group" : "Б", "title" : "Боудикка", "src" : "person/Boadicea/Boadicea.html"},
-    {"group" : "Б", "title" : "Боэций"},
-    {"group" : "Б", "title" : "Брасид"},
-    {"group" : "В", "title" : "Вальтер Голяк", "src" : "person/Walter/Walter.html"},
-    {"group" : "В", "title" : "Вегеций"},
-    {"group" : "В", "title" : "Велизарий", "src" : "person/Velisariy/Velisariy.html"},
-    {"group" : "В", "title" : "Венанций Фортунат"},
-    {"group" : "В", "title" : "Виллемер, Марианна фон"},
-    {"group" : "В", "title" : "Вилья Франсиско"},
-    {"group" : "В", "title" : "Всеслав Полоцкий", "src" : "person/Vseslaw/Vseslaw.html"},
-    {"group" : "В", "title" : "Вульфила"},
-    {"group" : "Г", "title" : "Гален"},
-    {"group" : "Г", "title" : "Гамилькон", "src" : "person/Gamilkon/Gamilkon.html"},
-    {"group" : "Г", "title" : "Ганнон", "src" : "person/Gannon/Gannon.html"},
-    {"group" : "Г", "title" : "Гаусс, Карл Фридрих", "src" : "person/Gauss/Gauss.html"},
-    {"group" : "Г", "title" : "Гельдерлин, Фридрих"},
-    {"group" : "Г", "title" : "Геррада Ландсбергская", "src" : "person/Gerrad/Gerrad.html"},
-    {"group" : "Г", "title" : "Герон"},
-    {"group" : "Г", "title" : "Гидарн"},
-    {"group" : "Г", "title" : "Гиппархия"},
-    {"group" : "Г", "title" : "Гордон Патрик"},
-    {"group" : "Г", "title" : "Гофмансталь, Гуго фон"},
-    {"group" : "Г", "title" : "Гош, Л.-Л.", "src" : "person/Gosch/Gosch.html"},
-    {"group" : "Г", "title" : "Гросвита Гандерсгеймская", "src" : "person/Grosvita/Grosvita.html"},
-    {"group" : "Г", "title" : "Гуго Орлеанский"},
-    {"group" : "Г", "title" : "Гюндероде, Каролина фон"},
-    {"group" : "Д", "title" : "Даша Севастопольская"},
-    {"group" : "Д", "title" : "Деций"},
-    {"group" : "Д", "title" : "Джентилески, А.", "src" : "person/Gentileschi/Gentileschi.html"},
-    {"group" : "Д", "title" : "Диа, графиня де", "src" : "person/Dia/Dia.html"},
-    {"group" : "Д", "title" : "Дидье, Сюзанна"},
-    {"group" : "Д", "title" : "Динамия"},
-    {"group" : "Д", "title" : "Диофант Александрийский"},
-    {"group" : "Д", "title" : "Дипонегоро"},
-    {"group" : "Д", "title" : "Дросте-Гюльсгоф, А.", "src" : "person/Droste/Droste.html"},
-    {"group" : "Е", "title" : "Евгений Флавий"},
-    {"group" : "Е", "title" : "Евдокия, императрица"},
-    {"group" : "Е", "title" : "Евдоксия"},
-    {"group" : "Е", "title" : "Евн-Антиох", "src" : "person/Eunus/Eunus.html"},
-    {"group" : "Е", "title" : "Евтропий"},
-    {"group" : "Е", "title" : "Евфросиния Полоцкая"},
-    {"group" : "Е", "title" : "Елена Флавия"},
-    {"group" : "Е", "title" : "Ермак"},
-    {"group" : "Ж", "title" : "Жанна д'Арк", "src" : "person/Jeanne/Jeanne.html"},
-    {"group" : "Ж", "title" : "Железняк, Максим"},
-    {"group" : "Ж", "title" : "Жуань Цзи"},
-    {"group" : "Ж", "title" : "Жуковский&nbsp;Н.&nbsp;Е."},
-    {"group" : "З", "title" : "Зевксид"},
-    {"group" : "З", "title" : "Земнухов&nbsp;И.&nbsp;А.", "src" : "person/Zemnuhov/Zemnuhov.html"},
-    {"group" : "З", "title" : "Зенобия"},
-    {"group" : "З", "title" : "Зенон Элейский", "src" : "person/Zenon/Zenon.html"},
-    {"group" : "З", "title" : "Зыонг Тхан"},
-    {"group" : "И", "title" : "Идзуми Сикибу"},
-    {"group" : "И", "title" : "Инка Топа"},
-    {"group" : "И", "title" : "Ипатия", "src" : "person/Hypatia/Hypatia.html"},
-    {"group" : "И", "title" : "Исократ"},
-    {"group" : "К", "title" : "Калигула", "src" : "person/Caligula/Caligula.html"},
-    {"group" : "К", "title" : "Кирхер,&nbsp;Атанасиус", "src" : "person/Kirher/Kirher.html"},
-    {"group" : "К", "title" : "Клара Андузская", "src" : "person/Klara/Klara.html"},
-    {"group" : "К", "title" : "Ковалевская С. В.", "src" : "person/Kovalevskaya/Kovalevskaya.html"},
-    {"group" : "К", "title" : "Кожина Василиса", "src" : "person/Kozhina/Kozhina.html"},
-    {"group" : "К", "title" : "Кольвиц, Кэте", "src" : "person/Kollwitz/Kollwitz.html"},
-    {"group" : "К", "title" : "Комнина, Анна", "src" : "person/Komnina/Komnina.html"},
-    {"group" : "К", "title" : "Константин XI", "src" : "person/Konstantin11/Konstantin11.html"},
-    {"group" : "К", "title" : "Коринна", "src" : "person/Korinna/Korinna.html"},
-    {"group" : "К", "title" : "Космодемьянская&nbsp;З.&nbsp;А.", "src" : "person/Zoya/Zoya.html"},
-    {"group" : "К", "title" : "Кристен, Ада"},
-    {"group" : "К", "title" : "Кристина&nbsp;Пизанская", "src" : "person/Kristina/Kristina.html"},
-    {"group" : "К", "title" : "Куаутемок", "src" : "person/Cuatemok/Cuatemok.html"},
-    {"group" : "К", "title" : "Кэдмон", "src" : "person/Kedmon/Kedmon.html"},
-    {"group" : "Л", "title" : "Лацис Я. Я."},
-    {"group" : "Л", "title" : "Лев Математик", "src" : "person/Lew_Matematik/Lew_Matematik.html"},
-    {"group" : "Л", "title" : "Леонид"},
-    {"group" : "Л", "title" : "Ликург"},
-    {"group" : "Л", "title" : "Ли Би"},
-    {"group" : "Л", "title" : "Ли, Роберт Эдвард"},
-    {"group" : "Л", "title" : "Ли Сун Син", "src" : "person/lisunsin/lisunsin.html"},
-    {"group" : "Л", "title" : "Ли Цин-чжао"},
-    {"group" : "Л", "title" : "Лисинова Л. А.", "src" : "person/Lisinova/Lisinova.html"},
-    {"group" : "Л", "title" : "Любарская, Дора", "src" : "person/Lubarskaya/Lubarskaya.html"},
-    {"group" : "М", "title" : "Мария Сибилла"},
-    {"group" : "М", "title" : "Мария Французская", "src" : "person/Maria_F/Maria_F.html"},
-    {"group" : "М", "title" : "Мотицура, Хасимото"},
-    {"group" : "М", "title" : "Мельникайте М. Ю.", "src" : "person/Melnikaite/Melnikaite.html"},
-    {"group" : "М", "title" : "Меншиков А. Д.", "src" : "person/Menschikov/Menschikov.html"},
-    {"group" : "М", "title" : "Мерьет-нейт", "src" : "person/Meryet_neyt/Meryet_neyt.html"},
-    {"group" : "М", "title" : "Менелай Александрийский"},
-    {"group" : "М", "title" : "Мисима, Юкио", "src" : "person/Misima/Misima.html"},
-    {"group" : "М", "title" : "Можайский А. Н."},
-    {"group" : "М", "title" : "Модильяни Амадео"},
-    {"group" : "М", "title" : "Монтесума"},
-    {"group" : "Н", "title" : "Нагумо"},
-    {"group" : "Н", "title" : "Неарх", "src" : "person/Nearch/Nearch.html"},
-    {"group" : "Н", "title" : "Никонов, Ефим", "src" : "person/Nikonov/Nikonov.html"},
-    {"group" : "Н", "title" : "Нехо"},
-    {"group" : "Н", "title" : "Новациан"},
-    {"group" : "О", "title" : "Обилич, Милош"},
-    {"group" : "О", "title" : "Одоакр"},
-    {"group" : "О", "title" : "Октавия"},
-    {"group" : "О", "title" : "Олимпиада"},
-    {"group" : "О", "title" : "Ольга, княгиня", "src" : "person/Olga/Olga.html"},
-    {"group" : "О", "title" : "Ольгерд"},
-    {"group" : "П", "title" : "Паррасий"},
-    {"group" : "П", "title" : "Пахомий Логофет"},
-    {"group" : "П", "title" : "Пачакути"},
-    {"group" : "П", "title" : "Пелопид"},
-    {"group" : "П", "title" : "Пердикка", "src" : "person/Perdikkas/Perdikkas.html"},
-    {"group" : "П", "title" : "Плетон, Георгий Гемист"},
-    {"group" : "П", "title" : "Плотина, Помпея"},
-    {"group" : "П", "title" : "Почиталин И. Я.", "src" : "person/Pochitalin/Pochitalin.html"},
-    {"group" : "П", "title" : "Праксилла", "src" : "person/Pracsilla/Pracsilla.html"},
-    {"group" : "П", "title" : "Пугачев Е. И.", "src" : "person/Pugachev/Pugachev.html"},
-    {"group" : "Р", "title" : "Разин&nbsp;С.&nbsp;Т."},
-    {"group" : "Р", "title" : "Райч, Ханна", "src" : "person/Reitsch/Reitsch.html"},
-    {"group" : "Р", "title" : "Рамзес II", "src" : "person/Ramses2/Ramses2.html"},
-    {"group" : "Р", "title" : "Рейнмар фон Хагенау", "src" : "person/Reinmar/Reinmar.html"},
-    {"group" : "Р", "title" : "Ремезов, Семен Ульянович"},
-    {"group" : "Р", "title" : "Рид, Мэри", "src" : "person/Rid/Rid.html"},
-    {"group" : "Р", "title" : "Риман, Бернгард", "src" : "person/Riman/Riman.html"},
-    {"group" : "Р", "title" : "Рифеншталь, Лени", "src" : "person/Leni/Leni.html"},
-    {"group" : "Р", "title" : "Рихтгофен, Манфред фон"},
-    {"group" : "Р", "title" : "Роксана"},
-    {"group" : "Р", "title" : "Ромул Августул", "src" : "person/Romul_August/Romul_August.html"},
-    {"group" : "С", "title" : "Савонарола, Джироламо"},
-    {"group" : "С", "title" : "Саджах"},
-    {"group" : "С", "title" : "Сапата Эмилиано"},
-    {"group" : "С", "title" : "Сапфо", "src" : "person/Sapho/Sapho.html"},
-    {"group" : "С", "title" : "Сверрир", "src" : "person/Sverrir/Sverrir.html"},
-    {"group" : "С", "title" : "Селевк I"},
-    {"group" : "С", "title" : "Смит, Саманта"},
-    {"group" : "С", "title" : "Соловьянова Е. И.", "src" : "person/Solovianova/Solovianova.html"},
-    {"group" : "С", "title" : "Соломаха Т. Г.", "src" : "person/Solomaha/Solomaha.html"},
-    {"group" : "С", "title" : "Софья Палеолог"},
-    {"group" : "С", "title" : "Спартак", "src" : "person/Spartak/Spartak.html"},
-    {"group" : "С", "title" : "Стюарт, Д. Ю. Б."},
-    {"group" : "Т", "title" : "Тайлер, Уот", "src" : "person/Wat_Tayler/Tayler.html"},
-    {"group" : "Т", "title" : "Тамара"},
-    {"group" : "Т", "title" : "Теон"},
-    {"group" : "Т", "title" : "Томоэ", "src" : "person/Tomoe/Tomoe.html"},
-    {"group" : "Т", "title" : "Торквемада, Томас"},
-    {"group" : "Т", "title" : "Тредиаковский В. К."},
-    {"group" : "Т", "title" : "Тутанхамон"},
-    {"group" : "У", "title" : "У Чэн", "src" : "person/U_Chen/U_Chen.html"},
-    {"group" : "У", "title" : "У Юйби"},
-    {"group" : "У", "title" : "Уинстэнли"},
-    {"group" : "У", "title" : "Улугбек"},
-    {"group" : "У", "title" : "Урукагина", "src" : "person/Urukagina/Urukagina.html"},
-    {"group" : "Ф", "title" : "Фаустина, Анния Галерия"},
-    {"group" : "Ф", "title" : "Феодора", "src" : "person/Feodora/Feodora.html"},
-    {"group" : "Ф", "title" : "Фогельвейде, Вальтер фон дер", "src" : "person/Fogel/Fogel.html"},
-    {"group" : "Ф", "title" : "Фома Аквинский"},
-    {"group" : "Ф", "title" : "Фома, инок"},
-    {"group" : "Х", "title" : "Хамуас", "src" : "person/Hamuas/Hamuas.html"},
-    {"group" : "Х", "title" : "Хатшепсут", "src" : "person/Hatschepsut/Hatschepsut.html"},
-    {"group" : "Х", "title" : "Хризолорас, Мануил"},
-    {"group" : "Х", "title" : "Хун Сю-цюань"},
-    {"group" : "Ц", "title" : "Цандер", "src" : "person/Zander/Zander.html"},
-    {"group" : "Ц", "title" : "Цао Пи"},
-    {"group" : "Ц", "title" : "Цельтис, Конрад"},
-    {"group" : "Ц", "title" : "Циолковский&nbsp;К.&nbsp;Э.", "src" : "person/Ziolkovsky/Ziolkovsky.html"},
-    {"group" : "Ч", "title" : "Чака", "src" : "person/Shaka/Shaka.html"},
-    {"group" : "Ч", "title" : "Чандрагупта&nbsp;II"},
-    {"group" : "Ч", "title" : "Чан Хэнг Дао"},
-    {"group" : "Ч", "title" : "Чайкина&nbsp;Е.&nbsp;И.", "src" : "person/Schaykina/Schaykina.html"},
-    {"group" : "Ч", "title" : "Чосер, Дреффри"},
-    {"group" : "Ш", "title" : "Шлиман, Генрих"},
-    {"group" : "Ш", "title" : "Шевцова&nbsp;Л.&nbsp;Г."},
-    {"group" : "Ш", "title" : "Шень Чжоу"},
-    {"group" : "Ш", "title" : "Шолль, София", "src" : "person/Scholl/Scholl.html"},
-    {"group" : "Ш", "title" : "Шуман, Клара", "src" : "person/Schuman/Schuman.html"},
-    {"group" : "Ш", "title" : "Щорс&nbsp;Н.&nbsp;А.", "src" : "person/Schors/Schors.html"},
-    {"group" : "Щ", "title" : "Щусев&nbsp;А.&nbsp;В."},
-    {"group" : "Э", "title" : "Эбнер-Эшенбах, Мария фон"},
-    {"group" : "Э", "title" : "Эвридика", "src" : "person/Evridika/Evridika.html"},
-    {"group" : "Э", "title" : "Эймунд"},
-    {"group" : "Э", "title" : "Эккехард"},
-    {"group" : "Э", "title" : "Элеонора Аквитанская", "src" : "person/Alienora/Alienora.html"},
-    {"group" : "Э", "title" : "Энгельбрект Энгельбректсон", "src" : "person/Engelbrekt/Engelbrekt.html"},
-    {"group" : "Э", "title" : "Эномай"},
-    {"group" : "Э", "title" : "Эпаминонд"},
-    {"group" : "Э", "title" : "Эратосфен", "src" : "person/Eratosfen/Eratosfen.html"},
-    {"group" : "Э", "title" : "Эринна", "src" : "person/Erinna/Erinna.html"},
-    {"group" : "Э", "title" : "Эсхин", "src" : "person/Aeschines/Aeschines.html"},
-    {"group" : "Э", "title" : "Этерия"},
-    {"group" : "Э", "title" : "Эхнатон", "src" : "person/Ehnaton/Ehnaton.html"},
-    {"group" : "Ю", "title" : "Юй Цянь", "src" : "person/Juy_Zan/Juy_Zan.html"},
-    {"group" : "Ю", "title" : "Юлиан Отступник", "src" : "person/Ulian/Ulian.html"},
-    {"group" : "Ю", "title" : "Юн-лэ"},
-    {"group" : "Ю", "title" : "Юстиниан I", "src" : "person/Ustinian/Ustinian.html"},
-    {"group" : "Я", "title" : "Ямамото", "src" : "person/Jamamoto/Jamamoto.html"},
-    {"group" : "Я", "title" : "Ямбул"},
-    {"group" : "Я", "title" : "Ямвлих"},
-    {"group" : "Я", "title" : "Ян Хундао"}
+    {
+        "header": "А",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Авиен, Руций Фест"},
+            {"title": "Акадзомэ Эмон", "src": "person/Akadzome/Akadzome.html"},
+            {"title": "Александр Тралльский"},
+            {"title": "Алёна, монахиня", "src": "person/Alena/Alena.html"},
+            {"title": "Амаласунта", "src": "person/Amalasunta/Amalasunta.html"},
+            {"title": "Аммиан Марцеллин"},
+            {"title": "Ангишола, Софонисба", "src": "person/Anguissola/Anguissola.html"},
+            {"title": "Анита", "src": "person/Anita/Anita.html"},
+            {"title": "Анна Ярославна", "src": "person/Anna/Anna.html"},
+            {"title": "Арсиноя II Филадельфия"},
+            {"title": "Артемизия", "src": "person/Artemisia/Artemisia.html"},
+            {"title": "Аспазия", "src": "person/Aspasia/Aspasia.html"},
+            {"title": "Аристоник", "src": "person/Aristonik/Aristonik.html"},
+            {"title": "Аэций Флавий", "src": "person/Aeciy/Aeciy.html"}
+        ]
+    },
+    {
+        "header": "Б",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Беда Достопочтенный", "src": "person/Beda_D/Beda_D.html"},
+            {"title": "Береника II"},
+            {"title": "Бойе, Карин", "src": "person/Boje/Boje.html"},
+            {"title": "Болл, Джон", "src": "person/Ball/Ball.html"},
+            {"title": "Болотников И."},
+            {"title": "Больцман, Людвиг", "src": "person/Boltzmann/Boltzmann.html"},
+            {"title": "Бонни, Энн", "src": "person/Bonni/Bonni.html"},
+            {"title": "Боудикка", "src": "person/Boadicea/Boadicea.html"},
+            {"title": "Боэций"},
+            {"title": "Брасид"}
+        ]
+    },
+    {
+        "header": "В",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Вальтер Голяк", "src": "person/Walter/Walter.html"},
+            {"title": "Вегеций"},
+            {"title": "Велизарий", "src": "person/Velisariy/Velisariy.html"},
+            {"title": "Венанций Фортунат"},
+            {"title": "Виллемер, Марианна фон"},
+            {"title": "Вилья Франсиско"},
+            {"title": "Всеслав Полоцкий", "src": "person/Vseslaw/Vseslaw.html"},
+            {"title": "Вульфила"}
+        ]
+    },
+    {
+        "header": "Г",
+        "type": "glossary",
+        "content":
+        [
+            { "title": "Гален"},
+            {"title": "Гамилькон", "src": "person/Gamilkon/Gamilkon.html"},
+            {"title": "Ганнон", "src": "person/Gannon/Gannon.html"},
+            {"title": "Гаусс, Карл Фридрих", "src": "person/Gauss/Gauss.html"},
+            {"title": "Гельдерлин, Фридрих"},
+            {"title": "Геррада Ландсбергская", "src": "person/Gerrad/Gerrad.html"},
+            {"title": "Герон"},
+            {"title": "Гидарн"},
+            {"title": "Гиппархия"},
+            {"title": "Гордон Патрик"},
+            {"title": "Гофмансталь, Гуго фон"},
+            {"title": "Гош, Л.-Л.", "src": "person/Gosch/Gosch.html"},
+            {"title": "Гросвита Гандерсгеймская", "src": "person/Grosvita/Grosvita.html"},
+            {"title": "Гуго Орлеанский"},
+            {"title": "Гюндероде, Каролина фон"}
+        ]
+    },
+    {
+        "header": "Д",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Даша Севастопольская"},
+            {"title": "Деций"},
+            {"title": "Джентилески, А.", "src": "person/Gentileschi/Gentileschi.html"},
+            {"title": "Диа, графиня де", "src": "person/Dia/Dia.html"},
+            {"title": "Дидье, Сюзанна"},
+            {"title": "Динамия"},
+            {"title": "Диофант Александрийский"},
+            {"title": "Дипонегоро"},
+            {"title": "Дросте-Гюльсгоф, А.", "src": "person/Droste/Droste.html"}
+        ]
+    },
+    {
+        "header": "Е",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Евгений Флавий"},
+            {"title": "Евдокия, императрица"},
+            {"title": "Евдоксия"},
+            {"title": "Евн-Антиох", "src": "person/Eunus/Eunus.html"},
+            {"title": "Евтропий"},
+            {"title": "Евфросиния Полоцкая"},
+            {"title": "Елена Флавия"},
+            {"title": "Ермак"}
+        ]
+    },
+    {
+        "header": "Ж",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Жанна д'Арк", "src": "person/Jeanne/Jeanne.html"},
+            {"title": "Железняк, Максим"},
+            {"title": "Жуань Цзи"},
+            {"title": "Жуковский&nbsp;Н.&nbsp;Е."}
+        ]
+    },
+    {
+        "header": "З",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Зевксид"},
+            {"title": "Земнухов&nbsp;И.&nbsp;А.", "src": "person/Zemnuhov/Zemnuhov.html"},
+            {"title": "Зенобия"},
+            {"title": "Зенон Элейский", "src": "person/Zenon/Zenon.html"},
+            {"title": "Зыонг Тхан"}
+        ]
+    },
+    {
+        "header": "И",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Идзуми Сикибу"},
+            {"title": "Инка Топа"},
+            {"title": "Ипатия", "src": "person/Hypatia/Hypatia.html"},
+            {"title": "Исократ"}
+        ]
+    },
+    {
+        "header": "К",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Калигула", "src": "person/Caligula/Caligula.html"},
+            {"title": "Кирхер,&nbsp;Атанасиус", "src": "person/Kirher/Kirher.html"},
+            {"title": "Клара Андузская", "src": "person/Klara/Klara.html"},
+            {"title": "Ковалевская С. В.", "src": "person/Kovalevskaya/Kovalevskaya.html"},
+            {"title": "Кожина Василиса", "src": "person/Kozhina/Kozhina.html"},
+            {"title": "Кольвиц, Кэте", "src": "person/Kollwitz/Kollwitz.html"},
+            {"title": "Комнина, Анна", "src": "person/Komnina/Komnina.html"},
+            {"title": "Константин XI", "src": "person/Konstantin11/Konstantin11.html"},
+            {"title": "Коринна", "src": "person/Korinna/Korinna.html"},
+            {"title": "Космодемьянская&nbsp;З.&nbsp;А.", "src": "person/Zoya/Zoya.html"},
+            {"title": "Кристен, Ада"},
+            {"title": "Кристина&nbsp;Пизанская", "src": "person/Kristina/Kristina.html"},
+            {"title": "Куаутемок", "src": "person/Cuatemok/Cuatemok.html"},
+            {"title": "Кэдмон", "src": "person/Kedmon/Kedmon.html"}
+        ]
+    },
+    {
+        "header": "Л",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Лацис Я. Я."},
+            {"title": "Лев Математик", "src": "person/Lew_Matematik/Lew_Matematik.html"},
+            {"title": "Леонид"},
+            {"title": "Ликург"},
+            {"title": "Ли Би"},
+            {"title": "Ли, Роберт Эдвард"},
+            {"title": "Ли Сун Син", "src": "person/lisunsin/lisunsin.html"},
+            {"title": "Ли Цин-чжао"},
+            {"title": "Лисинова Л. А.", "src": "person/Lisinova/Lisinova.html"},
+            {"title": "Любарская, Дора", "src": "person/Lubarskaya/Lubarskaya.html"}
+        ]
+    },
+    {
+        "header": "М",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Мария Сибилла"},
+            {"title": "Мария Французская", "src": "person/Maria_F/Maria_F.html"},
+            {"title": "Мотицура, Хасимото"},
+            {"title": "Мельникайте М. Ю.", "src": "person/Melnikaite/Melnikaite.html"},
+            {"title": "Меншиков А. Д.", "src": "person/Menschikov/Menschikov.html"},
+            {"title": "Мерьет-нейт", "src": "person/Meryet_neyt/Meryet_neyt.html"},
+            {"title": "Менелай Александрийский"},
+            {"title": "Мисима, Юкио", "src": "person/Misima/Misima.html"},
+            {"title": "Можайский А. Н."},
+            {"title": "Модильяни Амадео"},
+            {"title": "Монтесума"}
+        ]
+    },
+    {
+        "header": "Н",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Нагумо"},
+            {"title": "Неарх", "src": "person/Nearch/Nearch.html"},
+            {"title": "Никонов, Ефим", "src": "person/Nikonov/Nikonov.html"},
+            {"title": "Нехо"},
+            {"title": "Новациан"}
+        ]
+    },
+    {
+        "header": "О",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Обилич, Милош"},
+            {"title": "Одоакр"},
+            {"title": "Октавия"},
+            {"title": "Олимпиада"},
+            {"title": "Ольга, княгиня", "src": "person/Olga/Olga.html"},
+            {"title": "Ольгерд"}
+        ]
+    },
+    {
+        "header": "П",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Паррасий"},
+            {"title": "Пахомий Логофет"},
+            {"title": "Пачакути"},
+            {"title": "Пелопид"},
+            {"title": "Пердикка", "src": "person/Perdikkas/Perdikkas.html"},
+            {"title": "Плетон, Георгий Гемист"},
+            {"title": "Плотина, Помпея"},
+            {"title": "Почиталин И. Я.", "src": "person/Pochitalin/Pochitalin.html"},
+            {"title": "Праксилла", "src": "person/Pracsilla/Pracsilla.html"},
+            {"title": "Пугачев Е. И.", "src": "person/Pugachev/Pugachev.html"}
+        ]
+    },
+    {
+        "header": "Р",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Разин&nbsp;С.&nbsp;Т."},
+            {"title": "Райч, Ханна", "src": "person/Reitsch/Reitsch.html"},
+            {"title": "Рамзес II", "src": "person/Ramses2/Ramses2.html"},
+            {"title": "Рейнмар фон Хагенау", "src": "person/Reinmar/Reinmar.html"},
+            {"title": "Ремезов, Семен Ульянович"},
+            {"title": "Рид, Мэри", "src": "person/Rid/Rid.html"},
+            {"title": "Риман, Бернгард", "src": "person/Riman/Riman.html"},
+            {"title": "Рифеншталь, Лени", "src": "person/Leni/Leni.html"},
+            {"title": "Рихтгофен, Манфред фон"},
+            {"title": "Роксана"},
+            {"title": "Ромул Августул", "src": "person/Romul_August/Romul_August.html"}
+        ]
+    },
+    {
+        "header": "С",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Савонарола, Джироламо"},
+            {"title": "Саджах"},
+            {"title": "Сапата Эмилиано"},
+            {"title": "Сапфо", "src": "person/Sapho/Sapho.html"},
+            {"title": "Сверрир", "src": "person/Sverrir/Sverrir.html"},
+            {"title": "Селевк I"},
+            {"title": "Смит, Саманта"},
+            {"title": "Соловьянова Е. И.", "src": "person/Solovianova/Solovianova.html"},
+            {"title": "Соломаха Т. Г.", "src": "person/Solomaha/Solomaha.html"},
+            {"title": "Софья Палеолог"},
+            {"title": "Спартак", "src": "person/Spartak/Spartak.html"},
+            {"title": "Стюарт, Д. Ю. Б."}
+        ]
+    },
+    {
+        "header": "Т",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Тайлер, Уот", "src": "person/Wat_Tayler/Tayler.html"},
+            {"title": "Тамара"},
+            {"title": "Теон"},
+            {"title": "Томоэ", "src": "person/Tomoe/Tomoe.html"},
+            {"title": "Торквемада, Томас"},
+            {"title": "Тредиаковский В. К."},
+            {"title": "Тутанхамон"}
+        ]
+    },
+    {
+        "header": "У",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "У Чэн", "src": "person/U_Chen/U_Chen.html"},
+            {"title": "У Юйби"},
+            {"title": "Уинстэнли"},
+            {"title": "Улугбек"},
+            {"title": "Урукагина", "src": "person/Urukagina/Urukagina.html"}
+        ]
+    },
+    {
+        "header": "Ф",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Фаустина, Анния Галерия"},
+            {"title": "Феодора", "src": "person/Feodora/Feodora.html"},
+            {"title": "Фогельвейде, Вальтер фон дер", "src": "person/Fogel/Fogel.html"},
+            {"title": "Фома Аквинский"},
+            {"title": "Фома, инок"}
+        ]
+    },
+    {
+        "header": "Х",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Хамуас", "src": "person/Hamuas/Hamuas.html"},
+            {"title": "Хатшепсут", "src": "person/Hatschepsut/Hatschepsut.html"},
+            {"title": "Хризолорас, Мануил"},
+            {"title": "Хун Сю-цюань"}
+        ]
+    },
+    {
+        "header": "Ц",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Цандер", "src": "person/Zander/Zander.html"},
+            {"title": "Цао Пи"},
+            {"title": "Цельтис, Конрад"},
+            {"title": "Циолковский&nbsp;К.&nbsp;Э.", "src": "person/Ziolkovsky/Ziolkovsky.html"}
+        ]
+    },
+    {
+        "header": "Ч",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Чака", "src": "person/Shaka/Shaka.html"},
+            {"title": "Чандрагупта&nbsp;II"},
+            {"title": "Чан Хэнг Дао"},
+            {"title": "Чайкина&nbsp;Е.&nbsp;И.", "src": "person/Schaykina/Schaykina.html"},
+            {"title": "Чосер, Дреффри"}
+        ]
+    },
+    {
+        "header": "Ш",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Шлиман, Генрих"},
+            {"title": "Шевцова&nbsp;Л.&nbsp;Г."},
+            {"title": "Шень Чжоу"},
+            {"title": "Шолль, София", "src": "person/Scholl/Scholl.html"},
+            {"title": "Шуман, Клара", "src": "person/Schuman/Schuman.html"}
+        ]
+    },
+    {
+        "header": "Щ",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Щорс&nbsp;Н.&nbsp;А.", "src": "person/Schors/Schors.html"},
+            {"title": "Щусев&nbsp;А.&nbsp;В."}
+        ]
+    },
+    {
+        "header": "Э",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Эбнер-Эшенбах, Мария фон"},
+            {"title": "Эвридика", "src": "person/Evridika/Evridika.html"},
+            {"title": "Эймунд"},
+            {"title": "Эккехард"},
+            {"title": "Элеонора Аквитанская", "src": "person/Alienora/Alienora.html"},
+            {"title": "Энгельбрект Энгельбректсон", "src": "person/Engelbrekt/Engelbrekt.html"},
+            {"title": "Эномай"},
+            {"title": "Эпаминонд"},
+            {"title": "Эратосфен", "src": "person/Eratosfen/Eratosfen.html"},
+            {"title": "Эринна", "src": "person/Erinna/Erinna.html"},
+            {"title": "Эсхин", "src": "person/Aeschines/Aeschines.html"},
+            {"title": "Этерия"},
+            {"title": "Эхнатон", "src": "person/Ehnaton/Ehnaton.html"}
+        ]
+    },
+    {
+        "header": "Ю",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Юй Цянь", "src": "person/Juy_Zan/Juy_Zan.html"},
+            {"title": "Юлиан Отступник", "src": "person/Ulian/Ulian.html"},
+            {"title": "Юн-лэ"},
+            {"title": "Юстиниан I", "src": "person/Ustinian/Ustinian.html"}
+        ]
+    },
+    {
+        "header": "Я",
+        "type": "glossary",
+        "content":
+        [
+            {"title": "Ямамото", "src": "person/Jamamoto/Jamamoto.html"},
+            {"title": "Ямбул"},
+            {"title": "Ямвлих"},
+            {"title": "Ян Хундао"}
+        ]
+    }
 ]

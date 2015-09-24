@@ -17,4 +17,8 @@ body {
     -webkit-column-gap: 10px;
     -moz-column-gap: 10px;
     column-gap: 10px;
+    -webkit-column-rule-style: dotted;
+    -webkit-column-rule-width: 1px;
+    -moz-column-rule-style: dotted;
+    -moz-column-rule-width: 1px;
 }
