@@ -126,13 +126,18 @@ function _getQuote(data) {
 }
 
 function _getQuoteContent(content){
+    var header = '';
+    if(content.hasOwnProperty('header')){
+        header += _format("header", content.header);
+    }
+
     var source = '';
     if(content.hasOwnProperty('source')){
         source = _format("source", content.source);
     }
 
     if(content.hasOwnProperty('quote')){
-        return _format('quote', content.quote + source);
+        return _format('quote', header + content.quote + source);
     }
 
     return '';
