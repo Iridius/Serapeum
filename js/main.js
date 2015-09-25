@@ -9,6 +9,10 @@ function displayData(id, data_url, display, fieldList) {
     element.innerHTML += result;
 }
 
+function replaceAll(text, from, to) {
+    return text.replace(new RegExp(from, 'g'), to);
+}
+
 function _getData(url) {
     var request = new XMLHttpRequest();
     request.open('GET', url, false);
@@ -24,11 +28,15 @@ function _getData(url) {
 function _formatData(data, display, fieldList) {
     switch (display) {
         case 'article':
-            return _getContent(data)
+            return _getContent(data);
             break;
+        case 'rhyme':
         case 'epigraph':
         case 'quote':
             return _getQuote(data);
+            break;
+        case 'image':
+            return _getImage(data);
             break;
         case 'glossary':
             return _getGlossary(data, fieldList);
@@ -54,8 +62,6 @@ function _formatData(data, display, fieldList) {
 
             return result;
     }
-
-    return '';
 }
 
 function _getHeader(data){
@@ -64,6 +70,15 @@ function _getHeader(data){
     }
 
     return '';
+}
+
+function _getImage(data) {
+    var result = '\<img src="{link}" alt="{source}" title="{source}"\>';
+
+    result = result.replace("{link}", data.hasOwnProperty("link")? data.link: '');
+    result = replaceAll(result, "{source}", data.hasOwnProperty("source")? data.source: '');
+
+    return result;
 }
 
 function _getList(data, _LIST, _ITEM, fieldList){
