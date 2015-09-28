@@ -73,6 +73,27 @@ function _getHeader(data){
 }
 
 function _getImage(data) {
+    var result = '';
+    result += _getHeader(data);
+
+    if(data.hasOwnProperty('content')){
+        var content = data.content;
+
+        if(Array.isArray(content)){
+            content.forEach(function(image){
+                result += _getImageContent(image);
+            });
+        } else{
+            result += _getImageContent(content);
+        }
+
+        return result;
+    }
+
+    return _getImageContent(data);
+}
+
+function _getImageContent(data) {
     var result = '\<img src="{link}" alt="{source}" title="{source}"\>';
 
     result = result.replace("{link}", data.hasOwnProperty("link")? data.link: '');
