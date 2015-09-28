@@ -5,19 +5,19 @@
         "content":
         [
             {"title": "Авиен, Руций Фест"},
-            {"title": "Акадзомэ Эмон", "src": "person/Akadzome/Akadzome.html"},
+            {"title": "Акадзомэ Эмон", "src": "person/akadzome/akadzome.html"},
             {"title": "Александр Тралльский"},
-            {"title": "Алёна, монахиня", "src": "person/Alena/Alena.html"},
-            {"title": "Амаласунта", "src": "person/Amalasunta/Amalasunta.html"},
+            {"title": "Алёна, монахиня", "src": "person/alena/alena.html"},
+            {"title": "Амаласунта", "src": "person/amalasunta/amalasunta.html"},
             {"title": "Аммиан Марцеллин"},
-            {"title": "Ангишола, Софонисба", "src": "person/Anguissola/Anguissola.html"},
-            {"title": "Анита", "src": "person/Anita/Anita.html"},
-            {"title": "Анна Ярославна", "src": "person/Anna/Anna.html"},
+            {"title": "Ангишола, Софонисба", "src": "person/anguissola/anguissola.html"},
+            {"title": "Анита", "src": "person/anita/anita.html"},
+            {"title": "Анна Ярославна", "src": "person/anna/anna.html"},
             {"title": "Арсиноя II Филадельфия"},
-            {"title": "Артемизия", "src": "person/Artemisia/Artemisia.html"},
-            {"title": "Аспазия", "src": "person/Aspasia/Aspasia.html"},
-            {"title": "Аристоник", "src": "person/Aristonik/Aristonik.html"},
-            {"title": "Аэций Флавий", "src": "person/Aeciy/Aeciy.html"}
+            {"title": "Артемизия", "src": "person/artemisia/artemisia.html"},
+            {"title": "Аспазия", "src": "person/aspasia/aspasia.html"},
+            {"title": "Аристоник", "src": "person/aristonik/aristonik.html"},
+            {"title": "Аэций Флавий", "src": "person/aeciy/aeciy.html"}
         ]
     },
     {
