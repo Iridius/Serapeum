@@ -1,0 +1,54 @@
+[
+    {
+        "type": "epigraph",
+        "content":
+        {
+            "quote": "Пей же вместе со мной,<br><span style='padding-left: 2em;'>вместе люби,</span><br><span style='padding-left: 4em;'>вместе венки плети<br>И безумствуй как я;<br><span style='padding-left: 2em;'>вместе со мной<br><span style='padding-left: 4em;'>благоразумен будь.",
+            "source": "Праксилла"
+        }
+    },
+    {
+        "type": "image",
+        "link": "pracsilla.jpg",
+        "source": "Альдробандинская свадьба. Деталь росписи из дома на Эсквилинском холме в Риме. I в. до н. э."
+    },
+    {
+        "header": "Биографическая справка",
+        "type": "article",
+        "content": "<strong>Праксилла</strong> (V&nbsp;в. до&nbsp;н.&nbsp;э.) древнегреческая поэтесса, известная, главным образом, своими застольными песнями. Информация о&nbsp;ней чрезвычайно скудна и&nbsp;фрагментарна. Известно, что кроме застольных песен, она также писала <dfn>дифирамбы</dfn> и&nbsp;<dfn>гимны</dfn>. Из всего ее творчества сохранилось лишь несколько отрывков."
+    },
+    {
+        "header": "Из творчества",
+        "type": "quote",
+        "content":
+        [
+            {
+                "header": "***",
+                "quote": "Скорпион под любым<br><span class='tab'/>камнем тебе<br><span class='tab'/><span class='tab'/>может попасться, друг:<br><br>Бойся жала его.<br><span class='tab'/>Скрытность всегда<br><span class='tab'/><span class='tab'/>хитрости яд таит.",
+                "source": "перевод В.&nbsp;Вересаева"
+            },
+            {
+                "header": "***",
+                "quote": "Вспомни то, что сказал<br><span class='tab'/>как-то Адмет:<br><span class='tab'/><span class='tab'/>&laquo;Добрых люби душой,<br><br>Но от низких держись<br><span class='tab'/>дальше: они&nbsp;&mdash;<br><span class='tab'/><span class='tab'/>неблагодарные&raquo;.",
+                "source": "перевод В.&nbsp;Вересаева"
+            },
+            {
+                "header": "***",
+                "quote": "Вот что прекрасней всего из того, что я&nbsp;в&nbsp;мире оставил:<br>Первое&nbsp;&mdash; солнечный свет, второе&nbsp;&mdash; блестящие звезды<br>С&nbsp;месяцем, третье же&nbsp;&mdash; яблоки, спелые дыни и&nbsp;груши.",
+                "source": "перевод В.&nbsp;Вересаева"
+            }
+        ]
+    },
+    {
+        "header": "Литература",
+        "type": "list",
+        "content":
+        [
+            {"author": "Тронский&nbsp;И.&nbsp;М.", "title": "История античной литературы", "publishing": "Л., &laquo;Учпедгиз&raquo;", "year": "1951"},
+            {"author": "Радциг&nbsp;С.&nbsp;И.", "title": "История древнегреческой литературы", "publishing": "М., &laquo;Высшая школа&raquo;", "year": "1982"},
+            {"title": "Античная лирика", "publishing": "М., Художественная литература", "year": "1968"},
+            {"title": "Греческая эпиграмма", "publishing": "СПб, &laquo;Наука&raquo;", "year": "1993"},
+            {"title": "Ранняя греческая лирика", "publishing": "СПб., &laquo;Алетейя&raquo;", "year": "1999"}
+        ]
+    }
+]

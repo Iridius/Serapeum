@@ -22,3 +22,7 @@ body {
     -moz-column-rule-style: dotted;
     -moz-column-rule-width: 1px;
 }
+
+.tab {
+    padding-left: 2em;
+}
