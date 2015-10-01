@@ -317,8 +317,8 @@
         "type": "glossary",
         "content":
         [
-            {"title": "Хамуас", "src": "person/Hamuas/Hamuas.html"},
-            {"title": "Хатшепсут", "src": "person/Hatschepsut/Hatschepsut.html"},
+            {"title": "Хамуас", "src": "person/hamuas/hamuas.html"},
+            {"title": "Хатшепсут", "src": "person/hatschepsut/hatschepsut.html"},
             {"title": "Хризолорас, Мануил"},
             {"title": "Хун Сю-цюань"}
         ]
@@ -342,7 +342,7 @@
             {"title": "Чака", "src": "person/Shaka/Shaka.html"},
             {"title": "Чандрагупта&nbsp;II"},
             {"title": "Чан Хэнг Дао"},
-            {"title": "Чайкина&nbsp;Е.&nbsp;И.", "src": "person/Schaykina/Schaykina.html"},
+            {"title": "Чайкина&nbsp;Е.&nbsp;И.", "src": "person/chaikina/chaikina.html"},
             {"title": "Чосер, Дреффри"}
         ]
     },
