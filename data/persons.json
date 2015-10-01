@@ -261,16 +261,16 @@
         "content":
         [
             {"title": "Савонарола, Джироламо"},
-            {"title": "Саджах"},
+            {"title": "Саджах", "src": "person/sadjah/sadjah.html"},
             {"title": "Сапата Эмилиано"},
-            {"title": "Сапфо", "src": "person/Sapho/Sapho.html"},
-            {"title": "Сверрир", "src": "person/Sverrir/Sverrir.html"},
+            {"title": "Сапфо", "src": "person/sapho/sapho.html"},
+            {"title": "Сверрир", "src": "person/sverrir/sverrir.html"},
             {"title": "Селевк I"},
             {"title": "Смит, Саманта"},
-            {"title": "Соловьянова Е. И.", "src": "person/Solovianova/Solovianova.html"},
-            {"title": "Соломаха Т. Г.", "src": "person/Solomaha/Solomaha.html"},
+            {"title": "Соловьянова Е. И.", "src": "person/solovianova/solovianova.html"},
+            {"title": "Соломаха Т. Г.", "src": "person/solomaha/solomaha.html"},
             {"title": "Софья Палеолог"},
-            {"title": "Спартак", "src": "person/Spartak/Spartak.html"},
+            {"title": "Спартак", "src": "person/spartak/spartak.html"},
             {"title": "Стюарт, Д. Ю. Б."}
         ]
     },
@@ -279,11 +279,11 @@
         "type": "glossary",
         "content":
         [
-            {"title": "Тайлер, Уот", "src": "person/Wat_Tayler/Tayler.html"},
-            {"title": "Тамара"},
+            {"title": "Тайлер, Уот", "src": "person/tayler/tayler.html"},
+            {"title": "Тамара", "src": "person/tamara/tamara.html"},
             {"title": "Теон"},
-            {"title": "Томоэ", "src": "person/Tomoe/Tomoe.html"},
-            {"title": "Торквемада, Томас"},
+            {"title": "Томоэ", "src": "person/tomoe/tomoe.html"},
+            {"title": "Торквемада, Томас", "src": "person/torkvemada/torkvemada.html"},
             {"title": "Тредиаковский В. К."},
             {"title": "Тутанхамон"}
         ]
