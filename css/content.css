@@ -27,3 +27,9 @@ body {
 .tab {
     padding-left: 2em;
 }
+
+#content {
+    left: 20%;
+    position: absolute;
+    width: 60%;
+}
