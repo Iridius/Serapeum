@@ -1,5 +1,9 @@
+@import url("blockquote.css");
+
 body {
     background: url("../img/paper.jpg");
+    font-family: Georgia, serif;
+    font-size: medium;
     /*background: url("../img/temple.jpg") no-repeat center center fixed;*/
     /*background-size: cover;*/
     /*-webkit-background-size: cover;*/

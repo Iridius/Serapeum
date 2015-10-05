@@ -1,0 +1,34 @@
+blockquote {
+    font-family: Georgia, serif;
+    /*font-style: italic;*/
+    font-style: normal;
+    padding: 20px;
+    position: relative;
+    width: 80%;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 40px;
+    position: absolute;
+    left: -10px;
+    top: 20px;
+}
+
+blockquote cite {
+    display: block;
+    /*font-size: 14px;*/
+    /*font-style: normal;*/
+    font-style: italic;
+    /*margin-top: 5px;*/
+    margin-left: 50%;
+    position: relative;
+    width: 50%;
+}
+
+
+.epigraph {
+    left: 50%;
+    width: 50%
+}
