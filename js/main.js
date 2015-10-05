@@ -161,6 +161,10 @@ function _getQuoteContent(content){
         return _format('quote', header + content.quote + source);
     }
 
+    if(content.hasOwnProperty('epigraph')){
+        return _format('epigraph', header + content.epigraph + source);
+    }
+
     return '';
 }
 
@@ -208,8 +212,13 @@ function _format(field, value) {
         return value;
     }
 
+    var tag_class = '';
+    if(formatting.hasOwnProperty("class")){
+        tag_class = ' class="' + formatting["class"] + '"';
+    }
+
     if(formatting.hasOwnProperty("tag")){
-        value = "\<" + formatting["tag"] + "\>" + value + "\</" + formatting["tag"] + "\>";
+        value = "\<" + formatting["tag"] + tag_class + "\>" + value + "\</" + formatting["tag"] + "\>";
     }
     if(formatting.hasOwnProperty("format")){
         value = formatting["format"].replace("{" + field + "}", value);

@@ -1,7 +1,5 @@
 blockquote {
     font-family: Georgia, serif;
-    /*font-style: italic;*/
-    font-style: normal;
     padding: 20px;
     position: relative;
     width: 80%;
@@ -18,10 +16,7 @@ blockquote:before {
 
 blockquote cite {
     display: block;
-    /*font-size: 14px;*/
-    /*font-style: normal;*/
     font-style: italic;
-    /*margin-top: 5px;*/
     margin-left: 50%;
     position: relative;
     width: 50%;
@@ -30,5 +25,10 @@ blockquote cite {
 
 .epigraph {
     left: 50%;
-    width: 50%
+    width: 50%;
 }
+
+/*.epigraph cite {*/
+    /*left: 75%;*/
+    /*width: 25%;*/
+/*}*/
