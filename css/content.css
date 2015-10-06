@@ -12,6 +12,10 @@ body {
     /*min-height: 75vh;*/
 }
 
+h3, h4{
+    font-variant:  small-caps;
+}
+
 .column {
     /*-webkit-column-width: 200px;*/
     /*-moz-column-width: 200px;*/
