@@ -1,4 +1,3 @@
-const _SEPARATOR = '|';
 const config = _getData('http://localhost:63342/Serapeum/data/config.json');
 
 function displayData(id, data_url) {
@@ -165,8 +164,8 @@ function _getQuoteContent(content, display){
         result = _format('epigraph', header + content.epigraph + source);
     }
 
-    //return '\<div class="' + display + '"\>' + result + '\<div\>';;
-    return result;
+    return '\<div class="' + display + '"\>' + result + '\</div\>';
+    //return result;
 }
 
 function _getTable(data) {
