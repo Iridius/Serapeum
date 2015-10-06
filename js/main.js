@@ -1,9 +1,9 @@
 const _SEPARATOR = '|';
 const config = _getData('http://localhost:63342/Serapeum/data/config.json');
 
-function displayData(id, data_url, display, fieldList) {
+function displayData(id, data_url) {
     var data = _getData(data_url);
-    var result = _formatData(data, display, fieldList);
+    var result = _formatData(data);
 
     var element = document.getElementById(id);
     element.innerHTML += result;
@@ -25,7 +25,7 @@ function _getData(url) {
     return null;
 }
 
-function _formatData(data, display, fieldList) {
+function _formatData(data, display) {
     switch (display) {
         case 'article':
             return _getContent(data);
@@ -33,19 +33,19 @@ function _formatData(data, display, fieldList) {
         case 'rhyme':
         case 'epigraph':
         case 'quote':
-            return _getQuote(data);
+            return _getQuote(data, display);
             break;
         case 'image':
             return _getImage(data);
             break;
         case 'glossary':
-            return _getGlossary(data, fieldList);
+            return _getGlossary(data);
             break;
         case 'list':
-            return _getEntitledList(data, fieldList);
+            return _getEntitledList(data);
             break;
         case 'table':
-            return _getTable(data, fieldList);
+            return _getTable(data);
             break;
         default: // read control type from config
             if(!Array.isArray(data)){
@@ -102,13 +102,13 @@ function _getImageContent(data) {
     return result;
 }
 
-function _getList(data, _LIST, _ITEM, fieldList){
+function _getList(data, _LIST, _ITEM){
     var result = '';
 
     if(data.hasOwnProperty('content') && Array.isArray(data.content)){
         var list = '';
         data.content.forEach(function(item){
-            list += _ITEM.replace('{item}', _getContent(item, fieldList));
+            list += _ITEM.replace('{item}', _getContent(item));
         });
 
         result += _LIST.replace('{list}', list);
@@ -126,27 +126,27 @@ function _getGlossary(data, fieldList){
     return result;
 }
 
-function _getQuote(data) {
-    var result = '';
-
-    result += _getHeader(data);
+function _getQuote(data, display) {
+    var result = _getHeader(data);
 
     if(data.hasOwnProperty('content')){
         var content = data.content;
 
         if(Array.isArray(content)){
             content.forEach(function(quote){
-                result += _getQuoteContent(quote);
+                result += _getQuoteContent(quote, display);
             });
         } else {
-            result += _getQuoteContent(content);
+            result += _getQuoteContent(content, display);
         }
     }
 
     return result;
 }
 
-function _getQuoteContent(content){
+function _getQuoteContent(content, display){
+    var result = '';
+
     var header = '';
     if(content.hasOwnProperty('header')){
         header += _format("header", content.header);
@@ -158,14 +158,15 @@ function _getQuoteContent(content){
     }
 
     if(content.hasOwnProperty('quote')){
-        return _format('quote', header + content.quote + source);
+        result = _format('quote', header + content.quote + source);
     }
 
     if(content.hasOwnProperty('epigraph')){
-        return _format('epigraph', header + content.epigraph + source);
+        result = _format('epigraph', header + content.epigraph + source);
     }
 
-    return '';
+    //return '\<div class="' + display + '"\>' + result + '\<div\>';;
+    return result;
 }
 
 function _getTable(data) {
@@ -196,11 +197,11 @@ function _getTable(data) {
 }
 
 //TODO: sorting headers +sorting content
-function _getEntitledList(data, fieldList) {
+function _getEntitledList(data) {
     var result = '';
 
     result += _getHeader(data);
-    result += _getList(data, '<\ol\>{list}\</ol\>', "\<li\>{item}\</li\>", fieldList);
+    result += _getList(data, '<\ol\>{list}\</ol\>', "\<li\>{item}\</li\>");
 
     return result;
 }
@@ -227,8 +228,8 @@ function _format(field, value) {
     return value;
 }
 
-function _getContent(content, fieldList) {
-    var fields = fieldList != undefined? fieldList.split(_SEPARATOR): Object.keys(content);
+function _getContent(content) {
+    var fields = Object.keys(content);
 
     var result = "";
 
