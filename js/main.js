@@ -27,7 +27,7 @@ function _getData(url) {
 function _formatData(data, display) {
     switch (display) {
         case 'article':
-            return _getContent(data);
+            return _getContent(data, display);
             break;
         case 'rhyme':
         case 'epigraph':
@@ -35,16 +35,16 @@ function _formatData(data, display) {
             return _getQuote(data, display);
             break;
         case 'image':
-            return _getImage(data);
+            return _getImage(data, display);
             break;
         case 'glossary':
-            return _getGlossary(data);
+            return _getGlossary(data, display);
             break;
         case 'list':
-            return _getEntitledList(data);
+            return _getEntitledList(data, display);
             break;
         case 'table':
-            return _getTable(data);
+            return _getTable(data, display);
             break;
         default: // read control type from config
             if(!Array.isArray(data)){
@@ -71,25 +71,24 @@ function _getHeader(data){
     return '';
 }
 
-function _getImage(data) {
-    var result = '';
-    result += _getHeader(data);
+function _getImage(data, display) {
+    var result = _getHeader(data);
 
-    if(data.hasOwnProperty('content')){
-        var content = data.content;
-
-        if(Array.isArray(content)){
-            content.forEach(function(image){
-                result += _getImageContent(image);
-            });
-        } else{
-            result += _getImageContent(content);
-        }
-
-        return result;
+    if(!data.hasOwnProperty('content')){
+        result += _getImageContent(data);
+        return toDiv(result, display);
     }
 
-    return _getImageContent(data);
+    var content = data.content;
+    if(Array.isArray(content)){
+        content.forEach(function(image){
+            result += _getImageContent(image);
+        });
+    } else {
+        result += _getImageContent(content);
+    }
+
+    return toDiv(result, display);
 }
 
 function _getImageContent(data) {
@@ -116,13 +115,13 @@ function _getList(data, _LIST, _ITEM){
     return result;
 }
 
-function _getGlossary(data, fieldList){
+function _getGlossary(data, display, fieldList){
     var result = '';
 
     result += _getHeader(data);
     result += _getList(data, "<\dl\>{list}\</dl\>", "\<dd\>{item}\</dd\>", fieldList);
 
-    return result;
+    return toDiv(result, display);
 }
 
 function _getQuote(data, display) {
@@ -133,17 +132,17 @@ function _getQuote(data, display) {
 
         if(Array.isArray(content)){
             content.forEach(function(quote){
-                result += _getQuoteContent(quote, display);
+                result += _getQuoteContent(quote);
             });
         } else {
-            result += _getQuoteContent(content, display);
+            result += _getQuoteContent(content);
         }
     }
 
-    return result;
+    return toDiv(result, display);
 }
 
-function _getQuoteContent(content, display){
+function _getQuoteContent(content){
     var result = '';
 
     var header = '';
@@ -164,11 +163,11 @@ function _getQuoteContent(content, display){
         result = _format('epigraph', header + content.epigraph + source);
     }
 
-    return '\<div class="' + display + '"\>' + result + '\</div\>';
-    //return result;
+    //return toDiv(result, display);
+    return result;
 }
 
-function _getTable(data) {
+function _getTable(data, display) {
     var result = '';
 
     result += _getHeader(data);
@@ -192,17 +191,17 @@ function _getTable(data) {
         result += _TABLE.replace('{table}', row_value);
     }
 
-    return result;
+    return toDiv(result, display);
 }
 
 //TODO: sorting headers +sorting content
-function _getEntitledList(data) {
+function _getEntitledList(data, display) {
     var result = '';
 
     result += _getHeader(data);
     result += _getList(data, '<\ol\>{list}\</ol\>', "\<li\>{item}\</li\>");
 
-    return result;
+    return toDiv(result, display);
 }
 
 function _format(field, value) {
@@ -227,7 +226,7 @@ function _format(field, value) {
     return value;
 }
 
-function _getContent(content) {
+function _getContent(content, display) {
     var fields = Object.keys(content);
 
     var result = "";
@@ -260,7 +259,7 @@ function _getContent(content) {
         result = result.substring(0, result.length - 1);
     }
 
-    return result;
+    return toDiv(result, display);
 }
 
 function _getChildMembers(data, column, value){
@@ -271,4 +270,8 @@ function _getChildMembers(data, column, value){
         }
     }
     return result;
+}
+
+function toDiv(value, type) {
+    return type? '\<div class="' + type + '"\>' + value + '\</div\>': value;
 }

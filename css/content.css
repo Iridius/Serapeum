@@ -7,6 +7,12 @@ body {
     font-size: medium;
 }
 
+#content {
+    left: 20%;
+    position: absolute;
+    width: 60%;
+}
+
 h3, h4{
     font-variant:  small-caps;
 }
@@ -30,12 +36,10 @@ h3, h4{
     width: 50%;
 }
 
-.tab {
-    padding-left: 2em;
+.epigraph cite {
+    text-align: right;
 }
 
-#content {
-    left: 20%;
-    position: absolute;
-    width: 60%;
+.tab {
+    padding-left: 2em;
 }
