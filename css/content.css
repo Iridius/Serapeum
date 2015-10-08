@@ -1,15 +1,10 @@
 @import url("blockquote.css");
+@import url("image.css");
 
 body {
     background: url("../img/paper.jpg");
     font-family: Georgia, serif;
     font-size: medium;
-    /*background: url("../img/temple.jpg") no-repeat center center fixed;*/
-    /*background-size: cover;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*min-height: 75vh;*/
 }
 
 h3, h4{
@@ -27,6 +22,12 @@ h3, h4{
     -webkit-column-rule-width: 1px;
     -moz-column-rule-style: dotted;
     -moz-column-rule-width: 1px;
+}
+
+.epigraph {
+    left: 50%;
+    position: relative;
+    width: 50%;
 }
 
 .tab {
