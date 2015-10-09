@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/css/content.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/image.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/menu.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/table.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/briefing.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/config.json" charset="UTF-8" />
@@ -235,5 +236,6 @@
     <file url="file://$PROJECT_DIR$/person/zoya/zoya.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/zoya/zoya.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/persons.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/menu.html" charset="UTF-8" />
   </component>
 </project>

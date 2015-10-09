@@ -1,11 +1,24 @@
-const config = _getData('http://localhost:63342/Serapeum/data/config.json');
+const BASE = 'http://localhost:63342/Serapeum/';
+const config = JSON.parse(_getData(BASE + 'data/config.json'));
 
+function loadData(data) {
+    var template = _getData(BASE + data);
+    var localPath = location.href.replace(BASE, '');
+
+    var output = '';
+    for(var i=0; i<localPath.split('/').length-1; i++){
+        output += '../';
+    }
+
+    return template.replace('{BASE}', output);
+}
 function displayData(id, data_url) {
-    var data = _getData(data_url);
+    var data = JSON.parse(_getData(data_url));
     var result = _formatData(data);
 
-    var element = document.getElementById(id);
-    element.innerHTML += result;
+
+    document.getElementById('menu') != null? document.getElementById('menu').innerHTML += loadData('res/menu.html'): '';
+    document.getElementById(id).innerHTML += result;
 }
 
 function replaceAll(text, from, to) {
@@ -18,7 +31,7 @@ function _getData(url) {
     request.send(null);
 
     if(request.readyState == 4 && request.status == 200) {
-        return JSON.parse(request.responseText);
+        return request.responseText;
     }
 
     return null;
