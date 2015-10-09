@@ -1,0 +1,11 @@
+table td:first-child {
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+    width: 25%;
+}
+
+td {
+    border-bottom: dotted #000000 1px;
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+}

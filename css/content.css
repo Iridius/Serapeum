@@ -1,5 +1,6 @@
 @import url("blockquote.css");
 @import url("image.css");
+@import url("table.css");
 
 body {
     background: url("../img/paper.jpg");
@@ -7,14 +8,26 @@ body {
     font-size: medium;
 }
 
+div {
+    margin-bottom: 1em;
+}
+
+h3, h4{
+    font-size: larger;
+    font-variant:  small-caps;
+    margin: 0px;
+}
+
 #content {
     left: 20%;
+    max-width: 55em;
+    min-width: 25em;
     position: absolute;
     width: 60%;
 }
 
-h3, h4{
-    font-variant:  small-caps;
+.article {
+    text-align: justify;
 }
 
 .column {
@@ -28,16 +41,6 @@ h3, h4{
     -webkit-column-rule-width: 1px;
     -moz-column-rule-style: dotted;
     -moz-column-rule-width: 1px;
-}
-
-.epigraph {
-    left: 50%;
-    position: relative;
-    width: 50%;
-}
-
-.epigraph cite {
-    text-align: right;
 }
 
 .tab {

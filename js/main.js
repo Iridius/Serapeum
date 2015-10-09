@@ -97,6 +97,7 @@ function _getImageContent(data) {
     result = result.replace("{link}", data.hasOwnProperty("link")? data.link: '');
     result = replaceAll(result, "{source}", data.hasOwnProperty("source")? data.source: '');
 
+    result += '\<p\>' + data.source + '\</p\>';
     return result;
 }
 
@@ -259,7 +260,7 @@ function _getContent(content, display) {
         result = result.substring(0, result.length - 1);
     }
 
-    return toDiv(result, display);
+    return toDiv(result, display);// + '\<br clear="left"\>';
 }
 
 function _getChildMembers(data, column, value){

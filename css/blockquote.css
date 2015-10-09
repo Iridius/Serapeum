@@ -1,17 +1,15 @@
 blockquote {
     font-family: Georgia, serif;
-    padding: 20px;
+    padding-left: 20px;
     position: relative;
-    width: 80%;
 }
 
 blockquote:before {
     display: block;
     content: "\201C";
-    font-size: 40px;
+    font-size: xx-large;
     position: absolute;
-    left: -10px;
-    top: 20px;
+    left: -0.1em;
 }
 
 blockquote cite {
@@ -19,16 +17,16 @@ blockquote cite {
     font-style: italic;
     margin-left: 50%;
     position: relative;
+    text-align: right;
     width: 50%;
 }
-
 
 .epigraph {
-    left: 50%;
-    width: 50%;
+    left: 40%;
+    position: relative;
+    width: 60%;
 }
 
-/*.epigraph cite {*/
-    /*left: 75%;*/
-    /*width: 25%;*/
-/*}*/
+.epigraph cite {
+    text-align: right;
+}
