@@ -1,24 +1,41 @@
 #menu {
-    position: absolute;
+    float: left;
+    margin-left: 20%;
+    max-width: 55em;
+    min-width: 25em;
+    padding-bottom: 3em;
+    position: relative;
+    width: 60%;
 }
-
-#menu ul {
-    -moz-column-count: 1;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 1;
-    -webkit-column-gap: 20px;
-    column-count: 1;
-    column-gap: 20px;
-}
-
 #menu ul li
 {
-    /*float: left;*/
+    float: left;
     font-family: Verdana, sans-serif;
     list-style: none;
+
+    border: 1px #000000;
+    border-left-style: solid;
+    font-size: 80%;
+    height: 4em;
+    padding-left: 0.5em;
+    padding-right: 2em;
 }
 
 #menu ul a
 {
-    font-weight: 700;
+    /*color: #000000;*/
+    /*font-weight: 700;*/
+    /*text-decoration: none;*/
+}
+
+
+#menu ul a
+{
+    /*color: #000000;*/
+    /*text-decoration: none;*/
+}
+
+#menu ul a:hover
+{
+    /*text-decoration: underline;*/
 }

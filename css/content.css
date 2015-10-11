@@ -20,10 +20,10 @@ h3, h4{
 }
 
 #content {
-    left: 20%;
+    margin: 0px 20%;
     max-width: 55em;
     min-width: 25em;
-    position: absolute;
+    position: relative;
     width: 60%;
 }
 

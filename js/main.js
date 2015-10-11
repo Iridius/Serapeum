@@ -10,15 +10,17 @@ function loadData(data) {
         output += '../';
     }
 
-    return template.replace('{BASE}', output);
+    return replaceAll(template, '{BASE}', output);
 }
-function displayData(id, data_url) {
+function displayData(data_url) {
     var data = JSON.parse(_getData(data_url));
     var result = _formatData(data);
+    var menu = loadData('res/menu.html');
 
-
-    document.getElementById('menu') != null? document.getElementById('menu').innerHTML += loadData('res/menu.html'): '';
-    document.getElementById(id).innerHTML += result;
+    //document.getElementById(id).innerHTML += result;
+    document.getElementById('content').innerHTML += result;
+    //document.getElementById('menu') != null? document.getElementById('menu').innerHTML = loadData('res/menu.html'): '';
+    document.getElementById('menu').innerHTML += menu;
 }
 
 function replaceAll(text, from, to) {
