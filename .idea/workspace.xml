@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="" />
+    <ignored path="boilerplate.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="boilerplate" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63323784">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aristonik.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/person/Aristonik/aristonik.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="e#311#343#0" expanded="false" />
+                <element signature="n#!!block;n#replaceAll#0" expanded="false" />
+                <element signature="n#!!block;n#_getData#0" expanded="false" />
+                <element signature="e#945#989#0" expanded="false" />
+                <element signature="n#!!block;n#_formatData#0" expanded="false" />
+                <element signature="e#1053#2064#0" expanded="false" />
+                <element signature="e#1737#1779#0" expanded="false" />
+                <element signature="e#1849#2028#0" expanded="false" />
+                <element signature="e#1898#2014#0" expanded="false" />
+                <element signature="n#!!block;n#_getHeader#0" expanded="false" />
+                <element signature="e#2132#2186#0" expanded="false" />
+                <element signature="n#!!block;n#_getImage#0" expanded="false" />
+                <element signature="e#2317#2405#0" expanded="false" />
+                <element signature="e#2469#2576#0" expanded="false" />
+                <element signature="e#2510#2568#0" expanded="false" />
+                <element signature="e#2582#2634#0" expanded="false" />
+                <element signature="n#!!block;n#_getImageContent#0" expanded="false" />
+                <element signature="n#!!block;n#_getList#0" expanded="false" />
+                <element signature="e#3159#3360#0" expanded="false" />
+                <element signature="e#3227#3302#0" expanded="false" />
+                <element signature="n#!!block;n#_getGlossary#0" expanded="false" />
+                <element signature="n#!!block;n#_getQuote#0" expanded="false" />
+                <element signature="e#3723#3991#0" expanded="false" />
+                <element signature="e#3796#3919#0" expanded="false" />
+                <element signature="e#3841#3907#0" expanded="false" />
+                <element signature="e#3925#3985#0" expanded="false" />
+                <element signature="n#!!block;n#_getQuoteContent#0" expanded="false" />
+                <element signature="e#4150#4210#0" expanded="false" />
+                <element signature="e#4273#4332#0" expanded="false" />
+                <element signature="e#4373#4448#0" expanded="false" />
+                <element signature="e#4492#4573#0" expanded="false" />
+                <element signature="n#!!block;n#_getTable#0" expanded="false" />
+                <element signature="e#4892#5271#0" expanded="false" />
+                <element signature="e#4965#5206#0" expanded="false" />
+                <element signature="e#5052#5133#0" expanded="false" />
+                <element signature="n#!!block;n#_getEntitledList#0" expanded="false" />
+                <element signature="n#!!block;n#_format#0" expanded="false" />
+                <element signature="e#5730#5759#0" expanded="false" />
+                <element signature="e#5827#5894#0" expanded="false" />
+                <element signature="e#5936#6047#0" expanded="false" />
+                <element signature="e#6091#6170#0" expanded="false" />
+                <element signature="n#!!block;n#_getContent#0" expanded="false" />
+                <element signature="e#6336#6944#0" expanded="false" />
+                <element signature="e#6462#6495#0" expanded="false" />
+                <element signature="e#6525#6779#0" expanded="false" />
+                <element signature="e#6574#6628#0" expanded="false" />
+                <element signature="e#6674#6769#0" expanded="false" />
+                <element signature="e#6784#6896#0" expanded="false" />
+                <element signature="e#6831#6886#0" expanded="false" />
+                <element signature="e#7027#7091#0" expanded="false" />
+                <element signature="n#!!block;n#_getChildMembers#0" expanded="false" />
+                <element signature="e#7263#7353#0" expanded="false" />
+                <element signature="e#7302#7347#0" expanded="false" />
+                <element signature="n#!!block;n#toDiv#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="package_json" />
+        <option value="person_page" />
+        <option value="person-page" />
+        <option value="person-config" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/literature.html" />
+        <option value="$PROJECT_DIR$/person/Dia/dia1.html" />
+        <option value="$PROJECT_DIR$/person/Dia/dia.json" />
+        <option value="$PROJECT_DIR$/person/Droste/droste1.html" />
+        <option value="$PROJECT_DIR$/person/Droste/droste.json" />
+        <option value="$PROJECT_DIR$/person/Ehnaton/ehnaton1.html" />
+        <option value="$PROJECT_DIR$/person/Ehnaton/ehnaton.json" />
+        <option value="$PROJECT_DIR$/person/Engelbrekt/Engelbrekt.html" />
+        <option value="$PROJECT_DIR$/person/Engelbrekt/engelbrekt1.html" />
+        <option value="$PROJECT_DIR$/person/Engelbrekt/engelbrekt.json" />
+        <option value="$PROJECT_DIR$/person/Eratosfen/Eratosfen.html" />
+        <option value="$PROJECT_DIR$/person/Eratosfen/eratosfen1.html" />
+        <option value="$PROJECT_DIR$/person/Eratosfen/eratosfen.json" />
+        <option value="$PROJECT_DIR$/person/Erinna/erinna1.html" />
+        <option value="$PROJECT_DIR$/person/Erinna/erinna1.json" />
+        <option value="$PROJECT_DIR$/person/Erinna/erinna.json" />
+        <option value="$PROJECT_DIR$/person/Eunus/eunus1.html" />
+        <option value="$PROJECT_DIR$/person/Eunus/eunus.json" />
+        <option value="$PROJECT_DIR$/person/misima/misima1.html" />
+        <option value="$PROJECT_DIR$/person/misima/misima.html" />
+        <option value="$PROJECT_DIR$/person/misima/misima.json" />
+        <option value="$PROJECT_DIR$/person/nearch/nearch1.html" />
+        <option value="$PROJECT_DIR$/person/nearch/nearch.html" />
+        <option value="$PROJECT_DIR$/person/nearch/nearch.json" />
+        <option value="$PROJECT_DIR$/person/nikonov/nikonov1.html" />
+        <option value="$PROJECT_DIR$/person/nikonov/nikonov.html" />
+        <option value="$PROJECT_DIR$/person/nikonov/nikonov.json" />
+        <option value="$PROJECT_DIR$/person/olga/Olga1.html" />
+        <option value="$PROJECT_DIR$/person/olga/olga.html" />
+        <option value="$PROJECT_DIR$/person/olga/olga.json" />
+        <option value="$PROJECT_DIR$/person/Zemnuhov/Zemnuhov.html" />
+        <option value="$PROJECT_DIR$/person/zemnuhov/zemnuhov.html" />
+        <option value="$PROJECT_DIR$/person/zemnuhov/zemnuhov.json" />
+        <option value="$PROJECT_DIR$/person/Zenon/Zenon.html" />
+        <option value="$PROJECT_DIR$/person/zenon/Zenon.html" />
+        <option value="$PROJECT_DIR$/person/zenon/zenon.html" />
+        <option value="$PROJECT_DIR$/person/zenon/zenon.json" />
+        <option value="$PROJECT_DIR$/person/ziolkovsky/Ziolkovsky.html" />
+        <option value="$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.html" />
+        <option value="$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.json" />
+        <option value="$PROJECT_DIR$/person/zoya/zoya.html" />
+        <option value="$PROJECT_DIR$/person/zoya/zoya.json" />
+        <option value="$PROJECT_DIR$/person/aeciy/aeciy.html" />
+        <option value="$PROJECT_DIR$/person/aeciy/aeciy.json" />
+        <option value="$PROJECT_DIR$/css/blockquote.css" />
+        <option value="$PROJECT_DIR$/css/image.css" />
+        <option value="$PROJECT_DIR$/css/content.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/person/Aristonik/aristonik.html" />
+        <option value="$PROJECT_DIR$/res/menu.html" />
+        <option value="$PROJECT_DIR$/css/menu.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aristonik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aeschines" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="person" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aeciy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="editor.config.accepted" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="" />
+      <created>1441726993912</created>
+      <option name="number" value="Default" />
+      <updated>1441726993912</updated>
+    </task>
+    <task id="LOCAL-00001" summary="F: first itteration.">
+      <created>1442571882366</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1442571882366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="M: check working.">
+      <created>1442572320330</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1442572320330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="M: +literature.">
+      <created>1442584563803</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1442584563803</updated>
+    </task>
+    <task id="LOCAL-00004" summary="M: literature: data.">
+      <created>1442609575912</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1442609575912</updated>
+    </task>
+    <task id="LOCAL-00005" summary="B: alphabetical list: check 'src'-property exist.">
+      <created>1442609925149</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1442609925149</updated>
+    </task>
+    <task id="LOCAL-00006" summary="M: some changes.">
+      <created>1442778118605</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1442778118605</updated>
+    </task>
+    <task id="LOCAL-00007" summary="M: getContent: trim value and delete ended comma.">
+      <created>1442860407348</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1442860407348</updated>
+    </task>
+    <task id="LOCAL-00008" summary="F: briefing.json&#10;M: literature: .some formatting">
+      <created>1442866130632</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1442866130632</updated>
+    </task>
+    <task id="LOCAL-00009" summary="F: +some displays">
+      <created>1443026799795</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1443026799795</updated>
+    </task>
+    <task id="LOCAL-00010" summary="M: 1st attempt to move data-hierarchy from display type to json-config.">
+      <created>1443043518993</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1443043518993</updated>
+    </task>
+    <task id="LOCAL-00011" summary="F: +person: 'dia'.">
+      <created>1443199789231</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1443199789231</updated>
+    </task>
+    <task id="LOCAL-00012" summary="F: +person: 'droste'.">
+      <created>1443200701032</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1443200701032</updated>
+    </task>
+    <task id="LOCAL-00013" summary="F: +person: 'ehnaton'.">
+      <created>1443212986974</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1443212986974</updated>
+    </task>
+    <task id="LOCAL-00014" summary="F: +person: 'engelbrekt'.">
+      <created>1443215808434</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1443215808434</updated>
+    </task>
+    <task id="LOCAL-00015" summary="F: +person: 'eratosfen'.">
+      <created>1443291777565</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1443291777565</updated>
+    </task>
+    <task id="LOCAL-00016" summary="F: +person: 'erinna'.">
+      <created>1443380804798</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1443380804798</updated>
+    </task>
+    <task id="LOCAL-00017" summary="F: +person: 'erinna'.">
+      <created>1443381394440</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1443381394440</updated>
+    </task>
+    <task id="LOCAL-00018" summary="F: +person: 'misima'.">
+      <created>1443549039594</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1443549039594</updated>
+    </task>
+    <task id="LOCAL-00019" summary="F: +person: 'nearch'.">
+      <created>1443550763798</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1443550763798</updated>
+    </task>
+    <task id="LOCAL-00020" summary="F: +person: 'nikonov'.">
+      <created>1443551798749</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1443551798749</updated>
+    </task>
+    <task id="LOCAL-00021" summary="F: +person: 'olga'.">
+      <created>1443552351093</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1443552351093</updated>
+    </task>
+    <task id="LOCAL-00022" summary="F: +person: 'zemnuhov'.">
+      <created>1443724963631</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1443724963631</updated>
+    </task>
+    <task id="LOCAL-00023" summary="F: +person: 'zenon'.">
+      <created>1443726325436</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1443726325436</updated>
+    </task>
+    <task id="LOCAL-00024" summary="F: +person: 'ziolkovsky'.">
+      <created>1443727761745</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1443727761745</updated>
+    </task>
+    <task id="LOCAL-00025" summary="F: +person: 'zoya'.">
+      <created>1443730078336</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1443730078336</updated>
+    </task>
+    <task id="LOCAL-00026" summary="M: design: background.">
+      <created>1443865501986</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1443865501986</updated>
+    </task>
+    <task id="LOCAL-00027" summary="M: design/person: center + fileds.">
+      <created>1443982322880</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1443982322880</updated>
+    </task>
+    <task id="LOCAL-00028" summary="M: design: header.">
+      <created>1444155216594</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1444155216594</updated>
+    </task>
+    <task id="LOCAL-00029" summary="M: refactoring.">
+      <created>1444158395075</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1444158395075</updated>
+    </task>
+    <task id="LOCAL-00030" summary="B: quote: div-ending.">
+      <created>1444159326800</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1444159326800</updated>
+    </task>
+    <task id="LOCAL-00031" summary="M: css: refactoring.">
+      <created>1444246270800</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1444246270800</updated>
+    </task>
+    <task id="LOCAL-00032" summary="M: css: epigraph.">
+      <created>1444327637730</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1444327637731</updated>
+    </task>
+    <task id="LOCAL-00033" summary="M: css: pack content-block into 'div'.">
+      <created>1444334787166</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1444334787187</updated>
+    </task>
+    <task id="LOCAL-00034" summary="M: main menu.">
+      <created>1444505191191</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1444505191191</updated>
+    </task>
+    <task id="LOCAL-00035" summary="M: main menu: links not active... hmm...">
+      <created>1444574739735</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1444574739735</updated>
+    </task>
+    <task id="LOCAL-00036" summary="B: main menu: fix non-active links">
+      <created>1444580579190</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1444580579190</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="0" width="1918" height="1040" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19663513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22103004" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <MESSAGE value="F: +person: 'droste'." />
+    <MESSAGE value="F: +person: 'ehnaton'." />
+    <MESSAGE value="F: +person: 'engelbrekt'." />
+    <MESSAGE value="F: +person: 'eratosfen'." />
+    <MESSAGE value="F: +person: 'erinna'." />
+    <MESSAGE value="F: +person: 'misima'." />
+    <MESSAGE value="F: +person: 'nearch'." />
+    <MESSAGE value="F: +person: 'nikonov'." />
+    <MESSAGE value="F: +person: 'olga'." />
+    <MESSAGE value="F: +person: 'zemnuhov'." />
+    <MESSAGE value="F: +person: 'zenon'." />
+    <MESSAGE value="F: +person: 'ziolkovsky'." />
+    <MESSAGE value="F: +person: 'zoya'." />
+    <MESSAGE value="M: design: background." />
+    <MESSAGE value="M: design/person: center + fileds." />
+    <MESSAGE value="M: design: header." />
+    <MESSAGE value="M: refactoring." />
+    <MESSAGE value="B: quote: div-ending." />
+    <MESSAGE value="M: aeciy: content." />
+    <MESSAGE value="M: css: refactoring." />
+    <MESSAGE value="M: css: epigraph." />
+    <MESSAGE value="M: css: pack content-block into 'div'." />
+    <MESSAGE value="M: main menu." />
+    <MESSAGE value="M: main menu: links not active... hmm..." />
+    <MESSAGE value="B: main menu: fix non-active links" />
+    <option name="LAST_COMMIT_MESSAGE" value="B: main menu: fix non-active links" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/person/Droste/droste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Droste/droste.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.643377">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Ehnaton/ehnaton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Ehnaton/ehnaton.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.752907">
+          <caret line="95" column="155" selection-start-line="95" selection-start-column="155" selection-end-line="95" selection-end-column="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Engelbrekt/engelbrekt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Engelbrekt/engelbrekt.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77761626">
+          <caret line="39" column="135" selection-start-line="39" selection-start-column="135" selection-end-line="39" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Eratosfen/eratosfen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="26" selection-start-line="72" selection-start-column="46" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Eratosfen/eratosfen.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.923077">
+          <caret line="40" column="157" selection-start-line="40" selection-start-column="157" selection-end-line="40" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Erinna/erinna.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Erinna/erinna.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.752907">
+          <caret line="50" column="107" selection-start-line="50" selection-start-column="107" selection-end-line="50" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Eunus/eunus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Eunus/eunus.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0276163">
+          <caret line="51" column="108" selection-start-line="51" selection-start-column="108" selection-end-line="51" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/misima/misima.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Klara/klara.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/nearch/nearch.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/misima/misima.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30402383">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/misima/misima.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7466468">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/nearch/nearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/nearch/nearch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923">
+          <caret line="48" column="136" selection-start-line="48" selection-start-column="136" selection-end-line="48" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/nikonov/nikonov.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/nikonov/nikonov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30402383">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/nikonov/nikonov.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7600596">
+          <caret line="45" column="108" selection-start-line="45" selection-start-column="108" selection-end-line="45" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/olga/olga.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30402383">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/olga/olga.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27180234">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/sadjah/sadjah.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.049418606">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zemnuhov/zemnuhov.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29651162">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zemnuhov/zemnuhov.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zemnuhov/zemnuhov.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7906977">
+          <caret line="47" column="149" selection-start-line="47" selection-start-column="149" selection-end-line="47" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zenon/zenon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zenon/zenon.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.752907">
+          <caret line="39" column="132" selection-start-line="39" selection-start-column="132" selection-end-line="39" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29651162">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zoya/zoya.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29651162">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/zoya/zoya.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8270349">
+          <caret line="103" column="94" selection-start-line="103" selection-start-column="94" selection-end-line="103" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8023256">
+          <caret line="41" column="132" selection-start-line="41" selection-start-column="132" selection-end-line="41" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/persons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/literature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/briefing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/aeciy.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/aeciy/aeciy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="109" selection-start-line="37" selection-start-column="109" selection-end-line="37" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blockquote.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <marker date="1444412052756" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/image.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tabularium/css/MainMenu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3908046">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Aeschines/aeschines.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1444564891113" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/aeciy/Aeciy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17761195">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#311#343#0" expanded="false" />
+            <element signature="n#!!block;n#replaceAll#0" expanded="false" />
+            <element signature="n#!!block;n#_getData#0" expanded="false" />
+            <element signature="e#945#989#0" expanded="false" />
+            <element signature="n#!!block;n#_formatData#0" expanded="false" />
+            <element signature="e#1053#2064#0" expanded="false" />
+            <element signature="e#1737#1779#0" expanded="false" />
+            <element signature="e#1849#2028#0" expanded="false" />
+            <element signature="e#1898#2014#0" expanded="false" />
+            <element signature="n#!!block;n#_getHeader#0" expanded="false" />
+            <element signature="e#2132#2186#0" expanded="false" />
+            <element signature="n#!!block;n#_getImage#0" expanded="false" />
+            <element signature="e#2317#2405#0" expanded="false" />
+            <element signature="e#2469#2576#0" expanded="false" />
+            <element signature="e#2510#2568#0" expanded="false" />
+            <element signature="e#2582#2634#0" expanded="false" />
+            <element signature="n#!!block;n#_getImageContent#0" expanded="false" />
+            <element signature="n#!!block;n#_getList#0" expanded="false" />
+            <element signature="e#3159#3360#0" expanded="false" />
+            <element signature="e#3227#3302#0" expanded="false" />
+            <element signature="n#!!block;n#_getGlossary#0" expanded="false" />
+            <element signature="n#!!block;n#_getQuote#0" expanded="false" />
+            <element signature="e#3723#3991#0" expanded="false" />
+            <element signature="e#3796#3919#0" expanded="false" />
+            <element signature="e#3841#3907#0" expanded="false" />
+            <element signature="e#3925#3985#0" expanded="false" />
+            <element signature="n#!!block;n#_getQuoteContent#0" expanded="false" />
+            <element signature="e#4150#4210#0" expanded="false" />
+            <element signature="e#4273#4332#0" expanded="false" />
+            <element signature="e#4373#4448#0" expanded="false" />
+            <element signature="e#4492#4573#0" expanded="false" />
+            <element signature="n#!!block;n#_getTable#0" expanded="false" />
+            <element signature="e#4892#5271#0" expanded="false" />
+            <element signature="e#4965#5206#0" expanded="false" />
+            <element signature="e#5052#5133#0" expanded="false" />
+            <element signature="n#!!block;n#_getEntitledList#0" expanded="false" />
+            <element signature="n#!!block;n#_format#0" expanded="false" />
+            <element signature="e#5730#5759#0" expanded="false" />
+            <element signature="e#5827#5894#0" expanded="false" />
+            <element signature="e#5936#6047#0" expanded="false" />
+            <element signature="e#6091#6170#0" expanded="false" />
+            <element signature="n#!!block;n#_getContent#0" expanded="false" />
+            <element signature="e#6336#6944#0" expanded="false" />
+            <element signature="e#6462#6495#0" expanded="false" />
+            <element signature="e#6525#6779#0" expanded="false" />
+            <element signature="e#6574#6628#0" expanded="false" />
+            <element signature="e#6674#6769#0" expanded="false" />
+            <element signature="e#6784#6896#0" expanded="false" />
+            <element signature="e#6831#6886#0" expanded="false" />
+            <element signature="e#7027#7091#0" expanded="false" />
+            <element signature="n#!!block;n#_getChildMembers#0" expanded="false" />
+            <element signature="e#7263#7353#0" expanded="false" />
+            <element signature="e#7302#7347#0" expanded="false" />
+            <element signature="n#!!block;n#toDiv#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Aristonik/aristonik.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63323784">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
