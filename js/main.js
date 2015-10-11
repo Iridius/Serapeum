@@ -12,15 +12,14 @@ function loadData(data) {
 
     return replaceAll(template, '{BASE}', output);
 }
-function displayData(data_url) {
-    var data = JSON.parse(_getData(data_url));
-    var result = _formatData(data);
+
+function displayData(url) {
+    var data = JSON.parse(_getData(url));
+    var content = _formatData(data);
     var menu = loadData('res/menu.html');
 
-    //document.getElementById(id).innerHTML += result;
-    document.getElementById('content').innerHTML += result;
-    //document.getElementById('menu') != null? document.getElementById('menu').innerHTML = loadData('res/menu.html'): '';
     document.getElementById('menu').innerHTML += menu;
+    document.getElementById('content').innerHTML += content;
 }
 
 function replaceAll(text, from, to) {

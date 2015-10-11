@@ -1,5 +1,5 @@
+
 #menu {
-    float: left;
     margin-left: 20%;
     max-width: 55em;
     min-width: 25em;
@@ -7,6 +7,7 @@
     position: relative;
     width: 60%;
 }
+
 #menu ul li
 {
     float: left;
@@ -20,7 +21,6 @@
     padding-left: 0.5em;
     padding-right: 2em;
 }
-
 #menu ul a
 {
     /*color: #000000;*/
