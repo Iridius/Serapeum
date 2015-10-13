@@ -1,8 +1,7 @@
 const BASE = 'http://localhost:63342/Serapeum/';
 const config = JSON.parse(_getData(BASE + 'data/config.json'));
 
-function loadData(data) {
-    var template = _getData(BASE + data);
+function getLocalPath() {
     var localPath = location.href.replace(BASE, '');
 
     var output = '';
@@ -10,7 +9,14 @@ function loadData(data) {
         output += '../';
     }
 
-    return replaceAll(template, '{BASE}', output);
+    return output;
+}
+
+function loadData(url) {
+    var template = _getData(BASE + url);
+    var localPath = getLocalPath();
+
+    return replaceAll(template, '{BASE}', localPath);
 }
 
 function displayData(url) {
@@ -18,8 +24,13 @@ function displayData(url) {
     var content = _formatData(data);
     var menu = loadData('res/menu.html');
 
-    document.getElementById('menu').innerHTML += menu;
-    document.getElementById('content').innerHTML += content;
+    if(document.getElementById('menu') != null) {
+        document.getElementById('menu').innerHTML += menu;
+    }
+
+    if(document.getElementById('content') != null) {
+        document.getElementById('content').innerHTML += content;
+    }
 }
 
 function replaceAll(text, from, to) {
