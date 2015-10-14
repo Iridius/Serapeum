@@ -9,6 +9,10 @@ body {
     font-size: medium;
 }
 
+header, nav, section, article, aside, footer {
+    display: block
+}
+
 div {
     margin-bottom: 1em;
 }

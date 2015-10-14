@@ -19,18 +19,29 @@ function loadData(url) {
     return replaceAll(template, '{BASE}', localPath);
 }
 
-function displayData(url) {
+function displayData(url, _class) {
     var data = JSON.parse(_getData(url));
-    var content = _formatData(data);
-    var menu = loadData('res/menu.html');
 
-    if(document.getElementById('menu') != null) {
-        document.getElementById('menu').innerHTML += menu;
-    }
+    var nav = document.createElement('nav');
+    nav.id = 'menu';
+    nav.innerHTML = loadData('res/menu.html');
+    document.body.appendChild(nav);
 
-    if(document.getElementById('content') != null) {
-        document.getElementById('content').innerHTML += content;
+    var section = document.createElement('section');
+    section.id = 'content';
+    if(_class != null){
+        section.className = _class;
     }
+    section.innerHTML = _formatData(data);
+    document.body.appendChild(section);
+
+    //if(document.getElementById('menu') != null) {
+    //    document.getElementById('menu').innerHTML += menu;
+    //}
+    //
+    //if(document.getElementById('content') != null) {
+    //    document.getElementById('content').innerHTML += content;
+    //}
 }
 
 function replaceAll(text, from, to) {
@@ -182,11 +193,11 @@ function _getQuoteContent(content){
     }
 
     if(content.hasOwnProperty('quote')){
-        result = _format('quote', header + content.quote + source);
+        result = _format('quote', header + content['quote'] + source);
     }
 
     if(content.hasOwnProperty('epigraph')){
-        result = _format('epigraph', header + content.epigraph + source);
+        result = _format('epigraph', header + content['epigraph'] + source);
     }
 
     //return toDiv(result, display);

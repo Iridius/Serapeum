@@ -2,117 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Aeschines/aeschines.html" afterPath="$PROJECT_DIR$/person/Aeschines/aeschines.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Akadzome/akadzome.html" afterPath="$PROJECT_DIR$/person/Akadzome/akadzome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Alena/alena.html" afterPath="$PROJECT_DIR$/person/Alena/alena.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Alienora/alienora.html" afterPath="$PROJECT_DIR$/person/Alienora/alienora.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Amalasunta/amalasunta.html" afterPath="$PROJECT_DIR$/person/Amalasunta/amalasunta.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Anguissola/anguissola.html" afterPath="$PROJECT_DIR$/person/Anguissola/anguissola.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Anita/anita.html" afterPath="$PROJECT_DIR$/person/Anita/anita.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Anna/anna.html" afterPath="$PROJECT_DIR$/person/Anna/anna.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Artemisia/artemisia.html" afterPath="$PROJECT_DIR$/person/Artemisia/artemisia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Aspasia/aspasia.html" afterPath="$PROJECT_DIR$/person/Aspasia/aspasia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Ball/ball.html" afterPath="$PROJECT_DIR$/person/Ball/ball.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/beda/beda.html" afterPath="$PROJECT_DIR$/person/beda/beda.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Boadicea/boadicea.html" afterPath="$PROJECT_DIR$/person/Boadicea/boadicea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Boje/boje.html" afterPath="$PROJECT_DIR$/person/Boje/boje.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Boltzmann/boltzmann.html" afterPath="$PROJECT_DIR$/person/Boltzmann/boltzmann.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Bonni/bonni.html" afterPath="$PROJECT_DIR$/person/Bonni/bonni.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Caligula/caligula.html" afterPath="$PROJECT_DIR$/person/Caligula/caligula.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/chaikina/chaikina.html" afterPath="$PROJECT_DIR$/person/chaikina/chaikina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Cuatemok/cuatemok.html" afterPath="$PROJECT_DIR$/person/Cuatemok/cuatemok.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Dia/dia.html" afterPath="$PROJECT_DIR$/person/Dia/dia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Droste/droste.html" afterPath="$PROJECT_DIR$/person/Droste/droste.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/dynamia/dynamia.html" afterPath="$PROJECT_DIR$/person/dynamia/dynamia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Ehnaton/ehnaton.html" afterPath="$PROJECT_DIR$/person/Ehnaton/ehnaton.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Engelbrekt/engelbrekt.html" afterPath="$PROJECT_DIR$/person/Engelbrekt/engelbrekt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Eratosfen/eratosfen.html" afterPath="$PROJECT_DIR$/person/Eratosfen/eratosfen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Erinna/erinna.html" afterPath="$PROJECT_DIR$/person/Erinna/erinna.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Eunus/eunus.html" afterPath="$PROJECT_DIR$/person/Eunus/eunus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Evridika/evridika.html" afterPath="$PROJECT_DIR$/person/Evridika/evridika.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Feodora/feodora.html" afterPath="$PROJECT_DIR$/person/Feodora/feodora.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Fogel/fogel.html" afterPath="$PROJECT_DIR$/person/Fogel/fogel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Gamilkon/gamilkon.html" afterPath="$PROJECT_DIR$/person/Gamilkon/gamilkon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Gannon/gannon.html" afterPath="$PROJECT_DIR$/person/Gannon/gannon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/gauss/gauss.html" afterPath="$PROJECT_DIR$/person/gauss/gauss.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Gentileschi/gentileschi.html" afterPath="$PROJECT_DIR$/person/Gentileschi/gentileschi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Gerrad/gerrad.html" afterPath="$PROJECT_DIR$/person/Gerrad/gerrad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Gosch/gosch.html" afterPath="$PROJECT_DIR$/person/Gosch/gosch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/grosvita/grosvita.html" afterPath="$PROJECT_DIR$/person/grosvita/grosvita.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/hamuas/hamuas.html" afterPath="$PROJECT_DIR$/person/hamuas/hamuas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/hatschepsut/hatschepsut.html" afterPath="$PROJECT_DIR$/person/hatschepsut/hatschepsut.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Hypatia/hypatia.html" afterPath="$PROJECT_DIR$/person/Hypatia/hypatia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Jamamoto/jamamoto.html" afterPath="$PROJECT_DIR$/person/Jamamoto/jamamoto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Jambul/jambul.html" afterPath="$PROJECT_DIR$/person/Jambul/jambul.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Jamvlich/jamvlich.html" afterPath="$PROJECT_DIR$/person/Jamvlich/jamvlich.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/jeanne/jeanne.html" afterPath="$PROJECT_DIR$/person/jeanne/jeanne.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/juy_zan/juy_zan.html" afterPath="$PROJECT_DIR$/person/juy_zan/juy_zan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Kedmon/kedmon.html" afterPath="$PROJECT_DIR$/person/Kedmon/kedmon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/kirher/kircher.html" afterPath="$PROJECT_DIR$/person/kirher/kircher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Klara/klara.html" afterPath="$PROJECT_DIR$/person/Klara/klara.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Kollwitz/kollwitz.html" afterPath="$PROJECT_DIR$/person/Kollwitz/kollwitz.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/komnina/komnina.html" afterPath="$PROJECT_DIR$/person/komnina/komnina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/konstantin_xi/konstantin.html" afterPath="$PROJECT_DIR$/person/konstantin_xi/konstantin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Korinna/korinna.html" afterPath="$PROJECT_DIR$/person/Korinna/korinna.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Kovalevskaya/kovalevskaya.html" afterPath="$PROJECT_DIR$/person/Kovalevskaya/kovalevskaya.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/kozhina/kozhina.html" afterPath="$PROJECT_DIR$/person/kozhina/kozhina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/kristina/kristina.html" afterPath="$PROJECT_DIR$/person/kristina/kristina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Leni/leni.html" afterPath="$PROJECT_DIR$/person/Leni/leni.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Lew_Matematik/lew_matematik.html" afterPath="$PROJECT_DIR$/person/Lew_Matematik/lew_matematik.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Lisinova/lisinova.html" afterPath="$PROJECT_DIR$/person/Lisinova/lisinova.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/lisunsin/lisunsin.html" afterPath="$PROJECT_DIR$/person/lisunsin/lisunsin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Lubarskaya/lubarskaya.html" afterPath="$PROJECT_DIR$/person/Lubarskaya/lubarskaya.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/content.css" afterPath="$PROJECT_DIR$/css/content.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/mary_france/mary_france.html" afterPath="$PROJECT_DIR$/person/mary_france/mary_france.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/melnikaite/melnikaite.html" afterPath="$PROJECT_DIR$/person/melnikaite/melnikaite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Menschikov/menschikov.html" afterPath="$PROJECT_DIR$/person/Menschikov/menschikov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Merian/merian.html" afterPath="$PROJECT_DIR$/person/Merian/merian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/meryet_neyt/meryet_neyt.html" afterPath="$PROJECT_DIR$/person/meryet_neyt/meryet_neyt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/misima/misima.html" afterPath="$PROJECT_DIR$/person/misima/misima.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/nearch/nearch.html" afterPath="$PROJECT_DIR$/person/nearch/nearch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/nikonov/nikonov.html" afterPath="$PROJECT_DIR$/person/nikonov/nikonov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/odoacer/odoacer.html" afterPath="$PROJECT_DIR$/person/odoacer/odoacer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/olga/olga.html" afterPath="$PROJECT_DIR$/person/olga/olga.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Perdikkas/perdikkas.html" afterPath="$PROJECT_DIR$/person/Perdikkas/perdikkas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/pochitalin/pochitalin.html" afterPath="$PROJECT_DIR$/person/pochitalin/pochitalin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/pracsilla/pracsilla.html" afterPath="$PROJECT_DIR$/person/pracsilla/pracsilla.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/pugachev/pugachev.html" afterPath="$PROJECT_DIR$/person/pugachev/pugachev.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ramses2/ramses2.html" afterPath="$PROJECT_DIR$/person/ramses2/ramses2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/reinmar/reinmar.html" afterPath="$PROJECT_DIR$/person/reinmar/reinmar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Reitsch/reitsch.html" afterPath="$PROJECT_DIR$/person/Reitsch/reitsch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Rid/rid.html" afterPath="$PROJECT_DIR$/person/Rid/rid.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Riman/riman.html" afterPath="$PROJECT_DIR$/person/Riman/riman.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Romul_August/romul_august.html" afterPath="$PROJECT_DIR$/person/Romul_August/romul_august.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/sadjah/sadjah.html" afterPath="$PROJECT_DIR$/person/sadjah/sadjah.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/sapho/sapho.html" afterPath="$PROJECT_DIR$/person/sapho/sapho.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/scholl/scholl.html" afterPath="$PROJECT_DIR$/person/scholl/scholl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/schuman/schuman.html" afterPath="$PROJECT_DIR$/person/schuman/schuman.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/shaka/shaka.html" afterPath="$PROJECT_DIR$/person/shaka/shaka.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/solomaha/solomaha.html" afterPath="$PROJECT_DIR$/person/solomaha/solomaha.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/solovianova/solovianova.html" afterPath="$PROJECT_DIR$/person/solovianova/solovianova.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Spartak/spartak.html" afterPath="$PROJECT_DIR$/person/Spartak/spartak.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/sverrir/sverrir.html" afterPath="$PROJECT_DIR$/person/sverrir/sverrir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tamara/tamara.html" afterPath="$PROJECT_DIR$/person/tamara/tamara.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tayler/tayler.html" afterPath="$PROJECT_DIR$/person/tayler/tayler.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tomoe/tomoe.html" afterPath="$PROJECT_DIR$/person/tomoe/tomoe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/torkvemada/torkvemada.html" afterPath="$PROJECT_DIR$/person/torkvemada/torkvemada.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tschors/tschors.html" afterPath="$PROJECT_DIR$/person/tschors/tschors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/u_chen/u_chen.html" afterPath="$PROJECT_DIR$/person/u_chen/u_chen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/uinstenli/uinstenli.html" afterPath="$PROJECT_DIR$/person/uinstenli/uinstenli.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ulian/ulian.html" afterPath="$PROJECT_DIR$/person/ulian/ulian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ulugbek/ulugbek.html" afterPath="$PROJECT_DIR$/person/ulugbek/ulugbek.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/urukagina/urukagina.html" afterPath="$PROJECT_DIR$/person/urukagina/urukagina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ustinian/ustinian.html" afterPath="$PROJECT_DIR$/person/ustinian/ustinian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/velisariy/velisariy.html" afterPath="$PROJECT_DIR$/person/velisariy/velisariy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/vseslaw/vseslaw.html" afterPath="$PROJECT_DIR$/person/vseslaw/vseslaw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/Walter/walter.html" afterPath="$PROJECT_DIR$/person/Walter/walter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persons.html" afterPath="$PROJECT_DIR$/persons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zander/zander.html" afterPath="$PROJECT_DIR$/person/zander/zander.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zao_pi/zao_pi.html" afterPath="$PROJECT_DIR$/person/zao_pi/zao_pi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zemnuhov/zemnuhov.html" afterPath="$PROJECT_DIR$/person/zemnuhov/zemnuhov.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zenon/zenon.html" afterPath="$PROJECT_DIR$/person/zenon/zenon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.html" afterPath="$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zoya/zoya.html" afterPath="$PROJECT_DIR$/person/zoya/zoya.html" />
     </list>
     <ignored path="boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,36 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aristonik.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person/Aristonik/aristonik.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="literature.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/literature.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="persons.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/persons.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -173,116 +36,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="akadzome.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person/Akadzome/akadzome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alena.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person/Alena/alena.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aeschines.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person/Aeschines/aeschines.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alienora.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/person/Alienora/alienora.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="briefing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/briefing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07522124">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.5117057">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="n#!!block;n#replaceAll#0" expanded="false" />
                 <element signature="n#!!block;n#_getData#0" expanded="false" />
-                <element signature="e#1155#1199#0" expanded="false" />
+                <element signature="e#1483#1527#0" expanded="false" />
                 <element signature="n#!!block;n#_formatData#0" expanded="false" />
-                <element signature="e#1263#2274#0" expanded="false" />
-                <element signature="e#1947#1989#0" expanded="false" />
-                <element signature="e#2059#2238#0" expanded="false" />
-                <element signature="e#2108#2224#0" expanded="false" />
+                <element signature="e#1591#2602#0" expanded="false" />
+                <element signature="e#2275#2317#0" expanded="false" />
+                <element signature="e#2387#2566#0" expanded="false" />
+                <element signature="e#2436#2552#0" expanded="false" />
                 <element signature="n#!!block;n#_getHeader#0" expanded="false" />
-                <element signature="e#2342#2396#0" expanded="false" />
+                <element signature="e#2670#2724#0" expanded="false" />
                 <element signature="n#!!block;n#_getImage#0" expanded="false" />
-                <element signature="e#2527#2615#0" expanded="false" />
-                <element signature="e#2679#2786#0" expanded="false" />
-                <element signature="e#2720#2778#0" expanded="false" />
-                <element signature="e#2792#2844#0" expanded="false" />
+                <element signature="e#2855#2943#0" expanded="false" />
+                <element signature="e#3007#3114#0" expanded="false" />
+                <element signature="e#3048#3106#0" expanded="false" />
+                <element signature="e#3120#3172#0" expanded="false" />
                 <element signature="n#!!block;n#_getImageContent#0" expanded="false" />
                 <element signature="n#!!block;n#_getList#0" expanded="false" />
-                <element signature="e#3369#3570#0" expanded="false" />
-                <element signature="e#3437#3512#0" expanded="false" />
+                <element signature="e#3697#3898#0" expanded="false" />
+                <element signature="e#3765#3840#0" expanded="false" />
                 <element signature="n#!!block;n#_getGlossary#0" expanded="false" />
                 <element signature="n#!!block;n#_getQuote#0" expanded="false" />
-                <element signature="e#3933#4201#0" expanded="false" />
-                <element signature="e#4006#4129#0" expanded="false" />
-                <element signature="e#4051#4117#0" expanded="false" />
-                <element signature="e#4135#4195#0" expanded="false" />
-                <element signature="n#!!block;n#_getQuoteContent#0" expanded="false" />
-                <element signature="e#4360#4420#0" expanded="false" />
-                <element signature="e#4483#4542#0" expanded="false" />
-                <element signature="e#4583#4658#0" expanded="false" />
-                <element signature="e#4702#4783#0" expanded="false" />
+                <element signature="e#4261#4529#0" expanded="false" />
+                <element signature="e#4334#4457#0" expanded="false" />
+                <element signature="e#4379#4445#0" expanded="false" />
+                <element signature="e#4463#4523#0" expanded="false" />
+                <element signature="e#4688#4748#0" expanded="false" />
+                <element signature="e#4811#4870#0" expanded="false" />
                 <element signature="n#!!block;n#_getTable#0" expanded="false" />
-                <element signature="e#5102#5481#0" expanded="false" />
-                <element signature="e#5175#5416#0" expanded="false" />
-                <element signature="e#5262#5343#0" expanded="false" />
-                <element signature="n#!!block;n#_getEntitledList#0" expanded="false" />
+                <element signature="e#5436#5815#0" expanded="false" />
+                <element signature="e#5509#5750#0" expanded="false" />
+                <element signature="e#5596#5677#0" expanded="false" />
                 <element signature="n#!!block;n#_format#0" expanded="false" />
-                <element signature="e#5940#5969#0" expanded="false" />
-                <element signature="e#6037#6104#0" expanded="false" />
-                <element signature="e#6146#6257#0" expanded="false" />
-                <element signature="e#6301#6380#0" expanded="false" />
+                <element signature="e#6274#6303#0" expanded="false" />
+                <element signature="e#6371#6438#0" expanded="false" />
+                <element signature="e#6480#6591#0" expanded="false" />
+                <element signature="e#6635#6714#0" expanded="false" />
                 <element signature="n#!!block;n#_getContent#0" expanded="false" />
-                <element signature="e#6546#7154#0" expanded="false" />
-                <element signature="e#6672#6705#0" expanded="false" />
-                <element signature="e#6735#6989#0" expanded="false" />
-                <element signature="e#6784#6838#0" expanded="false" />
-                <element signature="e#6884#6979#0" expanded="false" />
-                <element signature="e#6994#7106#0" expanded="false" />
-                <element signature="e#7041#7096#0" expanded="false" />
-                <element signature="e#7237#7301#0" expanded="false" />
+                <element signature="e#6880#7488#0" expanded="false" />
+                <element signature="e#7006#7039#0" expanded="false" />
+                <element signature="e#7069#7323#0" expanded="false" />
+                <element signature="e#7118#7172#0" expanded="false" />
+                <element signature="e#7218#7313#0" expanded="false" />
+                <element signature="e#7328#7440#0" expanded="false" />
+                <element signature="e#7375#7430#0" expanded="false" />
+                <element signature="e#7571#7635#0" expanded="false" />
                 <element signature="n#!!block;n#_getChildMembers#0" expanded="false" />
-                <element signature="e#7473#7563#0" expanded="false" />
-                <element signature="e#7512#7557#0" expanded="false" />
+                <element signature="e#7807#7897#0" expanded="false" />
+                <element signature="e#7846#7891#0" expanded="false" />
                 <element signature="n#!!block;n#toDiv#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/content.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -347,18 +166,18 @@
         <option value="$PROJECT_DIR$/person/aeciy/aeciy.json" />
         <option value="$PROJECT_DIR$/css/blockquote.css" />
         <option value="$PROJECT_DIR$/css/image.css" />
-        <option value="$PROJECT_DIR$/css/content.css" />
         <option value="$PROJECT_DIR$/person/Aristonik/aristonik.html" />
         <option value="$PROJECT_DIR$/css/menu.css" />
         <option value="$PROJECT_DIR$/res/menu.html" />
         <option value="$PROJECT_DIR$/literature.html" />
-        <option value="$PROJECT_DIR$/persons.html" />
         <option value="$PROJECT_DIR$/briefing.html" />
         <option value="$PROJECT_DIR$/person/Aeschines/aeschines.html" />
         <option value="$PROJECT_DIR$/person/Akadzome/akadzome.html" />
         <option value="$PROJECT_DIR$/person/Alena/alena.html" />
         <option value="$PROJECT_DIR$/person/Alienora/alienora.html" />
+        <option value="$PROJECT_DIR$/css/content.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/persons.html" />
       </list>
     </option>
   </component>
@@ -397,6 +216,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -541,7 +361,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -830,7 +649,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444679130325</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="M: change page to content-declaring-agreement.">
+      <created>1444755622219</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1444755622219</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -839,9 +664,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19663513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22103004" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -849,11 +674,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -870,8 +695,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="F: +person: 'ehnaton'." />
-    <MESSAGE value="F: +person: 'engelbrekt'." />
     <MESSAGE value="F: +person: 'eratosfen'." />
     <MESSAGE value="F: +person: 'erinna'." />
     <MESSAGE value="F: +person: 'misima'." />
@@ -895,7 +718,9 @@
     <MESSAGE value="M: main menu: links not active... hmm..." />
     <MESSAGE value="B: main menu: fix non-active links" />
     <MESSAGE value="M: add main menu to some pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="M: add main menu to some pages." />
+    <MESSAGE value="M: change page to content-declaring-agreement." />
+    <MESSAGE value="M: attempt to using html5-content-blocks." />
+    <option name="LAST_COMMIT_MESSAGE" value="M: attempt to using html5-content-blocks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person/aeciy/Aeciy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17761195">
@@ -1178,23 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person/Aristonik/aristonik.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/literature.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,6 +1003,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Aeschines/aeschines.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Akadzome/akadzome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Alena/alena.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Alienora/alienora.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/Aristonik/aristonik.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25170842">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11617312">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/literature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17425968">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1214,103 +1071,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person/Aeschines/aeschines.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person/Akadzome/akadzome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person/Alena/alena.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person/Alienora/alienora.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07522124">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.5117057">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="n#!!block;n#replaceAll#0" expanded="false" />
             <element signature="n#!!block;n#_getData#0" expanded="false" />
-            <element signature="e#1155#1199#0" expanded="false" />
+            <element signature="e#1483#1527#0" expanded="false" />
             <element signature="n#!!block;n#_formatData#0" expanded="false" />
-            <element signature="e#1263#2274#0" expanded="false" />
-            <element signature="e#1947#1989#0" expanded="false" />
-            <element signature="e#2059#2238#0" expanded="false" />
-            <element signature="e#2108#2224#0" expanded="false" />
+            <element signature="e#1591#2602#0" expanded="false" />
+            <element signature="e#2275#2317#0" expanded="false" />
+            <element signature="e#2387#2566#0" expanded="false" />
+            <element signature="e#2436#2552#0" expanded="false" />
             <element signature="n#!!block;n#_getHeader#0" expanded="false" />
-            <element signature="e#2342#2396#0" expanded="false" />
+            <element signature="e#2670#2724#0" expanded="false" />
             <element signature="n#!!block;n#_getImage#0" expanded="false" />
-            <element signature="e#2527#2615#0" expanded="false" />
-            <element signature="e#2679#2786#0" expanded="false" />
-            <element signature="e#2720#2778#0" expanded="false" />
-            <element signature="e#2792#2844#0" expanded="false" />
+            <element signature="e#2855#2943#0" expanded="false" />
+            <element signature="e#3007#3114#0" expanded="false" />
+            <element signature="e#3048#3106#0" expanded="false" />
+            <element signature="e#3120#3172#0" expanded="false" />
             <element signature="n#!!block;n#_getImageContent#0" expanded="false" />
             <element signature="n#!!block;n#_getList#0" expanded="false" />
-            <element signature="e#3369#3570#0" expanded="false" />
-            <element signature="e#3437#3512#0" expanded="false" />
+            <element signature="e#3697#3898#0" expanded="false" />
+            <element signature="e#3765#3840#0" expanded="false" />
             <element signature="n#!!block;n#_getGlossary#0" expanded="false" />
             <element signature="n#!!block;n#_getQuote#0" expanded="false" />
-            <element signature="e#3933#4201#0" expanded="false" />
-            <element signature="e#4006#4129#0" expanded="false" />
-            <element signature="e#4051#4117#0" expanded="false" />
-            <element signature="e#4135#4195#0" expanded="false" />
-            <element signature="n#!!block;n#_getQuoteContent#0" expanded="false" />
-            <element signature="e#4360#4420#0" expanded="false" />
-            <element signature="e#4483#4542#0" expanded="false" />
-            <element signature="e#4583#4658#0" expanded="false" />
-            <element signature="e#4702#4783#0" expanded="false" />
+            <element signature="e#4261#4529#0" expanded="false" />
+            <element signature="e#4334#4457#0" expanded="false" />
+            <element signature="e#4379#4445#0" expanded="false" />
+            <element signature="e#4463#4523#0" expanded="false" />
+            <element signature="e#4688#4748#0" expanded="false" />
+            <element signature="e#4811#4870#0" expanded="false" />
             <element signature="n#!!block;n#_getTable#0" expanded="false" />
-            <element signature="e#5102#5481#0" expanded="false" />
-            <element signature="e#5175#5416#0" expanded="false" />
-            <element signature="e#5262#5343#0" expanded="false" />
-            <element signature="n#!!block;n#_getEntitledList#0" expanded="false" />
+            <element signature="e#5436#5815#0" expanded="false" />
+            <element signature="e#5509#5750#0" expanded="false" />
+            <element signature="e#5596#5677#0" expanded="false" />
             <element signature="n#!!block;n#_format#0" expanded="false" />
-            <element signature="e#5940#5969#0" expanded="false" />
-            <element signature="e#6037#6104#0" expanded="false" />
-            <element signature="e#6146#6257#0" expanded="false" />
-            <element signature="e#6301#6380#0" expanded="false" />
+            <element signature="e#6274#6303#0" expanded="false" />
+            <element signature="e#6371#6438#0" expanded="false" />
+            <element signature="e#6480#6591#0" expanded="false" />
+            <element signature="e#6635#6714#0" expanded="false" />
             <element signature="n#!!block;n#_getContent#0" expanded="false" />
-            <element signature="e#6546#7154#0" expanded="false" />
-            <element signature="e#6672#6705#0" expanded="false" />
-            <element signature="e#6735#6989#0" expanded="false" />
-            <element signature="e#6784#6838#0" expanded="false" />
-            <element signature="e#6884#6979#0" expanded="false" />
-            <element signature="e#6994#7106#0" expanded="false" />
-            <element signature="e#7041#7096#0" expanded="false" />
-            <element signature="e#7237#7301#0" expanded="false" />
+            <element signature="e#6880#7488#0" expanded="false" />
+            <element signature="e#7006#7039#0" expanded="false" />
+            <element signature="e#7069#7323#0" expanded="false" />
+            <element signature="e#7118#7172#0" expanded="false" />
+            <element signature="e#7218#7313#0" expanded="false" />
+            <element signature="e#7328#7440#0" expanded="false" />
+            <element signature="e#7375#7430#0" expanded="false" />
+            <element signature="e#7571#7635#0" expanded="false" />
             <element signature="n#!!block;n#_getChildMembers#0" expanded="false" />
-            <element signature="e#7473#7563#0" expanded="false" />
-            <element signature="e#7512#7557#0" expanded="false" />
+            <element signature="e#7807#7897#0" expanded="false" />
+            <element signature="e#7846#7891#0" expanded="false" />
             <element signature="n#!!block;n#toDiv#0" expanded="false" />
           </folding>
         </state>
