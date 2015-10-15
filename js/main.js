@@ -12,36 +12,29 @@ function getLocalPath() {
     return output;
 }
 
-function loadData(url) {
-    var template = _getData(BASE + url);
-    var localPath = getLocalPath();
+function relocateData(data) {
+    return replaceAll(data, '{BASE}', getLocalPath());
+}
 
-    return replaceAll(template, '{BASE}', localPath);
+function createElement(tag, id, _class, data){
+    var element = document.createElement(tag);
+    if(id){
+        element.id = id;
+    }
+    if(_class){
+        element.class = _class;
+    }
+
+    element.innerHTML = data;
+    document.body.appendChild(element);
 }
 
 function displayData(url, _class) {
-    var data = JSON.parse(_getData(url));
+    var menu = relocateData(_getData(BASE + 'res/menu.html'));
+    createElement('nav', 'menu', null, menu);
 
-    var nav = document.createElement('nav');
-    nav.id = 'menu';
-    nav.innerHTML = loadData('res/menu.html');
-    document.body.appendChild(nav);
-
-    var section = document.createElement('section');
-    section.id = 'content';
-    if(_class != null){
-        section.className = _class;
-    }
-    section.innerHTML = _formatData(data);
-    document.body.appendChild(section);
-
-    //if(document.getElementById('menu') != null) {
-    //    document.getElementById('menu').innerHTML += menu;
-    //}
-    //
-    //if(document.getElementById('content') != null) {
-    //    document.getElementById('content').innerHTML += content;
-    //}
+    var content = _formatData(JSON.parse(relocateData(_getData(url))));
+    createElement('section', 'content', _class, content);
 }
 
 function replaceAll(text, from, to) {
