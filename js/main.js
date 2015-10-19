@@ -97,7 +97,7 @@ function _formatData(data, display) {
 
 function _getHeader(data){
     if(data.hasOwnProperty("header")){
-        return _format('header', data.header);
+        return _format('header', data['header']);
     }
 
     return '';
