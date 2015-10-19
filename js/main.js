@@ -58,11 +58,14 @@ function _formatData(data, display) {
         case 'article':
             return _getContent(data, display);
             break;
-        case 'rhyme':
         case 'epigraph':
         case 'quote':
+        case 'rhyme':
             return _getQuote(data, display);
             break;
+        case 'header':
+            return _getHeader(data);
+        break;
         case 'image':
             return _getImage(data, display);
             break;

@@ -1,11 +1,17 @@
-
 #menu {
-    margin-left: 20%;
+    /*border: none #000000 1px;*/
+    /*border-top-style: solid;*/
+    float: left;
+    margin: 0 20%;
     max-width: 55em;
     min-width: 25em;
     padding-bottom: 3em;
     position: relative;
     width: 60%;
+}
+
+#menu ul{
+    padding: 0;
 }
 
 #menu ul li
@@ -18,24 +24,24 @@
     border-left-style: solid;
     font-size: 80%;
     height: 4em;
-    padding-left: 0.5em;
-    padding-right: 2em;
+    margin: 0;
+    padding: 0 2em 0 0.5em;
 }
 #menu ul a
 {
-    /*color: #000000;*/
-    /*font-weight: 700;*/
-    /*text-decoration: none;*/
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 
 #menu ul a
 {
-    /*color: #000000;*/
-    /*text-decoration: none;*/
+    color: #000000;
+    text-decoration: none;
 }
 
 #menu ul a:hover
 {
-    /*text-decoration: underline;*/
+    text-decoration: underline;
 }
