@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Динамия"
+    },
+    {
         "type": "epigraph",
         "content":
         {

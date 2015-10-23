@@ -227,7 +227,6 @@ function _getTable(data, display) {
     return toDiv(result, display);
 }
 
-//TODO: sorting headers +sorting content
 function _getEntitledList(data, display) {
     var result = '';
 

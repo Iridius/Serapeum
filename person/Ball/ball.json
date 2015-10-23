@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Болл, Джон"
+    },
+    {
         "type": "epigraph",
         "content":
         {
