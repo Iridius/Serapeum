@@ -34,6 +34,12 @@ blockquote cite {
     display: none;
 }
 
+.rhyme blockquote h4 {
+    font-variant: normal;
+    font-size: medium;
+    /*font-weight: normal;*/
+}
+
 .rhyme cite{
     margin-left: 3em;
     text-align: left;
