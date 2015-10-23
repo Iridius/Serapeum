@@ -2,43 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="M: add menu to some pages.">
-      <change type="MOVED" beforePath="C:\projects\serapeum\person\engelbrekt\engelbreht.jpg" afterPath="$PROJECT_DIR$/person/engelbrekt/engelbrekt.jpg" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\anna\anna.html" afterPath="$PROJECT_DIR$/person/anna/anna.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\anna\anna.json" afterPath="$PROJECT_DIR$/person/anna/anna.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\aristonik\aristonik.html" afterPath="$PROJECT_DIR$/person/aristonik/aristonik.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\aristonik\aristonik.json" afterPath="$PROJECT_DIR$/person/aristonik/aristonik.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\artemisia\artemisia.html" afterPath="$PROJECT_DIR$/person/artemisia/artemisia.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\artemisia\artemisia.json" afterPath="$PROJECT_DIR$/person/artemisia/artemisia.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\aspasia\aspasia.html" afterPath="$PROJECT_DIR$/person/aspasia/aspasia.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\aspasia\aspasia.json" afterPath="$PROJECT_DIR$/person/aspasia/aspasia.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\ball\ball.html" afterPath="$PROJECT_DIR$/person/ball/ball.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\ball\ball.json" afterPath="$PROJECT_DIR$/person/ball/ball.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/beda/beda.html" afterPath="$PROJECT_DIR$/person/beda/beda.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/beda/beda.json" afterPath="$PROJECT_DIR$/person/beda/beda.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\boadicea\boadicea.html" afterPath="$PROJECT_DIR$/person/boadicea/boadicea.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\boadicea\boadicea.json" afterPath="$PROJECT_DIR$/person/boadicea/boadicea.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\boje\boje.html" afterPath="$PROJECT_DIR$/person/boje/boje.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\boje\boje.json" afterPath="$PROJECT_DIR$/person/boje/boje.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\boltzmann\boltzmann.html" afterPath="$PROJECT_DIR$/person/boltzmann/boltzmann.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\boltzmann\boltzmann.json" afterPath="$PROJECT_DIR$/person/boltzmann/boltzmann.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\bonni\bonni.html" afterPath="$PROJECT_DIR$/person/bonni/bonni.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\bonni\bonni.json" afterPath="$PROJECT_DIR$/person/bonni/bonni.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\caligula\caligula.html" afterPath="$PROJECT_DIR$/person/caligula/caligula.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\caligula\caligula.json" afterPath="$PROJECT_DIR$/person/caligula/caligula.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/chaikina/chaikina.html" afterPath="$PROJECT_DIR$/person/chaikina/chaikina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/chaikina/chaikina.json" afterPath="$PROJECT_DIR$/person/chaikina/chaikina.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\cuatemok\cuatemok.html" afterPath="$PROJECT_DIR$/person/cuatemok/cuatemok.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\cuatemok\cuatemok.json" afterPath="$PROJECT_DIR$/person/cuatemok/cuatemok.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\dia\dia.html" afterPath="$PROJECT_DIR$/person/dia/dia.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\dia\dia.json" afterPath="$PROJECT_DIR$/person/dia/dia.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\droste\droste.html" afterPath="$PROJECT_DIR$/person/droste/droste.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\droste\droste.json" afterPath="$PROJECT_DIR$/person/droste/droste.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/dynamia/dynamia.html" afterPath="$PROJECT_DIR$/person/dynamia/dynamia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/dynamia/dynamia.json" afterPath="$PROJECT_DIR$/person/dynamia/dynamia.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\ehnaton\ehnaton.html" afterPath="$PROJECT_DIR$/person/ehnaton/ehnaton.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\ehnaton\ehnaton.json" afterPath="$PROJECT_DIR$/person/ehnaton/ehnaton.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\engelbrekt\engelbrekt.html" afterPath="$PROJECT_DIR$/person/engelbrekt/engelbrekt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boilerplate.iws" />
@@ -766,7 +729,19 @@
       <option name="project" value="LOCAL" />
       <updated>1445589494918</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="M: add menu to some pages.">
+      <created>1445594444908</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1445594444908</updated>
+    </task>
+    <task id="LOCAL-00048" summary="M: add menu to some pages.">
+      <created>1445594454935</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1445594454935</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
