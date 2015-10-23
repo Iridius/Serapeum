@@ -10,23 +10,24 @@ body {
 }
 
 header, nav, section, article, aside, footer {
-    display: block
+    display: block;
 }
 
 div {
+    float: left;
     margin-bottom: 1em;
 }
 
 h3, h4{
     font-size: larger;
     font-variant:  small-caps;
-    margin: 0px;
+    margin: 0;
 }
 
 #content {
     /*display: block;*/
     float: left;
-    margin: 0px 20%;
+    margin: 0 20%;
     max-width: 55em;
     min-width: 25em;
     position: relative;
@@ -35,6 +36,7 @@ h3, h4{
 
 .article {
     text-align: justify;
+    width: 100%;
 }
 
 .column {

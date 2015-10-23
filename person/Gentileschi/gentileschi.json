@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Артемизия Джентилески"
+    },
+    {
         "type": "epigraph",
         "content":
         {
@@ -19,14 +23,16 @@
     },
     {
         "header": "Из творчества",
-        "type": "image",
+        "type": "article",
         "content":
         [
             {
+                "type": "inline-image",
                 "link": "gent_3.jpg",
                 "source": "Артемизия Джентилески. Убийство Олоферна. 1611-1612 гг."
             },
             {
+                "type": "inline-image",
                 "link": "gent_2.jpg",
                 "source": "Артемизия Джентилески. Убийство Олоферна. 1612-1620 гг."
             }

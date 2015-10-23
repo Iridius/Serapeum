@@ -67,6 +67,7 @@ function _formatData(data, display) {
             return _getHeader(data);
         break;
         case 'image':
+        case 'inline-image':
             return _getImage(data, display);
             break;
         case 'glossary':
@@ -279,7 +280,12 @@ function _getContent(content, display) {
             }
         } else{
             if(content.hasOwnProperty(field)){
-                value = content[field];
+                if(!Array.isArray(content[field])){
+                    value = content[field];
+                }else{
+                    value = _formatData(content[field]);
+                }
+
             }
         }
 

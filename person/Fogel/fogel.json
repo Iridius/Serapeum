@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Вальтер фон дер Фогельвейде"
+    },
+    {
         "type": "epigraph",
         "content":
         {
