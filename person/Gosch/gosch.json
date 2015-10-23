@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Гош Луи Лазар"
+    },
+    {
         "type": "epigraph",
         "content":
         {

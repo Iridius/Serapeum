@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Жанна д'Арк"
+    },
+    {
         "type": "epigraph",
         "content":
         {

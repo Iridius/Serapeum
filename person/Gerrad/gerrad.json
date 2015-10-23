@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Геррада Ландсбергская"
+    },
+    {
         "type": "epigraph",
         "content":
         {

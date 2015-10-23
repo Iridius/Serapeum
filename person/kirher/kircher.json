@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Атанасиус Кирхер"
+    },
+    {
         "type": "epigraph",
         "content":
         {

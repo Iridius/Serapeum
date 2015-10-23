@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Гросвита Гандерсгеймская"
+    },
+    {
         "type": "epigraph",
         "content":
         {
