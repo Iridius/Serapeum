@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Константин XI"
+    },
+    {
         "type": "epigraph",
         "content":
         {

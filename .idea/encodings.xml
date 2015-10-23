@@ -13,138 +13,152 @@
     <file url="file://$PROJECT_DIR$/data/literature.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/persons.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Aeschines/aeschines.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Aeschines/aeschines.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Akadzome/akadzome.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Akadzome/akadzome.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Alena/alena.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Alena/alena.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Alienora/alienora.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Alienora/alienora.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Amalasunta/amalasunta.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Amalasunta/amalasunta.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Anguissola/anguissola.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Anguissola/anguissola.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Anita/anita.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Anita/anita.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Anna/anna.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Anna/anna.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Aristonik/aristonik.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Aristonik/aristonik.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Artemisia/artemisia.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Artemisia/artemisia.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Aspasia/aspasia.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Aspasia/aspasia.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Ball/ball.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Ball/ball.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Boadicea/boadicea.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Boadicea/boadicea.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Boje/boje.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Boje/boje.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Boltzmann/boltzmann.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Boltzmann/boltzmann.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Bonni/bonni.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Bonni/bonni.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Caligula/caligula.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Caligula/caligula.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Cuatemok/cuatemok.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Cuatemok/cuatemok.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Dia/dia.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Dia/dia.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Droste/droste.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Droste/droste.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Ehnaton/ehnaton.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Ehnaton/ehnaton.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Engelbrekt/engelbrekt.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Engelbrekt/engelbrekt.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Eratosfen/eratosfen.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Eratosfen/eratosfen.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Erinna/erinna.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Erinna/erinna.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Eunus/eunus.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Eunus/eunus.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Evridika/evridika.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Evridika/evridika.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Feodora/feodora.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Feodora/feodora.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Fogel/fogel.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Fogel/fogel.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gamilkon/gamilkon.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gamilkon/gamilkon.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gannon/gannon.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gannon/gannon.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gentileschi/gentileschi.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gentileschi/gentileschi.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gerrad/gerrad.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gerrad/gerrad.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gosch/gosch.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Gosch/gosch.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Hypatia/hypatia.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Hypatia/hypatia.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Jamamoto/jamamoto.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Jamamoto/jamamoto.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Jambul/jambul.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Jambul/jambul.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Jamvlich/jamvlich.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Jamvlich/jamvlich.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Kedmon/kedmon.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Kedmon/kedmon.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Klara/klara.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Klara/klara.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Kollwitz/kollwitz.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Kollwitz/kollwitz.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Korinna/korinna.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Korinna/korinna.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Kovalevskaya/kovalevskaya.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Kovalevskaya/kovalevskaya.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Leni/leni.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Leni/leni.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Lew_Matematik/lew_matematik.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Lew_Matematik/lew_matematik.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Lisinova/lisinova.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Lisinova/lisinova.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Lubarskaya/lubarskaya.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Lubarskaya/lubarskaya.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Menschikov/menschikov.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Menschikov/menschikov.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Merian/merian.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Merian/merian.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Perdikkas/perdikkas.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Perdikkas/perdikkas.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Reitsch/reitsch.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Reitsch/reitsch.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Rid/rid.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Rid/rid.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Riman/riman.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Riman/riman.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Romul_August/romul_august.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Romul_August/romul_august.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Spartak/spartak.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Spartak/spartak.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Walter/walter.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/Walter/walter.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/aeciy/Aeciy.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/aeciy/aeciy.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aeschines/aeschines.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aeschines/aeschines.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/akadzome/akadzome.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/akadzome/akadzome.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/alena/alena.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/alena/alena.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/alienora/alienora.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/alienora/alienora.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/amalasunta/amalasunta.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/amalasunta/amalasunta.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/anguissola/anguissola.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/anguissola/anguissola.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/anita/anita.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/anita/anita.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/anna/anna.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/anna/anna.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aristonik/aristonik.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aristonik/aristonik.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/artemisia/artemisia.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/artemisia/artemisia.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aspasia/aspasia.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aspasia/aspasia.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/ball/ball.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/ball/ball.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/beda/beda.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/beda/beda.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/boadicea/boadicea.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/boadicea/boadicea.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/boje/boje.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/boje/boje.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/boltzmann/boltzmann.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/boltzmann/boltzmann.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/bonni/bonni.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/bonni/bonni.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/caligula/caligula.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/caligula/caligula.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/chaikina/chaikina.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/chaikina/chaikina.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/cuatemok/cuatemok.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/cuatemok/cuatemok.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/dia/dia.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/dia/dia.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/droste/droste.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/droste/droste.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/dynamia/dynamia.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/dynamia/dynamia.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/ehnaton/ehnaton.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/ehnaton/ehnaton.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/engelbrekt/engelbrekt.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/engelbrekt/engelbrekt.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/eratosfen/eratosfen.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/eratosfen/eratosfen.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/erinna/erinna.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/erinna/erinna.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/eunus/eunus.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/eunus/eunus.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/evridika/evridika.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/evridika/evridika.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/feodora/feodora.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/feodora/feodora.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/fogel/fogel.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/fogel/fogel.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gamilkon/gamilkon.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gamilkon/gamilkon.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gannon/gannon.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gannon/gannon.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/gauss/gauss.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/gauss/gauss.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gentileschi/gentileschi.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gentileschi/gentileschi.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gerrad/gerrad.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gerrad/gerrad.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gosch/gosch.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/gosch/gosch.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/grosvita/grosvita.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/grosvita/grosvita.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/hamuas/hamuas.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/hamuas/hamuas.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/hatschepsut/hatschepsut.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/hatschepsut/hatschepsut.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/hypatia/hypatia.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/hypatia/hypatia.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/jamamoto/jamamoto.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/jamamoto/jamamoto.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/jambul/jambul.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/jambul/jambul.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/jamvlich/jamvlich.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/jamvlich/jamvlich.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/jeanne/jeanne.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/jeanne/jeanne.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/juy_zan/juy_zan.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/juy_zan/juy_zan.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/kedmon/kedmon.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/kedmon/kedmon.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/kirher/kircher.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/kirher/kircher.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/klara/klara.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/klara/klara.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/kollwitz/kollwitz.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/kollwitz/kollwitz.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/komnina/komnina.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/komnina/komnina.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/konstantin_xi/konstantin.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/konstantin_xi/konstantin.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/korinna/korinna.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/korinna/korinna.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/kovalevskaya/kovalevskaya.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/kovalevskaya/kovalevskaya.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/kozhina/kozhina.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/kozhina/kozhina.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/kristina/kristina.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/kristina/kristina.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/leni/leni.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/leni/leni.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/lew_matematik/lew_matematik.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/lew_matematik/lew_matematik.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/lisinova/lisinova.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/lisinova/lisinova.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/lisunsin/lisunsin.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/lisunsin/lisunsin.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/lubarskaya/lubarskaya.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/lubarskaya/lubarskaya.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/mary_france/mary_france.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/mary_france/mary_france.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/melnikaite/melnikaite.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/melnikaite/melnikaite.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/menschikov/menschikov.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/menschikov/menschikov.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/merian/merian.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/merian/merian.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/meryet_neyt/meryet_neyt.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/meryet_neyt/meryet_neyt.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/misima/misima.html" charset="UTF-8" />
@@ -157,8 +171,6 @@
     <file url="file://$PROJECT_DIR$/person/odoacer/odoacer.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/olga/olga.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/olga/olga.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/perdikkas/perdikkas.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/perdikkas/perdikkas.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/pochitalin/pochitalin.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/pochitalin/pochitalin.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/pracsilla/pracsilla.html" charset="UTF-8" />
@@ -169,14 +181,6 @@
     <file url="file://$PROJECT_DIR$/person/ramses2/ramses2.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/reinmar/reinmar.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/reinmar/reinmar.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/reitsch/reitsch.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/reitsch/reitsch.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/rid/rid.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/rid/rid.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/riman/riman.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/riman/riman.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/romul_august/romul_august.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/romul_august/romul_august.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/sadjah/sadjah.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/sadjah/sadjah.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/sapho/sapho.html" charset="UTF-8" />
@@ -191,8 +195,6 @@
     <file url="file://$PROJECT_DIR$/person/solomaha/solomaha.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/solovianova/solovianova.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/solovianova/solovianova.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/spartak/spartak.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/spartak/spartak.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/sverrir/sverrir.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/sverrir/sverrir.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/tamara/tamara.html" charset="UTF-8" />
@@ -221,8 +223,6 @@
     <file url="file://$PROJECT_DIR$/person/velisariy/velisariy.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/vseslaw/vseslaw.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/vseslaw/vseslaw.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/walter/walter.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/walter/walter.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/zander/zander.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/zander/zander.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/zao_pi/zao_pi.html" charset="UTF-8" />
