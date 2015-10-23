@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\alienora\alienora.html" afterPath="$PROJECT_DIR$/person/alienora/alienora.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\alienora\alienora.json" afterPath="$PROJECT_DIR$/person/alienora/alienora.json" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\amalasunta\amalasunta.html" afterPath="$PROJECT_DIR$/person/amalasunta/amalasunta.html" />
-      <change type="MODIFICATION" beforePath="C:\projects\serapeum\person\amalasunta\amalasunta.json" afterPath="$PROJECT_DIR$/person/amalasunta/amalasunta.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boilerplate.iws" />
@@ -559,7 +555,13 @@
       <option name="project" value="LOCAL" />
       <updated>1445588786151</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="M: add menu to some pages.">
+      <created>1445588976361</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1445588976361</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -599,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="F: +person: 'nearch'." />
     <MESSAGE value="F: +person: 'nikonov'." />
     <MESSAGE value="F: +person: 'olga'." />
     <MESSAGE value="F: +person: 'zemnuhov'." />
@@ -624,7 +625,8 @@
     <MESSAGE value="M: main menu: add image, header, tagline." />
     <MESSAGE value="M: quotes/style: difference between quote, rhyme and epigraph." />
     <MESSAGE value="B: createElement: replace class to classname." />
-    <option name="LAST_COMMIT_MESSAGE" value="B: createElement: replace class to classname." />
+    <MESSAGE value="M: add menu to some pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="M: add menu to some pages." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
