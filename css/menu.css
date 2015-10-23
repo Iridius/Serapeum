@@ -1,6 +1,29 @@
+#menu h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+}
+
+#menu h6{
+    font-family: Verdana, sans-serif;
+    /*font-family: Georgia, serif;*/
+    font-size: 10px;
+    /*font-style: italic;*/
+    font-weight: normal;
+    margin: -0.5em 0 0 0;
+    padding: 0;
+}
+
+#menu img{
+    float: left;
+    padding: 5px 5px;
+    position: relative;
+    height: 60px;
+}
+
 #menu {
-    /*border: none #000000 1px;*/
-    /*border-top-style: solid;*/
     float: left;
     margin: 0 20%;
     max-width: 55em;
@@ -11,6 +34,7 @@
 }
 
 #menu ul{
+    min-width: 800px;
     padding: 0;
 }
 
