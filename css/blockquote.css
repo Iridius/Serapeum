@@ -15,9 +15,12 @@ blockquote:before {
 blockquote cite {
     display: block;
     font-style: italic;
-    margin-left: 50%;
     position: relative;
     text-align: right;
+}
+
+.quote cite{
+    margin-left: 50%;
     width: 50%;
 }
 
@@ -27,6 +30,11 @@ blockquote cite {
     width: 60%;
 }
 
-.epigraph cite {
-    text-align: right;
+.rhyme blockquote:before{
+    display: none;
+}
+
+.rhyme cite{
+    margin-left: 3em;
+    text-align: left;
 }
