@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Элеонора Аквитанская"
+    },
+    {
         "type": "epigraph",
         "content":
         {
