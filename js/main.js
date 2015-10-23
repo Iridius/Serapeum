@@ -22,7 +22,7 @@ function createElement(tag, id, _class, data){
         element.id = id;
     }
     if(_class){
-        element.class = _class;
+        element.className = _class;
     }
 
     element.innerHTML = data;
