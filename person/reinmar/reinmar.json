@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Рейнмар фон Хагенау"
+    },
+    {
         "type": "epigraph",
         "content":
         {

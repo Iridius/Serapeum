@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Пугачёв Емельян Иванович"
+    },
+    {
         "type": "epigraph",
         "content":
         {
