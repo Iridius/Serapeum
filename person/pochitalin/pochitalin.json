@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Почиталин Иван Яковлевич"
+    },
+    {
         "type": "epigraph",
         "content":
         {

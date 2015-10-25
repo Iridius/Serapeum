@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Юкио Мисима"
+    },
+    {
         "type": "epigraph",
         "content":
         {

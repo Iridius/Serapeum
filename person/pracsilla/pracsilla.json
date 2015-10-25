@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Праксилла"
+    },
+    {
         "type": "epigraph",
         "content":
         {
@@ -19,7 +23,7 @@
     },
     {
         "header": "Из творчества",
-        "type": "quote",
+        "type": "rhyme",
         "content":
         [
             {
