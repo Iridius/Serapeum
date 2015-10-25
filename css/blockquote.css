@@ -12,6 +12,11 @@ blockquote:before {
     left: -0.1em;
 }
 
+blockquote h4 {
+    font-size: medium;
+    font-variant: normal;
+}
+
 blockquote cite {
     display: block;
     font-style: italic;

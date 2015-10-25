@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Циолковский Константин Эдуардович"
+    },
+    {
         "type": "epigraph",
         "content":
         {

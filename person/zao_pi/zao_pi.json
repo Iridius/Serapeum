@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Цао Пи"
+    },
+    {
         "type": "epigraph",
         "content":
         {
@@ -30,7 +34,7 @@
     },
     {
         "header": "Из творчества",
-        "type": "quote",
+        "type": "rhyme",
         "content":
         [
             {

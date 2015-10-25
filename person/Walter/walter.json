@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Вальтер Голяк"
+    },
+    {
         "type": "epigraph",
         "content":
         {

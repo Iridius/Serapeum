@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Клара Шуман"
+    },
+    {
         "type": "epigraph",
         "content":
         {
