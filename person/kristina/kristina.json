@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Кристина Пизанская"
+    },
+    {
         "type": "epigraph",
         "content":
         {

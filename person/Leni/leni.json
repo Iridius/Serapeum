@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Лени Рифеншталь"
+    },
+    {
         "type": "epigraph",
         "content":
         {

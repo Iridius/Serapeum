@@ -1,5 +1,9 @@
 [
     {
+        "type": "header",
+        "header": "Мария Французская"
+    },
+    {
         "type": "epigraph",
         "content":
         {
