@@ -33,8 +33,10 @@ function displayData(url, _class) {
     var menu = relocateData(_getData(BASE + 'res/menu.html'));
     createElement('nav', 'menu', null, menu);
 
-    var content = _formatData(JSON.parse(relocateData(_getData(url))));
-    createElement('section', 'content', _class, content);
+    if(typeof(url) != 'undefined') {
+        var content = _formatData(JSON.parse(relocateData(_getData(url))));
+        createElement('section', 'content', _class, content);
+    }
 }
 
 function replaceAll(text, from, to) {

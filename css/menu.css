@@ -1,5 +1,9 @@
-#menu h1 {
+#menu{
     font-family: Georgia, serif;
+}
+
+#menu h1 {
+    /*font-family: Georgia, serif;*/
     font-size: 40px;
     margin: 0;
     padding: 0;
