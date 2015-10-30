@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/articles/Angl_01.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/articles/data/angl_01.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/articles/data/angl_01.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/articles/images/angl_00.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/briefing.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/blockquote.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/content.css" charset="UTF-8" />
@@ -10,10 +14,11 @@
     <file url="file://$PROJECT_DIR$/css/table.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/briefing.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/config.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/index.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/literature.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/persons.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/main.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/person/aeciy/Aeciy.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/person/aeciy/aeciy.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/aeciy/aeciy.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/aeschines/aeschines.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person/aeschines/aeschines.json" charset="UTF-8" />

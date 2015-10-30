@@ -120,7 +120,8 @@ function _getImage(data, display) {
             result += _getImageContent(image);
         });
     } else {
-        result += _getImageContent(content);
+        //result += _getImageContent(content);
+        result += _getContent(content);
     }
 
     return toDiv(result, display);
@@ -299,7 +300,7 @@ function _getContent(content, display) {
         result = result.substring(0, result.length - 1);
     }
 
-    return toDiv(result, display);// + '\<br clear="left"\>';
+    return toDiv(result, display);
 }
 
 function _getChildMembers(data, column, value){
