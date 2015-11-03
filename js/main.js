@@ -89,9 +89,11 @@ function _formatData(data, display) {
             var result = '';
             data.forEach(function(item){
                 if(item.hasOwnProperty("type")){
-                    var type = item.type;
-                    result += _formatData(item, type);
+                    result += _formatData(item, item.type);
+                }else{
+                    result += _getContent(item);
                 }
+
             });
 
             return result;
@@ -284,9 +286,9 @@ function _getContent(content, display) {
         } else{
             if(content.hasOwnProperty(field)){
                 if(!Array.isArray(content[field])){
-                    value = content[field];
+                    value += content[field];
                 }else{
-                    value = _formatData(content[field]);
+                    value += _formatData(content[field]);
                 }
 
             }
