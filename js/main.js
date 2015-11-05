@@ -111,22 +111,25 @@ function _getHeader(data){
 function _getImage(data, display) {
     var result = _getHeader(data);
 
-    if(!data.hasOwnProperty('content')){
+    //if(!data.hasOwnProperty('content')){
         result += _getImageContent(data);
         return toDiv(result, display);
-    }
+    //}
 
-    var content = data.content;
-    if(Array.isArray(content)){
-        content.forEach(function(image){
-            result += _getImageContent(image);
-        });
-    } else {
-        //result += _getImageContent(content);
-        result += _getContent(content);
-    }
+    //var content = data.content;
+    //if(Array.isArray(content)){
+    //    content.forEach(function(image){
+    //        result += _getImageContent(image);
+    //    });
+    //} else {
+    //    result += _getContent(content);
+    //}
 
-    return toDiv(result, display);
+    //if(data.hasOwnProperty('text')){
+    //    result += _format('para', data['text']);
+    //}
+
+    //return toDiv(result, display);
 }
 
 function _getImageContent(data) {
