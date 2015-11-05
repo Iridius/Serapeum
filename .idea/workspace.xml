@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="M: some articles.">
-      <change type="MOVED" beforePath="C:\projects\serapeum\articles\Bazh_01.html" afterPath="$PROJECT_DIR$/articles/bazh_011.html" />
+    <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\projects\serapeum\articles\bazh_011.html" afterPath="$PROJECT_DIR$/articles/bazh_01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boilerplate.iws" />
@@ -315,12 +316,6 @@
       <option name="number" value="Default" />
       <updated>1441726993912</updated>
     </task>
-    <task id="LOCAL-00016" summary="F: +person: 'erinna'.">
-      <created>1443380804798</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1443380804798</updated>
-    </task>
     <task id="LOCAL-00017" summary="F: +person: 'erinna'.">
       <created>1443381394440</created>
       <option name="number" value="00017" />
@@ -609,7 +604,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446715945356</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="M: some articles.">
+      <created>1446716003020</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1446716003020</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView">
@@ -997,7 +998,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/bazh_011.html">
+    <entry file="file://$PROJECT_DIR$/articles/bazh_01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15614237">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
