@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/data/was_03.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles/data/was_04.json" />
       <change type="MOVED" beforePath="C:\projects\serapeum\articles\Bazh_01.html" afterPath="$PROJECT_DIR$/articles/bazh_01.html" />
+      <change type="MOVED" beforePath="C:\projects\serapeum\articles\Mis_01.html" afterPath="$PROJECT_DIR$/articles/was_04.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/articles.json" afterPath="$PROJECT_DIR$/data/articles.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/was_03.html" afterPath="$PROJECT_DIR$/articles/was_03.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boilerplate.iws" />
@@ -30,28 +31,38 @@
       <file leaf-file-name="articles.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/articles.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="was_03.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="was_04.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/articles/was_04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11710677">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="was_03.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/was_03.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19517796">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="was_02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/was_02.html">
+      <file leaf-file-name="was_04.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articles/data/was_04.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -79,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/person/ustinian/ustinian.json" />
-        <option value="$PROJECT_DIR$/person/velisariy/velisariy.json" />
         <option value="$PROJECT_DIR$/person/vseslaw/vseslaw.json" />
         <option value="$PROJECT_DIR$/person/Walter/walter.json" />
         <option value="$PROJECT_DIR$/person/zemnuhov/zemnuhov.json" />
@@ -127,9 +136,11 @@
         <option value="$PROJECT_DIR$/articles/was_01.html" />
         <option value="$PROJECT_DIR$/articles/was_02.html" />
         <option value="$PROJECT_DIR$/articles/data/was_02.json" />
-        <option value="$PROJECT_DIR$/data/articles.json" />
         <option value="$PROJECT_DIR$/articles/data/was_03.json" />
         <option value="$PROJECT_DIR$/articles/was_03.html" />
+        <option value="$PROJECT_DIR$/data/articles.json" />
+        <option value="$PROJECT_DIR$/articles/data/was_04.json" />
+        <option value="$PROJECT_DIR$/articles/was_04.html" />
       </list>
     </option>
   </component>
@@ -327,12 +338,6 @@
       <created>1441726993912</created>
       <option name="number" value="Default" />
       <updated>1441726993912</updated>
-    </task>
-    <task id="LOCAL-00012" summary="F: +person: 'droste'.">
-      <created>1443200701032</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1443200701032</updated>
     </task>
     <task id="LOCAL-00013" summary="F: +person: 'ehnaton'.">
       <created>1443212986974</created>
@@ -622,7 +627,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446712643624</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="M: some articles.">
+      <created>1446714580834</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1446714580835</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView">
@@ -706,20 +717,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/person/urukagina/urukagina.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/person/velisariy/velisariy.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019362187">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person/vseslaw/vseslaw.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.019362187">
@@ -1071,33 +1068,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/articles.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="97" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person/korinna/korinna.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8392652">
           <caret line="43" column="9" selection-start-line="25" selection-start-column="23" selection-end-line="43" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/data/was_03.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8828932">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#3622#0" expanded="false" />
-            <element signature="e#152#3616#0" expanded="false" />
-            <element signature="e#3628#3854#0" expanded="false" />
-            <element signature="e#3860#3967#0" expanded="false" />
-            <element signature="e#3973#4176#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,10 +1084,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/articles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/data/was_03.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8978186">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#3622#0" expanded="false" />
+            <element signature="e#152#3616#0" expanded="false" />
+            <element signature="e#3628#3854#0" expanded="false" />
+            <element signature="e#3860#3967#0" expanded="false" />
+            <element signature="e#3973#4176#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/articles/was_03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19517796">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/data/was_04.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/was_04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11710677">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
