@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/articles/Asp_01.html" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/articles/Bazh_01.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/articles.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/bazh_01.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/data/bazh_01.json" charset="UTF-8" />
@@ -12,12 +10,14 @@
     <file url="file://$PROJECT_DIR$/articles/data/was_03.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/data/was_04.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/data/was_05.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/articles/data/was_06.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/smi_01.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/was_01.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/was_02.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/was_03.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/was_04.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/articles/was_05.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/articles/was_06.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/briefing.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/blockquote.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/css/content.css" charset="UTF-8" />
