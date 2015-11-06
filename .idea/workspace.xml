@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="">
+    <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="M: index: add image.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boilerplate.iws" />
@@ -428,30 +428,6 @@
       <option name="number" value="Default" />
       <updated>1441726993912</updated>
     </task>
-    <task id="LOCAL-00023" summary="F: +person: 'zenon'.">
-      <created>1443726325436</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1443726325436</updated>
-    </task>
-    <task id="LOCAL-00024" summary="F: +person: 'ziolkovsky'.">
-      <created>1443727761745</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1443727761745</updated>
-    </task>
-    <task id="LOCAL-00025" summary="F: +person: 'zoya'.">
-      <created>1443730078336</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1443730078336</updated>
-    </task>
-    <task id="LOCAL-00026" summary="M: design: background.">
-      <created>1443865501986</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1443865501986</updated>
-    </task>
     <task id="LOCAL-00027" summary="M: design/person: center + fileds.">
       <created>1443982322880</created>
       <option name="number" value="00027" />
@@ -722,7 +698,31 @@
       <option name="project" value="LOCAL" />
       <updated>1446799136389</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="M: refactoring.">
+      <created>1446799171413</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1446799171413</updated>
+    </task>
+    <task id="LOCAL-00073" summary="M: index: add image.">
+      <created>1446799216697</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1446799216697</updated>
+    </task>
+    <task id="LOCAL-00074" summary="M: index: add image.">
+      <created>1446799248735</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1446799248735</updated>
+    </task>
+    <task id="LOCAL-00075" summary="M: index: add image.">
+      <created>1446799266354</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1446799266355</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView">
@@ -736,9 +736,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1849315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1849315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17710583" sideWeight="0.49789253" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18486486" sideWeight="0.5021075" order="12" side_tool="true" content_ui="tabs" />
@@ -773,7 +773,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="B: quote: div-ending." />
     <MESSAGE value="M: aeciy: content." />
     <MESSAGE value="M: css: refactoring." />
     <MESSAGE value="M: css: epigraph." />
@@ -798,7 +797,8 @@
     <MESSAGE value="M: inline image experiment." />
     <MESSAGE value="F: add third type of image: image + two text: small below and more expensive on right (.remark)." />
     <MESSAGE value="M: refactoring." />
-    <option name="LAST_COMMIT_MESSAGE" value="M: refactoring." />
+    <MESSAGE value="M: index: add image." />
+    <option name="LAST_COMMIT_MESSAGE" value="M: index: add image." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
