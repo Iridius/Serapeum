@@ -18,6 +18,7 @@ remark - little article with 'image'-div and more volume right text
     font-style: normal;
     max-width: 150px;
     text-align: right;
+    font-variant: small-caps;
 }
 
 /* small image on right page field */
@@ -36,6 +37,7 @@ remark - little article with 'image'-div and more volume right text
     border-style: dotted none;
     border-width: 1px;
     border-color: #000000;
+    margin-top: 0.5em;
     width: 100%;
 }
 
@@ -49,4 +51,8 @@ remark - little article with 'image'-div and more volume right text
     padding-top: 5px;
     position: relative;
     /*position: absolute;*/
+}
+
+.remark img {
+    border: solid 1px #806040;
 }

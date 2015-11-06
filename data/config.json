@@ -8,6 +8,7 @@
     {"property": "publishing", "format": "{publishing}, "},
     {"property": "quote", "tag": "blockquote"},
     {"property": "source", "format": "<footer><dfn>{source}</dfn></footer>"},
+    {"property": "subheader", "tag": "h5"},
     {"property": "title", "tag": "em", "format": "{title}, "},
     {"property": "year", "format": "{year}."}
 ]

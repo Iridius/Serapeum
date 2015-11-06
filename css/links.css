@@ -1,7 +1,13 @@
 .links {
-    float: right;
     font-family: Arial, sans-serif;
-    font-size: small;
+    font-size: smaller;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.links p {
+    float: right;
+    text-align: right;
 }
 
 .links a {

@@ -115,7 +115,7 @@ function _getLinks(data) {
     });
 
     result = result.substring(0, result.lastIndexOf(delimiter));
-    return toDiv('[' + result + ']', 'links');
+    return toDiv('\<p\>[' + result + ']\</p\>', 'links');
 }
 
 function _getHeader(data){
@@ -287,7 +287,7 @@ function _getContent(content, display) {
         var field = fields[i];
         var value = "";
 
-        if(field === 'src' || field === 'group' || field === 'type'){
+        if(field === 'src' || field === 'group' || field === 'type' || field === 'links'){
             continue;
         }
         if(field === 'title' || field === 'link'){
@@ -314,6 +314,10 @@ function _getContent(content, display) {
     result = result.trim();
     if(result.lastIndexOf(',') === result.length - 1){
         result = result.substring(0, result.length - 1);
+    }
+
+    if(content.hasOwnProperty('links')){
+        result += _getLinks(content['links']);
     }
 
     return toDiv(result, display);
