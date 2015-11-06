@@ -56,48 +56,66 @@ function _getData(url) {
 }
 
 function _formatData(data, display) {
+    var result = '';
+
     switch (display) {
         case 'article':
-            return _getContent(data, display);
+            result = _getContent(data, display);
             break;
         case 'epigraph':
         case 'quote':
         case 'rhyme':
-            return _getQuote(data, display);
+            result = _getQuote(data, display);
             break;
         case 'header':
-            return _getHeader(data);
+            result = _getHeader(data);
         break;
         case 'image':
         case 'marginalis':
-            return _getImage(data, display);
+            result = _getImage(data, display);
             break;
         case 'glossary':
-            return _getGlossary(data, display);
+            result = _getGlossary(data, display);
             break;
         case 'list':
-            return _getEntitledList(data, display);
+            result = _getEntitledList(data, display);
             break;
         case 'table':
-            return _getTable(data, display);
+            result = _getTable(data, display);
             break;
         default: // read control type from config
             if(!Array.isArray(data)){
-                return '';
+                //return '';
+                break;
             }
 
-            var result = '';
+            //var result = '';
             data.forEach(function(item){
                 if(item.hasOwnProperty("type")){
                     result += _formatData(item, item.type);
                 }else{
                     result += _getContent(item);
                 }
-
             });
-
-            return result;
+            //return result;
     }
+
+    return result;
+}
+
+function _getLinks(data) {
+    if(!Array.isArray(data)){
+        return;
+    }
+
+    var result = '';
+    var delimiter = data.length > 1?' | ': '';
+    data.forEach(function(link){
+        result += _getContent(link) + delimiter;
+    });
+
+    result = result.substring(0, result.lastIndexOf(delimiter));
+    return toDiv('[' + result + ']', 'links');
 }
 
 function _getHeader(data){
@@ -169,6 +187,10 @@ function _getQuote(data, display) {
         } else {
             result += _getQuoteContent(content);
         }
+    }
+
+    if(data.hasOwnProperty('links')){
+        result += _getLinks(data['links']);
     }
 
     return toDiv(result, display);
@@ -268,12 +290,12 @@ function _getContent(content, display) {
         if(field === 'src' || field === 'group' || field === 'type'){
             continue;
         }
-        if(field === 'title'){
-            if(content.hasOwnProperty('title')){
-                value = content.title;
+        if(field === 'title' || field === 'link'){
+            if(content.hasOwnProperty(field)){
+                value = content[field];
             }
             if(content.hasOwnProperty('src')){
-                value = '\<a href="' + content.src + '" \>' + value + '\</a\>';
+                value = '\<a href="' + content['src'] + '" \>' + value + '\</a\>';
             }
         } else{
             if(content.hasOwnProperty(field)){

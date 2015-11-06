@@ -1,0 +1,14 @@
+.links {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

@@ -2,6 +2,7 @@
 @import url("image.css");
 @import url("menu.css");
 @import url("table.css");
+@import url("links.css");
 
 body {
     background: url("../img/paper.jpg");
