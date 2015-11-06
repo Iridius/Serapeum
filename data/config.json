@@ -7,7 +7,7 @@
     {"property": "para", "tag": "p"},
     {"property": "publishing", "format": "{publishing}, "},
     {"property": "quote", "tag": "blockquote"},
-    {"property": "source", "format": "<footer><cite>{source}</cite></footer>"},
+    {"property": "source", "format": "<footer><dfn>{source}</dfn></footer>"},
     {"property": "title", "tag": "em", "format": "{title}, "},
     {"property": "year", "format": "{year}."}
 ]

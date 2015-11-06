@@ -69,7 +69,7 @@ function _formatData(data, display) {
             return _getHeader(data);
         break;
         case 'image':
-        case 'inline-image':
+        case 'marginalis':
             return _getImage(data, display);
             break;
         case 'glossary':
@@ -111,35 +111,26 @@ function _getHeader(data){
 function _getImage(data, display) {
     var result = _getHeader(data);
 
-    //if(!data.hasOwnProperty('content')){
-        result += _getImageContent(data);
-        return toDiv(result, display);
-    //}
+    result += _getImageContent(data, display);
 
-    //var content = data.content;
-    //if(Array.isArray(content)){
-    //    content.forEach(function(image){
-    //        result += _getImageContent(image);
-    //    });
-    //} else {
-    //    result += _getContent(content);
-    //}
+    // for image with article get shell-container: remark
+    if(data.hasOwnProperty('content')){
+        result += _format('para', data['content']);
+        return toDiv(result, 'remark');
+    }
 
-    //if(data.hasOwnProperty('text')){
-    //    result += _format('para', data['text']);
-    //}
-
-    //return toDiv(result, display);
+    return result;
 }
 
-function _getImageContent(data) {
+function _getImageContent(data, display) {
     var result = '\<img src="{link}" alt="{source}" title="{source}"\>';
 
     result = result.replace("{link}", data.hasOwnProperty("link")? data.link: '');
-    result = replaceAll(result, "{source}", data.hasOwnProperty("source")? data.source: '');
+    result = replaceAll(result, "{source}", data.hasOwnProperty("source")? data['source']: '');
 
-    result += '\<p\>' + data.source + '\</p\>';
-    return result;
+    result += _format('source', data['source']);
+    //return result;
+    return toDiv(result, display);
 }
 
 function _getList(data, _LIST, _ITEM){
