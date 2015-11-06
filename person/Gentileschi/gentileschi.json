@@ -12,7 +12,7 @@
         }
     },
     {
-        "type": "image",
+        "type": "marginalis",
         "link": "gentileschi.jpg",
         "source": "Артемизия Джентилески. Автопортрет. 1630 г."
     },
@@ -27,12 +27,12 @@
         "content":
         [
             {
-                "type": "inline-image",
+                "type": "image",
                 "link": "gent_3.jpg",
                 "source": "Артемизия Джентилески. Убийство Олоферна. 1611-1612 гг."
             },
             {
-                "type": "inline-image",
+                "type": "image",
                 "link": "gent_2.jpg",
                 "source": "Артемизия Джентилески. Убийство Олоферна. 1612-1620 гг."
             }

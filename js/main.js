@@ -129,30 +129,29 @@ function _getImageContent(data, display) {
     result = replaceAll(result, "{source}", data.hasOwnProperty("source")? data['source']: '');
 
     result += _format('source', data['source']);
-    //return result;
     return toDiv(result, display);
 }
 
-function _getList(data, _LIST, _ITEM){
+function _getList(data, list, list_item){
     var result = '';
 
-    if(data.hasOwnProperty('content') && Array.isArray(data.content)){
-        var list = '';
-        data.content.forEach(function(item){
-            list += _ITEM.replace('{item}', _getContent(item));
+    if(data.hasOwnProperty('content') && Array.isArray(data['content'])){
+        var li = '';
+        data['content'].forEach(function(element){
+            li += list_item.replace('{item}', _getContent(element));
         });
 
-        result += _LIST.replace('{list}', list);
+        result += list.replace('{list}', li);
     }
 
     return result;
 }
 
-function _getGlossary(data, display, fieldList){
+function _getGlossary(data, display){
     var result = '';
 
     result += _getHeader(data);
-    result += _getList(data, "<\dl\>{list}\</dl\>", "\<dd\>{item}\</dd\>", fieldList);
+    result += _getList(data, '\<dl\>{list}\</dl\>', '\<dd\>{item}\</dd\>');
 
     return toDiv(result, display);
 }
@@ -161,7 +160,7 @@ function _getQuote(data, display) {
     var result = _getHeader(data);
 
     if(data.hasOwnProperty('content')){
-        var content = data.content;
+        var content = data['content'];
 
         if(Array.isArray(content)){
             content.forEach(function(quote){
@@ -180,12 +179,12 @@ function _getQuoteContent(content){
 
     var header = '';
     if(content.hasOwnProperty('header')){
-        header += _format("header", content.header);
+        header += _format("header", content['header']);
     }
 
     var source = '';
     if(content.hasOwnProperty('source')){
-        source = _format("source", content.source);
+        source = _format("source", content['source']);
     }
 
     if(content.hasOwnProperty('quote')){
@@ -196,7 +195,6 @@ function _getQuoteContent(content){
         result = _format('epigraph', header + content['epigraph'] + source);
     }
 
-    //return toDiv(result, display);
     return result;
 }
 
@@ -231,7 +229,7 @@ function _getEntitledList(data, display) {
     var result = '';
 
     result += _getHeader(data);
-    result += _getList(data, '<\ol\>{list}\</ol\>', "\<li\>{item}\</li\>");
+    result += _getList(data, '\<ol\>{list}\</ol\>', '\<li\>{item}\</li\>');
 
     return toDiv(result, display);
 }

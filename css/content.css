@@ -6,6 +6,7 @@
 body {
     background: url("../img/paper.jpg");
     font-family: Georgia, serif;
+    font-size: smaller;
     /*font-size: medium;*/
 }
 

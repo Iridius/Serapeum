@@ -2,67 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdcf92d-8e42-4532-b5e7-8a3802f353c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/beda/beda.json" afterPath="$PROJECT_DIR$/person/beda/beda.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/chaikina/chaikina.json" afterPath="$PROJECT_DIR$/person/chaikina/chaikina.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/config.json" afterPath="$PROJECT_DIR$/data/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/content.css" afterPath="$PROJECT_DIR$/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/dynamia/dynamia.json" afterPath="$PROJECT_DIR$/person/dynamia/dynamia.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/gauss/gauss.json" afterPath="$PROJECT_DIR$/person/gauss/gauss.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/grosvita/grosvita.json" afterPath="$PROJECT_DIR$/person/grosvita/grosvita.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/hamuas/hamuas.json" afterPath="$PROJECT_DIR$/person/hamuas/hamuas.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/hatschepsut/hatschepsut.json" afterPath="$PROJECT_DIR$/person/hatschepsut/hatschepsut.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/image.css" afterPath="$PROJECT_DIR$/css/image.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/index.json" afterPath="$PROJECT_DIR$/data/index.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/jeanne/jeanne.json" afterPath="$PROJECT_DIR$/person/jeanne/jeanne.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/juy_zan/juy_zan.json" afterPath="$PROJECT_DIR$/person/juy_zan/juy_zan.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/kirher/kircher.json" afterPath="$PROJECT_DIR$/person/kirher/kircher.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/komnina/komnina.json" afterPath="$PROJECT_DIR$/person/komnina/komnina.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/konstantin_xi/konstantin.json" afterPath="$PROJECT_DIR$/person/konstantin_xi/konstantin.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/kozhina/kozhina.json" afterPath="$PROJECT_DIR$/person/kozhina/kozhina.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/kristina/kristina.json" afterPath="$PROJECT_DIR$/person/kristina/kristina.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/lisunsin/lisunsin.json" afterPath="$PROJECT_DIR$/person/lisunsin/lisunsin.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/mary_france/mary_france.json" afterPath="$PROJECT_DIR$/person/mary_france/mary_france.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/melnikaite/melnikaite.json" afterPath="$PROJECT_DIR$/person/melnikaite/melnikaite.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/meryet_neyt/meryet_neyt.json" afterPath="$PROJECT_DIR$/person/meryet_neyt/meryet_neyt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/misima/misima.json" afterPath="$PROJECT_DIR$/person/misima/misima.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/nearch/nearch.json" afterPath="$PROJECT_DIR$/person/nearch/nearch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/nikonov/nikonov.json" afterPath="$PROJECT_DIR$/person/nikonov/nikonov.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/odoacer/odoacer.json" afterPath="$PROJECT_DIR$/person/odoacer/odoacer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/olga/olga.json" afterPath="$PROJECT_DIR$/person/olga/olga.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/pochitalin/pochitalin.json" afterPath="$PROJECT_DIR$/person/pochitalin/pochitalin.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/pracsilla/pracsilla.json" afterPath="$PROJECT_DIR$/person/pracsilla/pracsilla.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/pugachev/pugachev.json" afterPath="$PROJECT_DIR$/person/pugachev/pugachev.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ramses2/ramses2.json" afterPath="$PROJECT_DIR$/person/ramses2/ramses2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/reinmar/reinmar.json" afterPath="$PROJECT_DIR$/person/reinmar/reinmar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/sadjah/sadjah.json" afterPath="$PROJECT_DIR$/person/sadjah/sadjah.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/sapho/sapho.json" afterPath="$PROJECT_DIR$/person/sapho/sapho.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/scholl/scholl.json" afterPath="$PROJECT_DIR$/person/scholl/scholl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/schuman/schuman.json" afterPath="$PROJECT_DIR$/person/schuman/schuman.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/shaka/shaka.json" afterPath="$PROJECT_DIR$/person/shaka/shaka.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/solomaha/solomaha.json" afterPath="$PROJECT_DIR$/person/solomaha/solomaha.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/solovianova/solovianova.json" afterPath="$PROJECT_DIR$/person/solovianova/solovianova.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/sverrir/sverrir.json" afterPath="$PROJECT_DIR$/person/sverrir/sverrir.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tamara/tamara.json" afterPath="$PROJECT_DIR$/person/tamara/tamara.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tayler/tayler.json" afterPath="$PROJECT_DIR$/person/tayler/tayler.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tomoe/tomoe.json" afterPath="$PROJECT_DIR$/person/tomoe/tomoe.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/torkvemada/torkvemada.json" afterPath="$PROJECT_DIR$/person/torkvemada/torkvemada.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/tschors/tschors.json" afterPath="$PROJECT_DIR$/person/tschors/tschors.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/u_chen/u_chen.json" afterPath="$PROJECT_DIR$/person/u_chen/u_chen.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/uinstenli/uinstenli.json" afterPath="$PROJECT_DIR$/person/uinstenli/uinstenli.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ulian/ulian.json" afterPath="$PROJECT_DIR$/person/ulian/ulian.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ulugbek/ulugbek.json" afterPath="$PROJECT_DIR$/person/ulugbek/ulugbek.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/urukagina/urukagina.json" afterPath="$PROJECT_DIR$/person/urukagina/urukagina.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ustinian/ustinian.json" afterPath="$PROJECT_DIR$/person/ustinian/ustinian.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/velisariy/velisariy.json" afterPath="$PROJECT_DIR$/person/velisariy/velisariy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/vseslaw/vseslaw.json" afterPath="$PROJECT_DIR$/person/vseslaw/vseslaw.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zander/zander.json" afterPath="$PROJECT_DIR$/person/zander/zander.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zao_pi/zao_pi.json" afterPath="$PROJECT_DIR$/person/zao_pi/zao_pi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zemnuhov/zemnuhov.json" afterPath="$PROJECT_DIR$/person/zemnuhov/zemnuhov.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zenon/zenon.json" afterPath="$PROJECT_DIR$/person/zenon/zenon.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.json" afterPath="$PROJECT_DIR$/person/ziolkovsky/ziolkovsky.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/zoya/zoya.json" afterPath="$PROJECT_DIR$/person/zoya/zoya.json" />
     </list>
     <ignored path="boilerplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -96,28 +36,18 @@
       <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="57" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.2">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="n#!!block;n#getLocalPath#0" expanded="false" />
                 <element signature="e#269#301#0" expanded="false" />
@@ -126,45 +56,90 @@
                 <element signature="e#517#549#0" expanded="false" />
                 <element signature="e#564#607#0" expanded="false" />
                 <element signature="n#!!block;n#displayData#0" expanded="false" />
+                <element signature="e#863#1008#0" expanded="false" />
                 <element signature="n#!!block;n#replaceAll#0" expanded="false" />
                 <element signature="n#!!block;n#_getData#0" expanded="false" />
                 <element signature="e#1289#1333#0" expanded="false" />
+                <element signature="n#!!block;n#_formatData#0" expanded="false" />
+                <element signature="e#1397#2546#0" expanded="false" />
+                <element signature="e#2183#2225#0" expanded="false" />
+                <element signature="e#2295#2510#0" expanded="false" />
+                <element signature="e#2344#2423#0" expanded="false" />
+                <element signature="e#2427#2495#0" expanded="false" />
                 <element signature="n#!!block;n#_getHeader#0" expanded="false" />
                 <element signature="e#2614#2671#0" expanded="false" />
+                <element signature="n#!!block;n#_getImage#0" expanded="false" />
+                <element signature="e#2907#3006#0" expanded="false" />
+                <element signature="n#!!block;n#_getImageContent#0" expanded="false" />
                 <element signature="n#!!block;n#_getList#0" expanded="false" />
-                <element signature="e#3565#3766#0" expanded="false" />
-                <element signature="e#3633#3708#0" expanded="false" />
+                <element signature="e#3550#3757#0" expanded="false" />
+                <element signature="e#3622#3702#0" expanded="false" />
                 <element signature="n#!!block;n#_getGlossary#0" expanded="false" />
                 <element signature="n#!!block;n#_getQuote#0" expanded="false" />
-                <element signature="e#4129#4397#0" expanded="false" />
-                <element signature="e#4202#4325#0" expanded="false" />
-                <element signature="e#4247#4313#0" expanded="false" />
-                <element signature="e#4331#4391#0" expanded="false" />
+                <element signature="e#4098#4369#0" expanded="false" />
+                <element signature="e#4174#4297#0" expanded="false" />
+                <element signature="e#4219#4285#0" expanded="false" />
+                <element signature="e#4303#4363#0" expanded="false" />
                 <element signature="n#!!block;n#_getQuoteContent#0" expanded="false" />
-                <element signature="e#4556#4616#0" expanded="false" />
-                <element signature="e#4679#4738#0" expanded="false" />
-                <element signature="e#4779#4857#0" expanded="false" />
-                <element signature="e#4901#4985#0" expanded="false" />
+                <element signature="e#4528#4591#0" expanded="false" />
+                <element signature="e#4654#4716#0" expanded="false" />
+                <element signature="e#4757#4835#0" expanded="false" />
+                <element signature="e#4879#4963#0" expanded="false" />
                 <element signature="n#!!block;n#_getTable#0" expanded="false" />
+                <element signature="e#5245#5624#0" expanded="false" />
+                <element signature="e#5318#5559#0" expanded="false" />
+                <element signature="e#5405#5486#0" expanded="false" />
                 <element signature="n#!!block;n#_getEntitledList#0" expanded="false" />
                 <element signature="n#!!block;n#_format#0" expanded="false" />
-                <element signature="e#6307#6418#0" expanded="false" />
-                <element signature="e#6462#6541#0" expanded="false" />
+                <element signature="e#6042#6071#0" expanded="false" />
+                <element signature="e#6139#6206#0" expanded="false" />
+                <element signature="e#6248#6359#0" expanded="false" />
+                <element signature="e#6403#6482#0" expanded="false" />
                 <element signature="n#!!block;n#_getContent#0" expanded="false" />
+                <element signature="e#6648#7413#0" expanded="false" />
+                <element signature="e#6774#6807#0" expanded="false" />
+                <element signature="e#6837#7091#0" expanded="false" />
+                <element signature="e#6886#6940#0" expanded="false" />
+                <element signature="e#6986#7081#0" expanded="false" />
+                <element signature="e#7096#7365#0" expanded="false" />
+                <element signature="e#7143#7355#0" expanded="false" />
+                <element signature="e#7195#7259#0" expanded="false" />
+                <element signature="e#7263#7340#0" expanded="false" />
+                <element signature="e#7496#7560#0" expanded="false" />
                 <element signature="n#!!block;n#_getChildMembers#0" expanded="false" />
-                <element signature="e#7764#7854#0" expanded="false" />
-                <element signature="e#7803#7848#0" expanded="false" />
+                <element signature="e#7705#7795#0" expanded="false" />
+                <element signature="e#7744#7789#0" expanded="false" />
                 <element signature="n#!!block;n#toDiv#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/image.css">
+      <file leaf-file-name="briefing.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/briefing.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62541807">
-              <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="briefing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/briefing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persons.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -174,7 +149,17 @@
         <entry file="file://$PROJECT_DIR$/css/content.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/image.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -216,7 +201,6 @@
         <option value="$PROJECT_DIR$/res/menu.html" />
         <option value="$PROJECT_DIR$/briefing.html" />
         <option value="$PROJECT_DIR$/data/briefing.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/articles/Angl_01.html" />
         <option value="$PROJECT_DIR$/articles/data/angl_02.json" />
         <option value="$PROJECT_DIR$/articles/images/angl_00.html" />
@@ -249,10 +233,11 @@
         <option value="$PROJECT_DIR$/person/aeschines/aeschines.json" />
         <option value="$PROJECT_DIR$/person/akadzome/akadzome.json" />
         <option value="$PROJECT_DIR$/person/gentileschi/gentileschi.json" />
-        <option value="$PROJECT_DIR$/data/index.json" />
-        <option value="$PROJECT_DIR$/css/content.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/image.css" />
+        <option value="$PROJECT_DIR$/css/content.css" />
+        <option value="$PROJECT_DIR$/data/index.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -323,6 +308,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serapeum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,18 +427,6 @@
       <created>1441726993912</created>
       <option name="number" value="Default" />
       <updated>1441726993912</updated>
-    </task>
-    <task id="LOCAL-00021" summary="F: +person: 'olga'.">
-      <created>1443552351093</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1443552351093</updated>
-    </task>
-    <task id="LOCAL-00022" summary="F: +person: 'zemnuhov'.">
-      <created>1443724963631</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1443724963631</updated>
     </task>
     <task id="LOCAL-00023" summary="F: +person: 'zenon'.">
       <created>1443726325436</created>
@@ -723,7 +710,19 @@
       <option name="project" value="LOCAL" />
       <updated>1446732013846</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="F: add third type of image: image + two text: small below and more expensive on right (.remark).">
+      <created>1446792293265</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1446792293276</updated>
+    </task>
+    <task id="LOCAL-00071" summary="M: refactoring.">
+      <created>1446799136389</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1446799136389</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView">
@@ -741,9 +740,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1849315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17710583" sideWeight="0.49789253" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18486486" sideWeight="0.5021075" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721382" sideWeight="0.49789253" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3264865" sideWeight="0.49789253" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -752,7 +752,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.49789253" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17710583" sideWeight="0.49789253" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -773,8 +772,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="M: design: header." />
-    <MESSAGE value="M: refactoring." />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="B: quote: div-ending." />
     <MESSAGE value="M: aeciy: content." />
     <MESSAGE value="M: css: refactoring." />
@@ -798,22 +796,17 @@
     <MESSAGE value="F: articles." />
     <MESSAGE value="M: some articles." />
     <MESSAGE value="M: inline image experiment." />
-    <option name="LAST_COMMIT_MESSAGE" value="M: inline image experiment." />
+    <MESSAGE value="F: add third type of image: image + two text: small below and more expensive on right (.remark)." />
+    <MESSAGE value="M: refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="M: refactoring." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/person/zao_pi/zao_pi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17425968">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person/zao_pi/zao_pi.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6970387">
@@ -849,20 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/literature.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1559633">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apple-touch-icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -879,20 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16831683">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/briefing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21640736">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/briefing.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0913885">
-          <caret line="430" column="77" selection-start-line="430" selection-start-column="77" selection-end-line="430" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1131,10 +1096,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/config.json">
+    <entry file="file://$PROJECT_DIR$/css/image.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1142,7 +1107,31 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/literature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15614237">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2688928">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1150,23 +1139,47 @@
     <entry file="file://$PROJECT_DIR$/css/content.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/index.json">
+    <entry file="file://$PROJECT_DIR$/data/briefing.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/briefing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/persons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2688928">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="57" selection-start-line="115" selection-start-column="57" selection-end-line="115" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.2">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
             <element signature="n#!!block;n#getLocalPath#0" expanded="false" />
             <element signature="e#269#301#0" expanded="false" />
@@ -1175,44 +1188,61 @@
             <element signature="e#517#549#0" expanded="false" />
             <element signature="e#564#607#0" expanded="false" />
             <element signature="n#!!block;n#displayData#0" expanded="false" />
+            <element signature="e#863#1008#0" expanded="false" />
             <element signature="n#!!block;n#replaceAll#0" expanded="false" />
             <element signature="n#!!block;n#_getData#0" expanded="false" />
             <element signature="e#1289#1333#0" expanded="false" />
+            <element signature="n#!!block;n#_formatData#0" expanded="false" />
+            <element signature="e#1397#2546#0" expanded="false" />
+            <element signature="e#2183#2225#0" expanded="false" />
+            <element signature="e#2295#2510#0" expanded="false" />
+            <element signature="e#2344#2423#0" expanded="false" />
+            <element signature="e#2427#2495#0" expanded="false" />
             <element signature="n#!!block;n#_getHeader#0" expanded="false" />
             <element signature="e#2614#2671#0" expanded="false" />
+            <element signature="n#!!block;n#_getImage#0" expanded="false" />
+            <element signature="e#2907#3006#0" expanded="false" />
+            <element signature="n#!!block;n#_getImageContent#0" expanded="false" />
             <element signature="n#!!block;n#_getList#0" expanded="false" />
-            <element signature="e#3565#3766#0" expanded="false" />
-            <element signature="e#3633#3708#0" expanded="false" />
+            <element signature="e#3550#3757#0" expanded="false" />
+            <element signature="e#3622#3702#0" expanded="false" />
             <element signature="n#!!block;n#_getGlossary#0" expanded="false" />
             <element signature="n#!!block;n#_getQuote#0" expanded="false" />
-            <element signature="e#4129#4397#0" expanded="false" />
-            <element signature="e#4202#4325#0" expanded="false" />
-            <element signature="e#4247#4313#0" expanded="false" />
-            <element signature="e#4331#4391#0" expanded="false" />
+            <element signature="e#4098#4369#0" expanded="false" />
+            <element signature="e#4174#4297#0" expanded="false" />
+            <element signature="e#4219#4285#0" expanded="false" />
+            <element signature="e#4303#4363#0" expanded="false" />
             <element signature="n#!!block;n#_getQuoteContent#0" expanded="false" />
-            <element signature="e#4556#4616#0" expanded="false" />
-            <element signature="e#4679#4738#0" expanded="false" />
-            <element signature="e#4779#4857#0" expanded="false" />
-            <element signature="e#4901#4985#0" expanded="false" />
+            <element signature="e#4528#4591#0" expanded="false" />
+            <element signature="e#4654#4716#0" expanded="false" />
+            <element signature="e#4757#4835#0" expanded="false" />
+            <element signature="e#4879#4963#0" expanded="false" />
             <element signature="n#!!block;n#_getTable#0" expanded="false" />
+            <element signature="e#5245#5624#0" expanded="false" />
+            <element signature="e#5318#5559#0" expanded="false" />
+            <element signature="e#5405#5486#0" expanded="false" />
             <element signature="n#!!block;n#_getEntitledList#0" expanded="false" />
             <element signature="n#!!block;n#_format#0" expanded="false" />
-            <element signature="e#6307#6418#0" expanded="false" />
-            <element signature="e#6462#6541#0" expanded="false" />
+            <element signature="e#6042#6071#0" expanded="false" />
+            <element signature="e#6139#6206#0" expanded="false" />
+            <element signature="e#6248#6359#0" expanded="false" />
+            <element signature="e#6403#6482#0" expanded="false" />
             <element signature="n#!!block;n#_getContent#0" expanded="false" />
+            <element signature="e#6648#7413#0" expanded="false" />
+            <element signature="e#6774#6807#0" expanded="false" />
+            <element signature="e#6837#7091#0" expanded="false" />
+            <element signature="e#6886#6940#0" expanded="false" />
+            <element signature="e#6986#7081#0" expanded="false" />
+            <element signature="e#7096#7365#0" expanded="false" />
+            <element signature="e#7143#7355#0" expanded="false" />
+            <element signature="e#7195#7259#0" expanded="false" />
+            <element signature="e#7263#7340#0" expanded="false" />
+            <element signature="e#7496#7560#0" expanded="false" />
             <element signature="n#!!block;n#_getChildMembers#0" expanded="false" />
-            <element signature="e#7764#7854#0" expanded="false" />
-            <element signature="e#7803#7848#0" expanded="false" />
+            <element signature="e#7705#7795#0" expanded="false" />
+            <element signature="e#7744#7789#0" expanded="false" />
             <element signature="n#!!block;n#toDiv#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/image.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62541807">
-          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
