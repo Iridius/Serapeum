@@ -34,7 +34,9 @@ remark - little article with 'image'-div and more volume right text
 
 /* shell for image content with two texts: small text below (.remark .image dfn) and more expensive on right (.remark p) */
 .remark{
-    border-style: dotted none;
+    /*clear: both;*/
+    float: left;
+    border-style: dotted;
     border-width: 1px;
     border-color: #000000;
     margin-top: 0.5em;

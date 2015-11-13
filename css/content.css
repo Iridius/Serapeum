@@ -41,7 +41,7 @@ hr{
 #content {
     float: left;
     margin: 0 20%;
-    max-width: 55em;
+    /*max-width: 75em;*/
     min-width: 25em;
     position: relative;
     width: 60%;
@@ -54,14 +54,14 @@ hr{
 }
 
 .article p {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
 }
 
 .column {
-    -webkit-column-count: 4;
-    -moz-column-count: 4;
-    column-count: 4;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     -webkit-column-gap: 10px;
     -moz-column-gap: 10px;
     column-gap: 10px;
