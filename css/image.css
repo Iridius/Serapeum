@@ -11,7 +11,7 @@ remark - little article with 'image'-div and more volume right text
     width: 150px;
 }
 
-.marginalis dfn, .image dfn {
+.marginalis cite, .image cite {
     float: left;
     font-family: Arial, sans-serif;
     font-size: x-small;
@@ -34,12 +34,9 @@ remark - little article with 'image'-div and more volume right text
 
 /* shell for image content with two texts: small text below (.remark .image dfn) and more expensive on right (.remark p) */
 .remark{
-    /*clear: both;*/
     float: left;
-    border-style: dotted;
-    border-width: 1px;
-    border-color: #000000;
-    margin-top: 0.5em;
+    border: dotted 1px #000000;
+    margin: 0.5em 0;
     width: 100%;
 }
 

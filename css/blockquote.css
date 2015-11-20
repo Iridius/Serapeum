@@ -19,15 +19,17 @@ blockquote h4 {
 }
 
 blockquote cite {
-    display: block;
+    /*display: block;*/
     font-style: italic;
-    position: relative;
-    text-align: right;
+    /*position: relative;*/
 }
 
-.quote cite{
-    margin-left: 50%;
-    width: 50%;
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.quote cite:before {
+    content: "\2014 \2009";
 }
 
 .epigraph {
@@ -43,7 +45,6 @@ blockquote cite {
 .rhyme blockquote h4 {
     font-variant: normal;
     font-size: medium;
-    /*font-weight: normal;*/
 }
 
 .rhyme cite{

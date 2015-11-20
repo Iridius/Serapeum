@@ -6,8 +6,9 @@
 }
 
 .links p {
+    margin: 0;
     /*float: right;*/
-    /*text-align: right;*/
+    text-align: right;
 }
 
 .links a {
